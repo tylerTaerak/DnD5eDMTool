@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.TreeSet;
 
 
 public class DMTool extends Application implements Autowrap {
@@ -58,6 +59,23 @@ public class DMTool extends Application implements Autowrap {
         }
 
         VBox box = new VBox();
+        TextField byName = new TextField();
+        byName.setPromptText("Search by Name");
+        byName.setFocusTraversable(false);
+        TextField byType = new TextField();
+        byType.setPromptText("Search by Type");
+        byType.setFocusTraversable(false);
+        TextField byProf = new TextField();
+        byProf.setPromptText("Search by Proficiency Bonus");
+        byProf.setFocusTraversable(false);
+        TextField byCR = new TextField();
+        byCR.setPromptText("Search by Challenge Rating");
+        byCR.setFocusTraversable(false);
+        Button search = new Button("Search");
+        search.setOnAction(e -> searchMonsterList(byName.getText(), byType.getText(), byProf.getText(), byCR.getText()));
+
+        box.getChildren().addAll(byName, byType, byProf, byCR, search);
+
         box.getChildren().addAll(buttons);
         box.prefHeightProperty().bind(primaryStage.heightProperty().subtract(40));
         ScrollPane buttonsPane = new ScrollPane();
@@ -122,9 +140,15 @@ public class DMTool extends Application implements Autowrap {
 
         TextArea rolls = new TextArea();
         rolls.setEditable(false);
-        TextField number = new TextField("No. of Dice");
-        TextField sides = new TextField("d-");
-        TextField bonus = new TextField("Bonus to Roll");
+        TextField number = new TextField();
+        number.setPromptText("No. of Dice");
+        number.setFocusTraversable(false);
+        TextField sides = new TextField();
+        sides.setPromptText("d-");
+        sides.setFocusTraversable(false);
+        TextField bonus = new TextField();
+        bonus.setPromptText("Bonus to Roll");
+        bonus.setFocusTraversable(false);
         Button roll = new Button("Roll");
         roll.setOnAction(e -> {
             try{
@@ -273,5 +297,14 @@ public class DMTool extends Application implements Autowrap {
         }
 
         return sb.toString();
+    }
+
+    private TreeSet<Monster> searchMonsterList(String name, String type, String prof, String CR){
+        System.out.println(name + 'q');
+        System.out.println(type + 'r');
+        System.out.println(prof + 's');
+        System.out.println(CR + 't');
+
+        return new TreeSet<>();
     }
 }

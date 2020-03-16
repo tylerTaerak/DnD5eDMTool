@@ -1,7 +1,3 @@
-import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.layout.VBox;
-
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -68,6 +64,10 @@ public class MonsterDirectory {
 
     public ArrayList<Hashtable<Integer, ArrayList<Monster>>> getProbabilities() {
         return probabilities;
+    }
+
+    Monster[] searchMonsters(String name, String type, int prof, double CR){
+        return new Monster[1];
     }
 
     Monster[] searchMonstersByName(String name) {

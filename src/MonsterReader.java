@@ -8,21 +8,6 @@ import java.util.List;
 
 public class MonsterReader implements Dice {
 
-    public static void main(String[] args)
-            throws NoSuchMethodException,
-            IOException,
-            InstantiationException,
-            IllegalAccessException,
-            InvocationTargetException,
-            ClassNotFoundException
-    {
-        MonsterReader mr = new MonsterReader();
-
-        LegendaryMonster aboleth = (LegendaryMonster) mr.readMonsterFromFile(new File("src/txt/Aboleth"));
-
-        System.out.println(aboleth.toString());
-    }
-
     public Monster readMonsterFromFile(File file)
             throws IOException,
             ClassNotFoundException,
