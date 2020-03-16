@@ -1,0 +1,16 @@
+Monster Goristro Huge String{ Fiend (demon) } 6 19 310 String{ 40 ft } 25 true 11 true 25 true 6 false 13 true 14 false int[]{ 11 } String{ darkvision 120 ft, passive Perception 17 } Abyssal 17
+23 12 161
+===================== Passives ======================
+Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: poison
+Condition Immunities: poisoned
+Charge: If the goristro moves at least 15 ft straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 38 (7d10) piercing damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be pushed up to 20 ft away and be knocked prone
+Labyrinthine Recall: The goristro can perfectly recall any path it has travelled.
+Magic Resistance: The goristro has advantage on saving throws against spells and other magical effects
+Siege Monster: The goristro deals double damage to objects and structures
+=============== Attacks 0 0 1 =================
+Attack Fist 13 10 3 8 7 bludgeoning null
+Attack Hoof 13 5 3 10 7 bludgeoning DCAttack{ null 21 5 0 null 0 0 0 null String{ knocked prone } Strength false } }
+Attack Gore 13 10 7 10 7 piercing null
+============== Areas ===============
+2 1 1 2 1 1 2 3 1 4 0

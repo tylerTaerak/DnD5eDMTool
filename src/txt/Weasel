@@ -1,0 +1,8 @@
+Monster Weasel Tiny Beast 2 13 1 String{ 30 ft } 3 false 16 false 8 false 2 false 12 false 3 false int[]{ 11 16 } String{ passive Perception 13 } None 0
+1 4 -1
+======== Passives ==========
+Keen Hearing and Smell: The weasel has advantaeg on Wisdom (Perception) checks that rely on hearing or smell
+======= Attacks null ==========
+Attack Bite 5 5 0 0 1 piercing null
+========== Areas =========
+2 3 2 2 2 2 0 0 0 0 0 

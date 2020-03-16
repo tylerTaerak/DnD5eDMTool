@@ -1,0 +1,7 @@
+Monster String{ Riding Horse } Large Beast 2 10 13 String{ 60 ft } 16 false 10 false 12 false 2 false 11 false 7 false int[]{ } String{ passive Perception 10 } None 0.25
+2 10 2
+
+========= Attacks null ===========
+Attack Hooves 2 5 2 4 3 bludgeoning null
+========== Areas ===========
+1 4 3 3 4 2 0 0 0 0 0 

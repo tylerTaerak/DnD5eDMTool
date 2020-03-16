@@ -1,0 +1,10 @@
+Monster String{ Bandit Captain } Medium String{ Humanoid (any race) } 2 15 65 String{ 30 ft } 15 true 16 true 14 false 14 false 11 true 14 false int[]{ 3 4 } String{ passive Perception 10 } String{ any two languages } 2
+10 8 20
+======= Passives ==========
+Parry: As a reaction, the captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon
+====== Attacks 0 0 1 =========
+Attack Scimitar 5 5 1 6 3 slashing null
+Attack Dagger 5 5 1 4 3 piercing null
+======== Areas =========
+2 4 3 3 4 3 1 0 0 0 0
+

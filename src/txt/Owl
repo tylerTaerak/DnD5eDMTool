@@ -1,0 +1,9 @@
+Monster Owl Tiny Beast 2 11 1 String{ 5 ft, fly 60 ft } 3 false 13 false 8 false 2 false 12 false 7 false int[]{ 11 16 } String{ darkvision 120 ft, passive Perception 13 } None 0
+1 4 -1
+========= Passives =========
+Flyby: The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach
+Keen Hearing and Sight: The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight
+========= Attacks null ==========
+Attack Talons 3 5 0 0 1 slashing null
+======== Areas ===========
+1 4 4 4 3 2 0 0 1 0 0

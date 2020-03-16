@@ -1,0 +1,13 @@
+Monster Succubus/Incubus Medium String{ Fiend (shapechanger) } 2 15 66 String{ 30 ft, fly 60 ft } 8 false 17 false 13 false 15 false 12 false 20 false int[]{ 4 6 11 13 16 } String{ darkvision 60 ft, passive Perception 15 } String{ Abyssal, Common, Infernal, telepathy 60 ft } 4
+12 8 12
+========== Passives =========
+Damage Resistances: cold, fire, lightning, poison; bludgeoning, piercing, adn slashing from nonmagical weapons
+Telepathic Bond: The fiend ignores the range restriction on its telepathy when communicating with a creature it has charmed. The two don't even need to be on the same plane of existence
+Shapechanger: The fiend can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Without wings, the fiend loses its flying speed. Other than its size and speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies
+Etherealness: As an action, the fiend magically enters the Ethereal Plane from the Material Plane, or vice versa
+=========== Attacks null ============
+Attack String{ Claw (fiend form only) } 5 5 1 6 3 slashing null
+DCAttack Charm 15 30 0 null 0 0 0 null String{ charmed for 1 day. The charmed target obeys the fiend's verbal or telepathic commands. If the target suffers any harm or receives a suicidal command, it can repeat the saving throw, ending the effect on a success. If the target successfully savecs against the effect, or if the effect ends on it, the target is immune to this fiend's Charm for the next 24 hours. The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends } Wisdom false
+DCAttack String{ Draining Kiss } 15 5 0 String{ a creature charmed by it or a willing creature } 5 10 5 psychic String{ hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0 } Constitution true
+========= Areas =============
+2 2 2 2 4 3 2 2 1 4 0 

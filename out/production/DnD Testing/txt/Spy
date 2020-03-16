@@ -1,0 +1,10 @@
+Monster Spy Medium String{ Humanoid (any race) } 2 12 27 String{ 30 ft } 10 false 15 false 10 false 12 false 14 false 16 false int[]{ 4 6 8 11 13 15 16 } String{ passive Perception 16 } String{ any two languages } 1
+6 8 0
+========= Passives ========
+Cunning Action: On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action
+Sneak Attack (1/turn): They spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll
+======== Attacks 0 0 ==========
+Attack Shortsowrd 4 5 1 6 2 piercing null
+Attack String{ Hand Crossbow } 4 30 1 6 2 piercing null
+======== Areas =========
+1 1 1 1 4 1 0 0 0 0 0

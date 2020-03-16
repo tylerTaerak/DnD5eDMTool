@@ -1,0 +1,7 @@
+Monster Cockatrice Small Monstrosity 2 11 27 String{ 20 ft, fly 40 ft } 6 false 12 false 12 false 2 false 13 false 5 false int[]{ } String{ darkvision 60, passive Perception 11 } None 0.5
+6 6 6
+
+==================== Attacks null ===============
+Attack Bite 3 5 1 4 1 piercing DCAttack{ null 11 5 0 null 0 0 0 null String{ begins to magically turn to stone and is restrained. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours } Constitution false } }
+================ Areas ================
+2 3 4 4 3 4 2 0 1 0 0

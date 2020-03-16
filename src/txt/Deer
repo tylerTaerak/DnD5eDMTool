@@ -1,0 +1,7 @@
+Monster Deer Medium Beast 2 13 4 String{ 50 ft } 11 false 16 false 11 false 2 false 14 false 5 false int[]{ } String{ passive Perception 12 } None 0
+1 8 0
+
+========== Attacks null =========
+Attack Bite 2 5 1 4 0 piercing null
+========== Areas ==========
+1 4 4 4 4 2 0 0 2 0 0

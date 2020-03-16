@@ -1,0 +1,12 @@
+Monster Nightmare Large Fiend 2 13 68 String{ 60 ft, fly 90 ft } 18 false 15 false 16 false 10 false 13 false 15 false int[]{ } String{ passive Perception 11 } String{ understands Abyssal, Common, and Infernal but can't speak } 3
+8 10 24
+=========== Passives ===========
+Damage Immunities: fire
+Confer Fire Resistance: The nightmare can grant resistance to fire damage to anyone riding it
+Illumination: The nightmare sheds bright light in a 10-ft radius and dim light for an additional 10 ft
+Ethereal Stride: As an action, the nightmare and up to three willing creatures within 5 ft of it magically enter the Ethereal Plane from the Material Plane, or vice versa
+========= Attacks null ===============
+Attack Hooves 6 5 2 8 11 String{ bludgeoning and fire } null
+============= Areas =============
+2 1 1 1 1 1 3 3 1 0 4
+

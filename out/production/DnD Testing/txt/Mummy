@@ -1,0 +1,12 @@
+Monster Mummy Medium Undead 2 11 58 String{ 20 ft } 16 false 8 false 15 false 6 false 10 true 12 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } String{ the languages it knew in life } 3
+9 8 18
+================== Passives ============
+Damage Vulnerabilities: fire
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: necrotic, poison
+Condition Immunities: charmed, exhaustion, frightened, paralyzed, poisoned
+================ Attacks 1 0 ============
+Attack String{ Rotting Fist } 5 5 5 6 3 String{ bludgeoning and necrotic } DCAttack{ null 12 5 0 null 0 0 0 null String{ cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic } Constitution false } }
+DCAttack String{ Dreadful Glare } 11 60 0 null 0 0 0 null String{ frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, is is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours } Wisdom false
+============= Areas ============
+4 1 1 2 1 1 4 4 0 0 0 

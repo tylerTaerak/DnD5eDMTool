@@ -1,0 +1,14 @@
+Monster String{ Death Knight } Medium Undead 6 20 180 String{ 30 ft } 20 false 11 true 20 false 12 false 16 true 18 true int[]{ } String{ darkvision 120 ft, passive Perception 13 } String{ Abyssal, Common } 17
+19 8 95
+==================== Passives ===========
+Damage Immunities: necrotic, poison
+Condition Immunities: exhaustion, frightened, poisoned
+Magic Resistance: The death knight has advantage on saving throws against spells and other magical effects
+Marshal Undead: Unless the death knight is incapacitated, it and undead creatures of its choice within 60 ft of it have advantage on saving throws against features that turn undead
+Spellcasting: The death knight is a 19th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It has the following paladin spells prepared: 1st level (4 slots): command, compelled duel, searing smite 2nd level (3 slots): hold person, magic weapon 3rd level (3 slots): dispel magic, elemental weapon 4th level (3 slots): banishment, staggering smite 5th level (2 slots): destructive wave (necrotic)
+Parry: As a reaction, the death knight adds 6 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon
+=============== Attacks 0 0 0 ===============
+Attack Longsword 11 5 5 8 5 String{ slashing and necrotic } null
+DCAttack String{ Hellfire Orb (1/day) } 18 120 20 sphere 20 6 0 String{ fire and necrotic } null Dexterity true
+============== Areas ==========
+3 1 1 2 1 2 3 4 1 4 0

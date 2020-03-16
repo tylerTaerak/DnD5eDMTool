@@ -1,0 +1,11 @@
+Monster String{ Gnoll Pack Lord } Medium String{ Humanoid (gnoll) } 2 15 49 String{ 30 ft } 16 false 14 false 13 false 8 false 11 false 9 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } Gnoll 2
+9 8 9
+============== Passives ===========
+Rampage: When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack
+Incite Ramage (recharge 5-6): As part of its multiattack, one creature the gnoll can see within 30 ft of it can use its reaction to make a melee attack if it can hear the gnoll and has the Rampage trait
+=========== Attacks 1 1 ===============
+Attack Bite 5 5 1 4 3 piercing null
+Attack Glaive 5 10 1 10 3 slashing null
+Attack Longbow 4 150 1 8 2 piercing null
+=========== Areas ==============
+2 4 3 3 3 3 1 0 0 0 0 

@@ -1,0 +1,9 @@
+Monster Hippogriff Large Monstrosity 2 11 19 String{ 40 ft, fly 60 ft } 17 false 13 false 13 false 2 false 12 false 8 false int[]{ 11 } String{ passive Perception 15 } None 1
+3 10 3 
+============ Passives ==============
+Keen Sight: The hippogriff has advantage on Wisdom (Perception) checks that rely on sight
+============ Attacks 0 1 =============
+Attack Beak 5 5 1 10 3 piercing null
+Attack Claws 5 5 2 6 3 slashing null
+=========== Areas =============
+1 3 3 4 3 2 1 0 1 0 0 

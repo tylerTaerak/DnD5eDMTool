@@ -1,0 +1,9 @@
+Monster Jackal Small Beast 2 12 3 String{ 40 ft } 8 false 15 false 11 false 3 false 12 false 6 false int[]{ 11 } String{ passive Perception 13 } None 0
+1 6 0
+======== Passives ==========
+Keen Hearning and Smell: The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell
+Pack Tactics: The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft of the creature and the ally isn't incapacitated
+======== Attacks null =========
+Attack Bite 1 5 1 4 -1 piercing null
+========= Areas =========
+0 4 3 2 2 3 0 0 1 0 0 

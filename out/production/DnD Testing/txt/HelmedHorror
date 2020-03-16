@@ -1,0 +1,12 @@
+Monster String{ Helmed Horror } Medium Construct 2 20 60 String{ 30 ft, fly 30 ft } 18 false 13 false 16 false 10 false 10 false 10 false int[]{ 11 } String{ blindsight 60 ft (blind beyond this radius), passive Perception 14 } String{ understands the languages of its creator but can't speak } 4
+8 8 24
+============= Passives ============
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons
+Damage Immunities: force, necrotic, poison
+Condition Immunities: blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned, stunned
+Magic Resistance: The helmed horror has advantage on saving throws against spells and other magcial effects
+Spell Immunity: The helmed horror is immune to three spells chosen by its creator. Typical immunities include fireball, heat metal, and lightning bolt
+=========== Attacks 0 0 ============
+Attack Longsword 6 5 1 8 4 slashing null
+============ Areas ==============
+3 1 1 2 1 1 3 4 4 1 1

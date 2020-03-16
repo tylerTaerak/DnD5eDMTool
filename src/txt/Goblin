@@ -1,0 +1,9 @@
+Monster Goblin Small String{ Humanoid (goblinoid) } 2 15 7 String{ 30 ft } 8 false 14 false 10 false 10 false 8 false 8 false int[]{ 16 } String{ darkvision 60 ft, passive Perception 9 } String{ Common, Goblin } 0.25
+2 6 0
+================ Passives ===============
+Nimble Escape: The goblin can take the Disengage or Hide action as a bonus action on each of its turns
+============== Attacks null ============
+Attack Scimitar 4 5 1 6 2 slashing null
+Attack Shortbow 4 80 1 6 2 piercing null
+============ Areas ==============
+4 3 3 4 3 2 3 1 1 0 0 

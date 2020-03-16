@@ -1,0 +1,10 @@
+Monster String{ Swarm of Ravens } Medium String{ Swarm of Tiny Beasts } 2 12 24 String{ 10 ft, fly 50 ft } 6 false 14 false 8 false 3 false 12 false 6 false int[]{ 11 } String{ passive Perception 15 } None 0.25
+7 8 -7
+========== Passives ==========
+Damage Resistances: bludgeoning, piercing, and slashing
+Condition Immunities: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+Swarm: The swarm can occupy another creature's spaced and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain  hit points or temporary hit points
+========= Attacks null =========
+Attack Beaks 4 5 2 6 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer }
+========== Areas ===========
+2 4 3 3 3 3 0 0 0 0 0 

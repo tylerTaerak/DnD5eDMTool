@@ -1,0 +1,10 @@
+Monster Homonculus Tiny Construct 2 13 5 String{ 20 ft, fly 40 ft } 4 false 15 false 11 false 10 false 10 false 7 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } String{ understands the languages of its creator but can't speak } 0
+2 4 0
+============= Passives ==========
+Damage Immunities: poison
+Condition Immunities: charmed, poisoned
+Telepathic Bond: While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically
+============= Attacks null ===================
+Attack Bite 4 5 0 0 1 piercing DCAttack{ null 10 5 0 null 0 0 0 null String{ poisoned for 1 minute. If the saving throw fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way } Constitution false } }
+============= Areas ==============
+3 2 2 3 2 1 3 2 2 2 2

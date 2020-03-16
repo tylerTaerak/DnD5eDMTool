@@ -1,0 +1,11 @@
+Monster Minotaur Large Monstrosity 2 14 76 String{ 40 ft } 18 false 11 false 16 false 6 false 16 false 9 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 17 } Abyssal 3
+9 10 27
+============ Passives ============
+Charge: If the minotaur moves at least 10 ft straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 ft away and knocked prone
+Labyrinthine Recall: The minotaur can perfectly recall any path it has traveled
+Reckless: At the start of its turn, the minotaur can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn
+============ Attacks null ============
+Attack Greataxe 6 5 2 12 4 slashing null
+Attack Gore 6 5 2 8 4 piercing null
+============== Areas ==============
+3 2 2 3 2 3 4 4 3 3 0 

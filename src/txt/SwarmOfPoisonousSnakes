@@ -1,0 +1,11 @@
+Monster String{ Swarm of Poisonous Snakes } Medium String{ Swarm of Tiny Beasts } 3 14 36 String{ 30 ft, swim 30 ft } 8 false 18 false 11 false 1 false 10 false 3 false int[]{ } String{ blindsight 10 ft, passive Perception 10 } None 2
+8 8 0
+========== Passives ==========
+Damage Resistances: bludgeoning, piercing, and slashing
+Condition Immunities: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
+Swarm: The swarm can occupy another creature's spaced and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain  hit points or temporary hit points
+========== Attacks null ============
+Attack Bites 6 0 2 6 0 piercing DCAttack{ null 10 0 0 null 4 6 0 poison null Constitution true } }
+=========== Areas =============
+4 1 1 1 1 1 0 0 0  0 0
+

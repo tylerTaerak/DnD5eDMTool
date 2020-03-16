@@ -1,0 +1,12 @@
+Monster String{ Intellect Devourer } Tiny Aberration 2 12 21 String{ 40 ft } 6 false 14 false 13 false 12 false 11 false 10 false int[]{ 11 16 } String{ blindsight 60 ft (blind beyond this radius), passive Perception 12 } String{ understands Deep Speech but can't speak, telepathy 60 ft } 2
+6 4 6
+============ Passives ==========
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+Condition Immunities: blinded
+Detect Sentience: The intellect devourer can sense the presence and location of any creature within 300 ft of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell
+Body Thief: As an action, the intellect devourer initiates an Intelligence contest with an incapacitated humanoid within 5 ft of it. If it wins the contest, the intellect devourer magically consumes the target's brain, teleports into the target's skull, and takes control of the target's body. While inside a creature, the intellect devourer has total cover against attacks an other effects originating outside its host. The intellect devourer retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Deep Speech, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including spells and languages. If the host body drops to 0 hit points, the intellect devourer must leave it. A protection from evil and good spell cast on the body drives the intellect devourer out. The intellect devourer is also forced out if the target regains its devoured brain by means of a wish. By spending 5 ft of its movement, the intellect devourer can voluntarily leave th body, teleporting to the nearest unoccupied space within 5 ft of it. The body then dies, unless its brain is restored within 1 round.
+============ Attacks 0 1 ==============
+Attack Claws 4 5 2 4 2 slashing null
+DCAttack String{ Devourer Intellect } 12 10 0 null 2 10 0 psychic String{ roll 3d6: If the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence } Intelligence false
+============ Areas ============
+3 1 1 1 0 4 3 1 0 0 

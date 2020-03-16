@@ -1,0 +1,10 @@
+Monster String{ Ogre Zombie } Large Undead 2 8 85 String{ 30 ft } 19 false 6 false 18 false 3 false 6 true 5 false int[]{  } String{ darkvision 60 ft, passive Perception 8 } String{ understands Common and Giant but can't speak } 2
+9 10 36
+========== Passives =========
+Damage Immunities: poison
+Condition Immunities: poisoned
+Undead Fortitude: If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unnless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead
+============ Attacks null =========
+Attack Morninstar 6 5 2 8 4 bludgeoning null
+============ Areas ===========
+4 4 4 4 4 4 3 4 1 0 0 

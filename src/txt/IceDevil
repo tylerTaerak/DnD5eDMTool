@@ -1,0 +1,15 @@
+Monster String{ Ice Devil } Large String{ Fiend (devil) } 5 18 180 String{ 40 ft } 21 false 14 true 18 true 18 false 15 true 18 true int[]{ } String{ blindsight 60 ft, darkvision 120 ft, passive Perception 12 } String{ Infernal, telepathy 120 ft } 14
+19 10 76
+========================== Passives ================
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities: cold, fire, poison
+Condition Immunities: poisoned
+Devil's Sight: Magical darkness doesn't impede the devil's darkvision
+Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+=============== Attacks 0 1 2 ===============
+Attack Bite 10 5 5 6 5 String{ piercing and cold } null
+Attack Claws 10 5 2 4 15 String{ slashing and cold } null
+Attack Tail 10 10 5 6 5 String{ bludgeoning and cold } null
+DCAttack String{ Wall of Ice (Recharge 6) } 17 60 30 String{ 10-ft high wall, 1 ft thick } 10 6 0 cold String{ the devil magically forms an opaque wall of ice. The wall can alternatively be a hemispherical dome up to 20 ft in diameter. When the wall appears, the creatures in its space are pushed out (the creature chooses which side, unless incapacitated), and takes damage. The wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10-ft section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes } Dexterity true
+================ Areas ================
+3 1 1 2 1 1 2 3 2 4 0

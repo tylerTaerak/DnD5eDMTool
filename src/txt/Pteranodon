@@ -1,0 +1,8 @@
+Monster Pteranodon Medium Beast 2 13 13 String{ 10 ft, fly 60 ft } 12 false 15 false 10 false 2 false 9 false 5 false int[]{ 11 } String{ 11 } None 0.25
+3 8 0
+================= Passives ============
+Flyby: The pteranodon doesn't provoke an opportunity attack when it flies out of an enemy's reach
+=============== Attacks null ============
+Attack Bite 3 5 2 4 1 piercing null
+============== Areas ===========
+1 2 3 3 2 2 0 0 2 0 0

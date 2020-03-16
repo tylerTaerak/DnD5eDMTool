@@ -1,0 +1,10 @@
+Monster Quaggoth Medium String{ Humanoid (quaggoth) } 2 13 45 String{ 30 ft, climb 30 ft } 17 false 12 false 16 false 6 false 12 false 7 false int[]{ 3 } String{ darkvision 120 ft, passive Perception 10 } Undercommon 2
+6 8 18
+============ Passives ========
+Damage Immunities: poison
+Condition Immunities: poisoned
+Wounded Fury: While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack
+========= Attacks 0 0 ==========
+Attack Claw 5 5 1 6 3 slashing null
+========= Areas ============
+3 1 1 1 1 1 4 2 2 0 0 

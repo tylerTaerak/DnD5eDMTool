@@ -1,0 +1,14 @@
+Monster String{ Ice Mephit } Small Elemental 2 11 21 String{ 30 ft, fly 30 ft } 7 false 13 false 10 false 9 false 11 false 12 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 12 } String{ Aquan, Auran } 0.5
+6 6 0
+============ Passives ===========
+Damage Vulnerabilities: bludgeoning, fire
+Damage Immunities: cold, poison
+Condition Immunities: poisoned
+Death Burst: When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one
+False Appearance: While the mephit remains motionless, it is distinguishable from an ordinary shard of ice
+Innate Spellcasting (1/day): The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma
+============ Attacks null ===========
+Attack Claws 3 5 2 4 1 String{ slashing and cold } false
+DCAttack String{ Frost Breath (recharge 6) } 10 0 15 cone 2 4 0 cold null Dexterity true
+============ Areas ==============
+4 1 1 2 1 2 4 2 2 0 0 

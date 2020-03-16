@@ -1,0 +1,10 @@
+Monster Ghoul Medium Undead 2 12 22 String{ 30 ft } 13 false 15 false 10 false 7 false 10 false 6 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } Common 1
+5 8 0
+================ Passives =========
+Damage Immunities: poison
+Condition Immunities: charmed, exhaustion, poisoned
+============ Attacks null ===========
+Attack Bite 4 5 2 6 2 piercing null
+Attack Claws 4 5 2 4 2 slashing DCAttack{ null 10 5 0 null 0 0 0 null String{ paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false } }
+============== Areas =============
+4 2 3 3 2 3 4 4 1 0 0

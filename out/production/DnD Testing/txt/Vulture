@@ -1,0 +1,9 @@
+Monster Vulture Medium Beast 2 10 5 String{ 10 ft, fly 50 ft } 7 false 10 false 13 false 2 false 12 false 4 false int[]{ 11 } String{ passive Perception 13 } None 0
+1 8 1
+=========== Passives ===========
+Keen Sight and Smell: The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell
+Pack Tactics: The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft of the creature and the ally isn't incapacitated
+=========== Attacks null ============
+Attack Beak 2 5 1 4 0 piercing null
+========== Areas ===========
+1 4 3 3 2 4 0 0 0 0 0 

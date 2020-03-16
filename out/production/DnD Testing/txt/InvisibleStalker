@@ -1,0 +1,12 @@
+Monster String{ Invisible Stalker } Medium Elemental 3 14 104 String{ 50 ft, fly 50 ft (hover) } 16 false 19 false 14 false 10 false 15 false 11 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 18 } String{ Auran, understands Common but doesn't speak it } 6
+16 8 32
+============ Passives ===============
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunitites: poison
+Condition Immunities: exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
+Invisiblity: The stalker is invisible
+Faultless Tracker: The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner
+============== Attacks 0 0 ============
+Attack Slam 6 5 2 6 3 bludgeoning null
+============ Areas ==============
+3 1 1 2 1 1 3 2 2 0 0 

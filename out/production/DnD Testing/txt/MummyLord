@@ -1,0 +1,31 @@
+LegendaryMonster String{ Mummy Lord } Medium Undead 5 17 97 String{ 20 ft } 18 false 10 false 17 true 11 true 18 true 16 true int[]{ 5 14 } String{ darkvision 60 ft, passive Perception 14 } String{ the languages it knew in life } 15
+13 8 39
+============= Passives =============
+Damage Vulnerabilies: fire
+Damage Immunities: necrotic, poison; bludgeoning, piercing, and slashing from nonmagical weapons
+Condition Immunities: charmed, exhaustion, frightened, paralyzed, poisoned
+Magic Resistance: The mummy lord has advantage on saving throws against spells and other magical effects
+Rejuvenation: A destroyed mummy lord gains a new body in 24 hours if its heart is intact, regaining all its hit points and becoming active again. The new body appears within 5 ft of the mummy lord's heart
+Spellcasting: The mummy lord is a 10th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared: Cantrips: sacred flame, thaumaturgy 1st level (4 slots): command, guiding bolt, shield of faith 2nd level (3 slots): hold person, silence, spiritual weapon 3rd level (3 slots): animate dead, dispel magic 4th level (3 slots): divination, guardian of faith 5th level (2 slots): contagion, insect plague 6th level (1 slot): harm
+=============== Attacks 1 0 ==============
+Attack String{ Rotting Fist } 9 5 9 6 4 String{ bludgeoning and necrotic } DCAttack{ null 16 5 0 null 0 0 0 null String{ cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic } Constitution false } }
+DCAttack String{ Dreadful Glare } 16 60 0 null 0 0 0 null String{ frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours } Wisdom false
+============= Legendary Actions ===============
+Attack 1 String{ the mummy lord makes one attack with its rotting fist or uses its Dreadful Glare }
+String{ Blinding Dust } 1 String{ blinding dust and sand swirls magically around the mummy lord. Each creature within 5 ft of the mummy lord must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature's next turn }
+String{ Blasphemous Word } 2 String{ the mummy lord utters a blasphemous word. Each non-undead creature within 10 ft of the mummy lord that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the mummy lord's next turn }
+String{ Channel Negative Energy } 2 String{ the mummy lord magically unleashes negative energy. Creatures within 60 ft of the mummy lord, including ones behind barriers and around corners, can't regain hit points until the end of the mummy lord's next turn }
+String{ Whirlwind of Sand } 2 String{ the mummy lord magically transforms into a whirlwind of sand, moves up to 60 ft, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession }
+============= Lair ===============
+----------- lairActions ---------------------
+null 0 0 0 null 0 0 0 null String{ each undead creature in the lair can pinpoint the location of each living creature within 120 ft of it until initiative count 20 on the next round } null false
+null 0 0 0 null 0 0 0 null String{ each undead in the lair has advantage on saving throws against effects that turn undead until initiative count 20 on the next round } null false
+null 0 0 0 null 0 0 0 null String{ any non-undead creature that tries to cast a spell of 4th level or lower in the mummy lord's lair is wracked with pain. The creature can choose another action, but if it tries to cast the spell, it must make a DC 16 Constitution saving throw. On a failed save, it takes 1d6 necrotic damage per level of the spell, and the spell has no effect and is wasted } null false
+-------------- regionalEffects ------------
+Food instantly molders and water instantly evaporates when brought into the lair. Other nonmagical drinks are spoiled - wine turning into vinegar, for instance
+Divination spells cast within the lair by creatures other than the mummy lord have a 25 percent chance to provice misleading results, as determined by the DM. If a divination spell already has a chance to fail or become unreliable when cast multiple times, that chance increases by 25 percent
+A creature that takes treasure from the lair is cursed until the treasure is returned. The cursed target has disadvantage on all savin throws. The curse lasts until removed by a remove curse spell or other magic
+----------- lair --------------
+An ancient temple or tomb
+============= Areas ==============
+3 0 0 1 0 0 3 3 0 1 0 

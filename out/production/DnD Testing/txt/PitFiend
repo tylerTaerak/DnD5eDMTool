@@ -1,0 +1,17 @@
+Monster String{ Pit Fiend } Large String{ Fiend (devil) } 6 19 300 String{ 30 ft, fly 60 ft } 26 false 14 true 24 true 22 false 18 true 24 false int[]{ } String{ truesight 120 ft, passive Perception 14 } String{ Infernal, telepathy 120 ft } 20
+24 10 168
+================ Passives ==================
+Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Fear Aura: Any creature hostile to the pit fiend that starts its turn within 20 ft of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to the pit fiend's Fear Aura for the next 24 hours
+Magic Resistance: The pit fiend has advantage on saving throws against spells and other magical effects
+Magic Weapons: The pit fiend's weapon attacks are magical
+Innate Spellcasting: The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components: At will: detect magic, fireball 3/day each: hold monster, wall of fire
+=============== Attacks 0 1 2 3 ================
+Attack Bite 14 5 4 6 8 piercing DCAttack{ null 21 5 0 null 0 0 0 null String{ poisoned. While poisoned in this way, the target can't regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false } }
+Attack Claw 14 10 2 8 8 slashing null
+Attack Mace 14 10 8 6 8 String{ bludgeoning and fire } null
+Attack Tail 14 10 3 10 8 bludgeoning null
+============== Areas ===========
+2 1 1 2 1 1 2 3 1 4 0

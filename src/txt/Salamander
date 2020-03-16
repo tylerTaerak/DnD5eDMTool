@@ -1,0 +1,14 @@
+Monster Salamander Large Elemental 3 15 90 String{ 30 ft } 18 false 14 false 15 false 11 false 10 false 12 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } Ignan 5
+12 10 24
+============ Passives ==========
+Damage Vulnerabilities: cold
+Damage Resistances: bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: fire
+Heated Body: A creature that touches the salamander or hits it with a melee attack while within 5 ft of it takes 7 (2d6) fire damage
+Heated Weapons: Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack)
+========== Attacks 0 1 =============
+Attack Spear 7 5 2 8 7 String{ piercing and fire } null
+Attack Tail 7 10 4 6 4 String{ bludgeoning and fire } String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets }
+======== Areas ============
+3 0 0 1 0 1 4 2 1 0 0 
+

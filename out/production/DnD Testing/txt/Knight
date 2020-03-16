@@ -1,0 +1,12 @@
+Monster Knight Medium String{ Humanoid (any race) } 2 18 52 String{ 30 ft } 16 false 11 false 14 true 11 false 11 true 15 false int[]{ } String{ passive Perception 10 } String{ any one language (usually Common) } 3
+8 8 6
+======= Passives ===========
+Brave: The knight has advantage on saving throws against being frightened
+Leadership (recharges after a short or long rest): As an action, for 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. this effect ends if the knight is incapacitated
+Parry: As a reaction, the knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see that attacker and be wielding a melee weapon
+========== Attacks 0 0 ========
+Attack Greatsword 5 5 2 6 3 slashing null
+Attack String{ Heavy Crossbow } 2 100 1 10 0 piercing null
+========= Areas ===========
+1 1 1 1 4 1 0 0 0 0 0 
+

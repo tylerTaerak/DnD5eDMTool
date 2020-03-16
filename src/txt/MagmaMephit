@@ -1,0 +1,14 @@
+Monster String{ Magma Mephit } Small Elemental 2 11 22 String{ 30 ft, fly 30 ft } 8 false 12 false 12 false 7 false 10 false 10 false int[]{ 16 } String{ darkvision 60 ft, passive Perception 10 } String{ Ignan, Terran } 0.5
+5 6 5
+============ Passives ================
+Damage Vulnerabilities: cold
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Death Burst: When the mephit dies, it explodes in a burst of lava. Each creature within 5 ft of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one
+False Appearance: While the mephit remains motionless, it is indistinguishable form an ordinary mound of magma
+Innate Spellcasting (1/day): The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma
+============== Attacks null ==========
+Attack Claws 3 5 2 4 1 String{ slashing and fire } null
+DCAttack String{ Fire Breath (recharge 6) } 11 0 15 cone 2 6 0 fire null Dexterity true
+========== Areas ================
+4 1 1 2 1 3 4 2 2 0 0 

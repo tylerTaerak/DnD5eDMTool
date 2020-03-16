@@ -1,0 +1,8 @@
+Monster Berserker Medium String{ Humanoid (any race) } 2 13 67 String{ 30 ft } 16 false 12 false 17 false 9 false 11 false 9 false int[]{ } String{ passive Perception 10 } String{ any one language (usually Common) } 2
+9 8 27
+======== Passives ========
+Reckless: At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn
+======== Attacks null =======
+Attack Greataxe 5 5 1 12 3 slashing null
+======== Areas ========
+1 4 4 4 3 4 1 0 0 0 0

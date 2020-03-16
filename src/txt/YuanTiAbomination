@@ -1,0 +1,15 @@
+Monster String{ Yuan-ti Abomination } Large String{ Monstrosity (shapechanger, yuan-ti) } 3 15 127 String{ 40 ft } 19 false 16 false 17 false 17 false 15 false 18 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 15 } String{ Abyssal, Common, Draconic } 7
+15 10 45
+========= Passives ========
+Damage Immunities: poison
+Condition Immunities: poisoned
+Shapechanger: The yuan-ti can use its action to polymorph into a Large snake, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It doesn't change form if it dies
+Innate Spellcasting (abomination form only): The yuan-ti's innate spellcating ability is Charisma (spell save DC 15). The yuan-ti can innately cast the following spells, requiring no material components: At will: animal friendship (snakes only) 3/day: suggestion 1/day: fear
+Magic Resistance: The yuan-ti has advantage on saving throws against spells and other magical effects
+========== Attacks 0 1 2 ==========
+Attack Bite 7 5 4 6 4 String{ piercing and poison } null
+Attack Constrict 7 10 2 6 4 bludgeoning String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target }
+Attack String{ Scimitar (abomination form only) } 7 5 2 6 4 slashing null
+Attack String{ Longbow (abomination form only) } 6 150 2 8 13 String{ piercing and poison } null
+========= Areas ==========
+3 3 4 1 1 2 0 0 0 0 0 

@@ -1,0 +1,8 @@
+Monster Acolyte Medium String{ Humanoid (any race) } 2 10 9 String{ 30 ft } 10 false 10 false 10 false 10 false 14 false 11 false int[]{ 9 14 } String{ passive Perception 10 } String{ Any one language (usually Common) } 0.25
+2 8 0
+========= Passives ==========
+Spellcasting: The acolyte is a 1st level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has the following cleric spells prepared: Cantrips: light, sacred flame, thaumaturgy 1st level (3 slots): bless, cure wounds, sanctuary
+========= Attacks null ==========
+Attack Club 2 5 1 4 0 bludgeoning null
+========= Areas ==========
+1 2 2 2 4 1 0 0 0 0 0 

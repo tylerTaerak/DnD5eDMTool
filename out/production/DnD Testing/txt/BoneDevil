@@ -1,0 +1,13 @@
+Monster String{ Bone Devil } Large String{ Fiend (devil) } 4 19 142 String{ 40 ft, fly 40 ft } 18 false 16 false 18 false 13 true 14 true 16 true int[]{ 4 6 } String{ darkvision 120 ft, passive Perception 12 } String{ Infernal, telepathy 120 ft } 9
+15 10 60
+================== Passives ===============
+Damage Resistances: cold; bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Devil's Sight: Magical darkness doesn't impede the devil's darkvision
+Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+================= Attacks 0 0 1 ====================
+Attack Claw 8 10 1 8 4 slashing null
+Attack Sting 8 10 2 8 21 String{ piercing and poison } DCAttack{ null 14 10 0 null 0 0 0 null String{ poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false } }
+============ Areas ===========
+2 0 0 1 0 0 2 2 0 4 0

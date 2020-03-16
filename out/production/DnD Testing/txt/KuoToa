@@ -1,0 +1,14 @@
+Monster Kuo-Toa Medium String{ Humanoid (kuo-toa) } 2 13 18 String{ 30 ft, swim 30 ft } 13 false 10 false 11 false 11 false 10 false 8 false int[]{ 11 } String{ darkvision 120 ft, passive Perception 14 } Undercommon 0.25
+4 8 0
+============== Passives =============
+Amphibious: The kuo-toa can breathe air and water
+Otherworldly Perception: The kuo-toa can sense the presence of any creature within 30 ft of it that is invisible or on the Ethereal Plane. It can pinpoint such a creature that is moving
+Slippery: The kuo-toa has advantage on ability checks and saving throws made to escape a grapple
+Sunlight Sensitivity: While in sunlight, the kuo-toa has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight
+Sticky Shield: As a reaction, when a creature misses the kuo-toa with a melee weapon attack, the kuo-toa uses its sticky shield to catch the weapon. The attacker must succeed on a DC 11 Strength saving throw, or the weapon becomes stuck to the kuo-toa's shield. If the weapon's wielder can't or won't let go of the weapon, the wielder is grappled while the weapon is stuck. While stuck, the weapon can't be used. A creature can pull the weapon free by taking an action to make a DC 11 Strength check and succeeding
+=========== Attacks null =============
+Attack Bite 3 5 1 4 1 piercing null
+Attack Spear 3 20 1 6 1 piercing null
+Attack Net 3 5 0 0 0 null String{ target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net }
+=========== Areas =============
+3 1 1 1 1 1 4 2 2 0 0 

@@ -1,0 +1,10 @@
+Monster Manes Small String{ Fiend (demon) } 2 9 9 String{ 20 ft } 10 false 9 false 13 false 3 false 8 false 4 false int[]{ } String{ darkvision 60 ft, passive Perception 9 } String{ understands Abyssal but can't speak } 0.125
+2 6 2
+================ Passives =============
+Damage Resistances: cold, fire, lightning
+Damage Immunities: poison
+Condition Immunities: charmed, frightened, poisoned
+================== Attacks null ===============
+Attack Claws 2 5 2 4 0 slashing null
+============== Areas ===========
+2 1 1 2 1 1 2 3 1 4 0

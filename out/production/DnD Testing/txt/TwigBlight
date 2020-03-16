@@ -1,0 +1,10 @@
+Monster String{ Twig Blight } Small Plant 2 13 4 String{ 20 ft } 6 false 13 false 12 false 4 false 8 false 3 false int[]{ 16 } String{ blindsight 60 ft (blind beyond this radius), passive Perception 9 } String{ understands Common but can't speak } 0.125
+1 6 1
+======================= Passives ===========================
+Damage Vulnerablities: fire
+Condition Immunities: blinded, deafened
+False Appearance: While the blight remains motionless, it is indistinguishable from a dead shrub
+============================== Attacks null ==================
+Attack Claws 3 5 1 4 1 piercing null
+==================== Areas ===================
+1 3 4 3 4 2 1 1 4 0 0

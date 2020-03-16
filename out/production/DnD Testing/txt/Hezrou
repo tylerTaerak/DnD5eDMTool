@@ -1,0 +1,13 @@
+Monster Hezrou Large String{ Fiend (demon) } 3 16 136 String{ 30 ft } 19 true 17 false 20 true 5 false 12 true 13 false int[]{ } String{ darkvision 120 ft, passive Perception 11 } String{ Abyssal, telepathy 120 ft } 8
+13 10 65
+====================== Passives ======================
+Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: poison
+Condition Immunities: poisoned
+Magic Resistance: The hezrou has advantage on saving throws against spells and other magical effects
+Stench: Any creature that starts its turn within 10 ft of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou's stench for 24 hours
+======================== Attacks 0 1 1 ==============
+Attack Bite 7 5 2 10 4 piercing null
+Attack Claw 7 5 2 6 4 slashing null
+============== Areas ===========
+2 1 1 2 1 1 2 3 1 4 0

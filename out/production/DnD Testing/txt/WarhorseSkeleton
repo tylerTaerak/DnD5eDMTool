@@ -1,0 +1,11 @@
+Monster String{ Warhorse Skeleton } Large Undead 2 13 22 String{ 60 ft } 18 false 12 false 15 false 2 false 8 false 5 false int[]{ } String{  darkvision 60 ft, passive Perception 9 } None 0.5
+3 10 6
+=========== Passives ===========
+Damage Vulnerabilities: bludgeoning
+Damage Immunities: poison
+Condition Immunities: exhaustion, poisoned
+============ Attacks null ========
+Attack Hooves 6 5 2 6 4 bludgeoning null
+========== Areas ========
+4 3 3 4 3 4 4 4 1 0 0
+

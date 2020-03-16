@@ -1,0 +1,41 @@
+================================================
+
+
+Things to look at again:
+
+Multiattack on Beholderkin
+
+Redo the entire Monster class to better fit the effects and reword individual effects
+as needed to fit in with that
+
+Figure out how to add in expertise
+
+Figure out how to add different multiattack options
+
+Make condition for passives length of 0 (& LegendaryActions)
+
+Figure out how to add variant critical hit rules for specific monsters (see Balor)
+
+Add an if possible clause on multiattack (see nalfeshnee)
+
+Add a method to integrate multiple damage types & rolls in a single attack
+
+Templates
+
+Alternate way to use dragons (rather than just inputting a different stat block for each age)
+
+Adding variants
+
+I could probably add in rarity of finding a monster in a place in the text files
+
+Figure out how to not roll health for a monster until it's added to an encounter
+
+Different ranges for thrown weapons etc
+
+Optional Variants
+
+Better Formatting (\t \n etc) in long strings
+
+
+
+=====================================================================================

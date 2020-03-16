@@ -1,0 +1,9 @@
+Monster Worg Large Monstrosity 2 13 26 String{ 50 ft } 16 false 13 false 13 false 7 false 11 false 8 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 14 } String{ Goblin, Worg } 0.5
+4 10 4
+========== Passives =========
+Keen Hearing and Smell: The worg has advantage on Wisdom (Perception) checks that rely on hearing or smell
+========== Attacks null ==========
+Attack Bite 5 5 2 6 3 piercing DCAttack{ null 13 5 0 null 0 0 0 null String{ knocked prone } Strength false } }
+=========== Areas ============
+4 3 3 4 3 2 3 1 1 0 0 
+

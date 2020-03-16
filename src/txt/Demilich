@@ -1,0 +1,30 @@
+LegendaryMonster Demilich Tiny Undead 6 20 80 String{ 0 ft, fly 30 ft (hover) } 1 false 20 false 10 true 20 true 17 true 20 true int[]{ } String{ truesight 120 ft, passive Perception 13 } None 18
+20 4 0
+=================== Passives =================
+Damage Resistances: bludgeoning, piercing, and slashing from magic weapons
+Damage Immunities: necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons
+Condition Immunities: charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned
+Avoidance: If the demilich is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails
+Legendary Resistance (3/day): If the demilich fails a saving throw, it can choose to succeed instead
+Turn Immunity: The demilich is immune to effects that turn undead
+======================= Attacks null =======================
+DCAttack String{ Howl (recharge 5-6) } 15 0 30 sphere 0 0 0 null String{ drop to 0 hit points. On a successful save, a target is frightened until the end of its next turn } Constitution false
+DCAttack String{ Life Drain } 19 0 10 String{ 3 creatures } 6 6 0 necrotic String{ the demilich regains hit points equal to the total damage dealt to all targets } Constitution false
+===================== Legendary Actions =====================
+Flight 1 String{ The demilich flies up to half its flying speed } }
+String{ Cloud of Dust } 1 String{ The demilich magically swirls its dusty remains. Each creature within 10 ft of the demilich, including around a corner, must succeed on a DC 15 Constitution saving throw or be blinded until the end of the demilich's next turn. A creature that succeeds on the saving throw is immune to this effect until the end of the demilich's next turn } }
+String{ Energy Drain } 2 String{ Each creature within 30 ft of the demilich must make a DC 15 Constitution saving throw. On a failed save, the creature's hit point maximum is magically reduced by 10 (3d6). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. A creature's hit point maximum can be restored with the greater restoration spell or similar magic } }
+String{ Vile Curse } 3 String{ The demilich targets one creature it can see within 30 ft of it. The target must succeed on a DC 15 Wisdom saving throw or be magically cursed. Until the curse ends, the target has disadvantage on attack rolls and saving throws. The target can repeat the saving throw at the end of each of its turns, ending the curse on a success } }
+==================== Lair ==================
+------------------------ lairActions ------------
+null 19 0 120 String{ on the floor of the lair } 0 0 0 null String{ knocked prone } Dexterity false
+null 0 60 0 null 0 0 0 null String{ an antimagic field fills the space of the target, moving with it until initiative count 20 on the next round } null false
+null 0 0 30 sphere 0 0 0 null String{ cannot regain hit points until initiative count 20 on the next round } null false
+------------------- regionalEffects ----------
+The first time a non-evil creature enters the tomb's area, the creature takes 16 (3d10) necrotic damage.
+Monsters in the tomb have advantage on saving throws against being charmed or frightened, and against features that turn undead
+The tomb is warded against the magical travel of creatures the demilich hasn't authorized. Such creatures can't teleport into or out of the tomb's area or use planar travel to enter or leave it. Effects that allow teleportation or planar travel to work within the tomb as long as they aren't used to leave or enter the tomb's area
+----------------------- Lair ----------------
+A tomb or crypt
+============ Areas ============
+3 1 1 2 1 2 4 4 1 3 0

@@ -1,0 +1,28 @@
+LegendaryMonster String{ Blue Dragon, Adult } Huge Dragon 5 19 225 String{ 40 ft, burrow 30 ft, fly 80 ft } 25 false 10 true 23 true 16 false 15 true 19 true int[]{ 11 16 } String{ blindsight 60 ft, darkvision 120 ft, passive Perception 22 } String{ Common, Draconic } 16
+18 12 108
+============== Passives ==============
+Damage Immunities: lightning
+Legendary Resistance (3/day): If the dragon fails a saving throw, it can choose to succeed instead
+================= Attacks 3 0 1 1 =========
+Attack Bite 12 10 2 10 12 String{ piercing and lightning } null
+Attack Claw 12 5 2 6 7 slashing null
+Attack Tail 12 15 2 8 7 bludgeoning null
+DCAttack String{ Frightful Presence } 17 0 120 sphere 0 0 0 null String{ frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours } Wisdom false
+DCAttack String{ Lightning Breath } 19 0 90 String{ 5-ft wide line } 12 10 0 lightning null Dexterity true
+=============== Legendary Actions =============
+Detect 1 String{ The dragon makes a Wisdom (Perception) check }
+String{ Tail Attack } 1 String{ The dragon makes a tail attack }
+String{ Wing Attack } 2 String{ The dragon beats its wings. Each creature within 15 ft of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed }
+============== Lair ===============
+-------------- lairActions --------------
+null 15 120 0 null 3 6 0 bludgeoning String{ knocked prone and buried as part of the ceiling collapses on the target. The buried target is restrained and unable to breathe or stand up. A creature can take an action to make a DC 10 Strength check, ending the buried state on a success } Dexterity false
+null 15 120 20 sphere 0 0 0 null String{ blinded for 1 minute as a cloud of sand swirls about. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false
+null 15 120 120 String{ a 5-ft wide line connecting two points } 3 6 0 lightning null Dexterity false
+------------ regionalEffects ------------
+Thunderstorms rage within 6 miles of the lair
+Dust devils scour the land within 6 miles of the lair. A dust devil has the statistics of an air elemental, but it can't fly, has a speed of 50 ft, and has an Intelligence and Charisma of 1 (-5)
+Hidden sinkholes form in and around the dragon's lair. A sinkhole can be spotted from a safe distance with a successful DC 20 Wisdom (Perception) check. Otherwise, the first creature to step on the thin crust covering the sinkhole must succeed on a DC 15 Dexterity saving throw or fall 1d6 x 10 ft into the sinkhole
+--------------- Lair -----------------
+Barren deserts, forming caverns underneath
+=========== Areas ===========
+2 1 1 1 0 3 1 0 0 0 0

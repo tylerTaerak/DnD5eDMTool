@@ -1,0 +1,11 @@
+Monster Troglodyte Medium String{ Humanoid (troglodyte) } 2 11 13 String{ 30 ft } 14 false 10 false 14 false 6 false 10 false 6 false int[]{ 16 } String{ darkvision 120 ft, passive Perception 10 } Troglodyte 0.25
+2 8 4
+============ Passives ============
+Chameleon Skin: the troglodyte has advantage on Dexterity (Stealth) checks made to hide
+Stench: Any creature other than a troglodyte that starts its turn within 5 ft of the troglodyte must succeed on a DC 12 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour
+Sunlight Sensitivity: While in sunlight, the troglodyte has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight
+========= Attacks 0 1 1 =========
+Attack Bite 4 5 1 4 2 piercing null
+Attack Claw 4 5 1 4 2 slashing null
+========== Areas ===========
+4 0 0 2 0 1 4 3 0 0 0 

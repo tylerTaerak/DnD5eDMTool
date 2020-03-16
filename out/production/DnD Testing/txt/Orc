@@ -1,0 +1,9 @@
+Monster Orc Medium String{ Humanoid (orc) } 2 13 15 String{ 30 ft } 16 false 12 false 16 false 7 false 11 false 10 false int[]{ 7 } String{ darkvision 60 ft, passive Perception 10 } String{ Common, Orc } 0.5
+2 8 6
+=========== Passives ==========
+Aggressive: As a bonus action, the orc can move up to its speed toward a hostile creature that it can see
+============ Attacks null ============
+Attack Greataxe 5 5 1 12 3 slashing null
+Attack Javelin 5 30 1 6 3 piercing null
+========== Areas ===========
+4 3 3 4 3 2 1 0 0 0 0

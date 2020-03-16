@@ -1,0 +1,30 @@
+LegendaryMonster String{ Bronze Dragon, Ancient } Gargantuan Dragon 7 22 444 String{ 40 ft fly, fly 80 ft, swim 40 ft } 29 false 10 true 27 true 18 false 17 true 21 true int[]{ 6 11 16 } String{ blindsight 60 ft, darkvision 120 ft, passive Perception 27 } String{ Common, Draconic } 22
+24 20 192
+========== Passives ===========
+Damage Immunities: lightning
+Amphibious: The dragon can breathe air and water
+Legendary Resistance (3/day): If the dragon fails a saving throw, it can choose to succeed instead
+Change Shape: The dragon magically polymorphs into a humanoids or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form
+============== Attacks 3 0 1 1 ================
+Attack Bite 16 15 2 10 9 piercing null
+Attack Claw 16 10 2 6 9 slashing null
+Attack Tail 16 20 2 8 9 bludgeoning null
+DCAttack String{ Frightful Presence } 20 0 120 sphere 0 0 0 null String{ frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours } Wisdom false
+DCAttack String{ Lightning Breath (recharge 5-6) } 23 0 120 String{ 10-ft wide line } 16 10 0 lightning null Dexterity true
+DCAttack String{ Repulsion Breath (recharge 5-6) } 23 0 30 cone 0 0 0 null String{ pushed 60 ft away from the dragon } Strength false
+=============== Legendary Actions ============
+Detect 1 String{ the dragon makes a Wisdom (Perception) check }
+String{ Tail Attack } 1 String{ the dragon makes a tail attack }
+String{ Wing Attack } 2 String{ The dragon beats its wings. Each creature within 15 ft of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed }
+=============== Lair ====================
+------------- lairActions ---------------
+null 0 120 20 sphere 0 0 0 null String{ the dragon casts fog as though it had cast the fog cloud spell. The fog lasts until initiative count 20 on the next round } null false
+null 15 120 20 radius 1 10 0 thunder String{ a thunderclap sounds, deafening creatures in the area until the end of their next turns } Constitution false
+-------------- regionalEffects ----------
+Once per day, the dragon can alter the weather in a 6-mile radius centered on its lair. The dragon doesn't need to be outdoors; otherwise the effect is identical to the control weather spell
+Underwater plants within 6 miles of the dragon's lair take on dazzlingly brilliant hues
+Within its lair, the dragon can set illusory sounds, such as soft music and strange echoes so that they can be heard in various parts of the lair
+------------- Lair ---------------
+Coastal caves
+========= Areas ========
+1 1 1 1 1 1 3 0 0 0 0

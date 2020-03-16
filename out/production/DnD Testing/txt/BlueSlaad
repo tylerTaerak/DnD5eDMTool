@@ -1,0 +1,12 @@
+Monster String{ Blue Slaad } Large Aberration 3 15 123 String{ 30 ft } 20 false 15 false 18 false 7 false 7 false 9 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 11 } String{ Slaad, telepathy 60 ft } 7
+13 10 52
+========== Passives ============
+Damage Resistances: acid, cold, fire, lightning, thunder
+Magic Resistance: The slaad has advantage on saving throws against spells and other magical effects
+Regeneration: The slaad regains 10 hit points at the start of its turn if it has at least 1 hit point
+========== Attacks 0 1 1 =========
+Attack Bite 8 5 2 6 5 piercing null
+Attack Claw 8 5 2 6 5 slashing DCAttack{ null 15 5 0 null 0 0 0 null String{ infected with a diseas called chaos phage. While infected, the target can't regain hitp oints, and its hit point maximum is reduced by 10 (3d6) every 24 hours. If the disease reduces the target's hit point maximum to 0, the target instantly transforms into a red slaad or, if it has the ability to cast spells of 3rd level or higher, a green slaad. Only a wish spell can reverse the transformation } Constitution false } }
+============ Areas ============
+2 1 1 2 1 1 4 2 2 0 0 
+

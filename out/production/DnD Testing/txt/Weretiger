@@ -1,0 +1,14 @@
+Monster Weretiger Medium String{ Humanoid (human, shapechanger) } 2 12 120 String{ 30 ft (40 ft in tiger form) } 17 false 15 false 16 false 10 false 13 false 11 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 15 } String{ Common (can't speak in tiger form) } 4
+16 8 48
+============ Passives ===========
+Damage Immunities: bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
+Shapechanger: The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies
+Keen Hearing and Smell: The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell
+Pounce (tiger or hybrid form only): If the weretiger moves at least 15 ft straight toward a creature and then hits it with a claw attack on the same turn, that creature must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action
+=========== Attacks 1 1 ============
+Attack String{ Bite (tiger or hybrid form only) } 5 5 1 10 3 piercing DCAttack{ null 13 5 0 null 0 0 0 null String{ cursed with weretiger lycanthropy } Constiution false } }
+Attack String{ Claw (tiger or hybrid form only) } 5 5 1 8 3 slashing null
+Attack String{ Scimitar (humanoid or hybrid form only) } 5 5 1 6 3 slashing null
+Attack String{ Longbow (humanoid or hybrid form only) } 4 150 1 8 2 piercing null
+============== Areas ============
+2 4 3 3 3 4 1 0 0 0 0 

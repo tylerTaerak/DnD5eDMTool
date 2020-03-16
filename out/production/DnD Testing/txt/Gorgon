@@ -1,0 +1,11 @@
+Monster Gorgon Large Monstrosity 3 19 114 String{ 40 ft } 20 false 11 false 18 false 2 false 12 false 7 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 14 } None 5
+12 10 48
+============ Passives ============
+Condition Immunities: petrified
+Trampling Charge: If the gorgon moves at least 20 ft straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the gorgon can make one attack with its hooves against it as a bonus action
+=========== Attacks =============
+Attack Gore 8 5 2 12 5 piercing null
+Attack Hooves 8 5 2 10 5 bludgeoning null
+DCAttack String{ Petrifying Breath (recharge 5-6) } 13 0 30 cone 0 0 0 null String{ begins to turn to stone and is restrained. A restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic } Constitution false
+=========== Areas ==========
+3 4 3 4 3 3 1 1 1 0 0 

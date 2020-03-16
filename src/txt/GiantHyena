@@ -1,0 +1,8 @@
+Monster String{ Giant Hyena } Large Beast 2 12 45 String{ 50 ft } 16 false 14 false 14 false 2 false 12 false 7 false int[]{ 11 } String{ passive Perception 13 } None 1
+6 10 12
+========= Passives =========
+Rampage: When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack
+========== Attacks null ========
+Attack Bite 5 5 2 6 3 piercing null
+======= Areas ==========
+0 2 1 1 1 2 0 0 0 0 0 

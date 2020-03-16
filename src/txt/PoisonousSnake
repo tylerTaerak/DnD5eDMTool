@@ -1,0 +1,7 @@
+Monster String{ Poisonous Snake } Tiny Beast 2 13 2 String{ 30 ft, swim 30 ft }  2 false 16 false 11 false 1 false 10 false 3 false int[]{ } String{ blindsight 10 ft, passive Perception 10 } None 0.125
+1 4 0
+
+============= Attacks null ===========
+Attack Bite 5 5 0 0 1 piercing DCAttack{ null 10 5 0 null 2 4 0 null poison null Constitution true } }
+=========== Areas ==========
+4 4 4 4 4 4 2 2 2 0 0 

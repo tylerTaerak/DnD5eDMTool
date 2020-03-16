@@ -1,0 +1,13 @@
+Monster Dao Large Elemental 4 18 187 String{ 30 ft, burrow 30 ft, fly 30 ft } 23 false 12 false 24 false 12 true 13 true 14 true int[]{ } String{ darkvision 120 ft, passive Perception 11 } Terran 11
+15 10 105
+============ Passives ============
+Condition Immunities: petrified
+Earth Glide: The dao can burrow through nonmagical, unworked earth and stone. While doing so, the dao doesn't disturb the material it moves through
+Elemental Demise: If the dao dies, its body disintegrates into crystalline powder, leaving behind only the equipment the dao was wearing or carrying
+Innate Spellcasting: The dao's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: detect evil and good, detect magic, stone shape 3/day each: passwall, move earth, tongues 1/day each: conjure elemental (earth elemental only), gaseous form, invisibility, phantasmal killer, plane shift, wall of stone
+Sure-Footed: The dao has advantage on Strength and Dexterity saving throws made against effects that would knock it prone
+=========== Attacks 1 1 ==============
+Attack Fist 10 5 2 8 6 bludgeoning null
+Attack Maul 10 5 4 6 6 bludgeoning DCAttack{ null 18 5 0 null 0 0 0 null String{ knocked prone } Strength false } }
+========= Areas ===========
+3 1 1 2 1 2 2 2 1 0 0 

@@ -1,0 +1,30 @@
+LegendaryMonster Vampire Medium String{ Undead (shapechanger) } 5 16 144 String{ 30 ft } 18 false 18 true 18 false 17 false 15 true 18 true int[]{ 11 16 } String{ darkvision 120 ft, passive Perception 17 } String{ the languages it knew in life } 13
+17 8 68
+======== Passives ========
+Damage Resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical weapons
+Shapechanger: If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form. While in bat form, the vampire can't speak, its walking speed is 5 ft, and it has a flying speed of 30 ft. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. While in mist form, the vampire can't take any actions, speak, or manipulate aobjects. It is weightless, has a flying speed of 20 ft, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight
+Legendary Resistance (3/day): If the vampire fails a saving throw, it can choose to succeed instead
+Misty Escape: When it drops to 0 hit points outside of its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed. While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then paralyzed until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point
+Regeneration: The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn
+Spider Climb: The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
+Vampire Weaknesses: The vampire has the following flaws: Forbiddance: The vampire can't enter a residence without an invitation from one of the occupants Harmed by Running Water: The vampire takes 20 acid damage if it ends its turn in running water Stake to the Heart: If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed Sunlight Hypersensitivity: The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks
+Children of the Night (1/day): As an action, the vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn't up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action
+========= Attacks 0 1 ==========
+Attack String{ Unarmed Strike } 9 5 1 8 4 bludgeoning String{ instead of dealing damage, the vampire can grapple the target (escape DC 18) }
+Attack Bite 9 5 4 6 4 String{ piercing and necrotic } String{ this attack can only target a willing creature, or one that is grappled by the vampire, incapacitated, or restrained. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control }
+DCAttack Charm 17 30 0 null 0 0 0 null String{ charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Althought he target isn't under the vampire's control, it takes a vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect } Wisdom false
+=========== Legendary Actions ==========
+Move 1 String{ the vampire moves up to its speed without provoking opportunity attacks }
+String{ Unarmed Strike } 1 String{ the vampire makes one unarmed strike }
+Bite 2 String{ the vamprie makes one bite attack }
+============ Lair ============
+---------- regionalEffects ----------
+There's a noticeable increase in the populations of bats, rats, and wolves in the region
+Plants within 500 ft of the lair wither, and their stems and branches become twisted and thorny
+Shadows cast within 500 ft of the lair seem abnormally gaunt and sometimes move as though alive
+A creeping fog clings to the ground within 500 ft of the vampire's lair. The fog occasionally takes eerie forms, such as grasping claws and writhing serpents
+----------- Lair -------------
+A grand yet defensible location, such as a castle, fortified manor, or walled abbey
+========= Areas =============
+2 1 1 2 1 2 3 4 1 0 0
+

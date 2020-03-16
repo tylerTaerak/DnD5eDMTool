@@ -1,0 +1,9 @@
+Monster Priest Medium String{ Humanoid (any race) } 2 13 27 String{ 25 ft } 10 false 10 false 12 false 13 false 16 false 13 false int[]{ 9 13 14 } String{ passive Perception 13 } String{ any two languages } 2
+5 8 5
+========= Passives ========
+Divine Eminence: As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st
+Spellcasting: The priest is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared: Cantrips: light sacred flame, thaumaturgy 1st level (4 slots): cure wounds, guiding bolt, sanctuary 2nd level (3 slots): lesser restoration, spiritual weapon 3rd level (2 slots): dispel magic, spirit guardians
+======== Attacks null ========
+Attack Mace 2 5 1 6 0 bludgeoning null
+========= Areas ==========
+1 1 1 1 4 1 0 0 0 0 0

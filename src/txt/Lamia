@@ -1,0 +1,10 @@
+Monster  Lamia Large Monstrosity 2 13 87 String{ 30 ft } 16 false 13 false 15 false 14 false 15 false 16 false int[]{ 4 6 16 } String{ darkvision 60 ft, passive Perception 12 } String{ Abyssal, Common } 4
+13 10 26
+============= Passives ==============
+Innate Spellcasting: The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components: At will: disguise self (any humanoid form), major image 3/day each: charm person, mirror image, scyring, suggestion 1/day: geas
+============= Attacks 0 1  =============
+Attack Claws 5 5 2 10 3 slashing null
+Attack Dagger 5 5 1 4 3 piercing null
+Attack String{ Intoxicating Touch } 5 5 0 0 0 null String{ cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and ability checks }
+============== Areas =============
+2 1 1 2 1 4 1 0 0 0 0 

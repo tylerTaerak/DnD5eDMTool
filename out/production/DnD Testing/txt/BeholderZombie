@@ -1,0 +1,14 @@
+Monster String{ Beholder Zombie } Large Undead 3 15 93 String{ 0 ft, fly 20 ft (hover) } 10 false 8 false 16 false 3 false 8 true 5 false int[]{ } String{ darkvision 60 ft, passive Perception 9 } String{ understands Deep Speech and Undercommon but can't speak } 5
+11 10 33
+=========== Passives ==========
+Damage Immunities: poison
+Condition Immunities: poisoned
+Undead Fortitude: If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead
+========== Attacks null ==========
+Attack Bite 3 5 4 6 0 piercing null
+DCAttack String{ Paralyzing Ray } 14 60 0 null 0 0 0 null String{ paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false
+DCAttack String{ Fear Ray } 14 60 0 null 0 0 0 null String{ frightened for 1 minute. The target can repeat the saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Wisdom false
+DCAttack String{ Enervation Ray } 14 60 0 null 8 8 0 necrotic null Constitution true 
+DCAttack String{ Disintegration Ray } 14 60 0 null 10 8 0 force String{ if this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without a saving throw. If the target is a Huge or larger nonmagical object or creation of magical force, this ray disintegrates a 10-ft cube of it } Dexterity false
+=========== Areas ==========
+3 1 1 2 1 2 4 3 1 0 0 

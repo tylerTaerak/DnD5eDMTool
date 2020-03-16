@@ -1,0 +1,9 @@
+Monster String{ Red Dragon, Wyrmling } Medium Dragon 2 17 75 String{ 30 ft, climb 30 ft, fly 60 ft } 19 false 10 true 17 true 12 false 11 true 15 true int[]{ 11 16 } String{ blindsight 10 ft, darkvision 60 ft, passive Perception 14 } Draconic 4
+10 8 30
+===================== Passives =========
+Damage Immunities: fire
+============= Attacks 0 1 1 ===========
+Attack Bite 6 5 1 10 7 String{ piercing and fire } null
+DCAttack String{ Fire Breath (recharge 5-6) } 13 0 15 cone 7 6 0 fire null Dexterity true
+============== Areas ===========
+2 2 2 4 3 2 1 0 0 0 0

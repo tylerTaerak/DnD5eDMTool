@@ -1,0 +1,15 @@
+Monster Ghost Medium Undead 2 11 45 String{ 0 ft, fly 40 ft } 7 false 13 false 10 false 10 fasle 12 false 17 false int[]{ } String{ darkvision 60 ft, passive Perception 11 } String{ any languages it knew in life } 4
+10 8 0
+=========== Passives ==========
+Damage Resistances: acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: cold, necrotic, poison
+Condition Immunities: charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
+Ethereal Sight: The ghost can see 60 ft into the Ethereal Plane when it is on the Material Plane, and vice versa
+Incorporeal Movement: The ghost can move through other creatures an objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object
+Etherealness: As an action, the ghost enters the Etheral Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane
+========= Attacks null ==============
+Attack String{ Withering Touch } 5 5 4 6 3 necrotic null
+DCAttack String{ Horrifying Visage } 13 0 60 sphere 0 0 0 null String{ frightened, and if the save fails by 5 or more, ages 1d4 x 10 years. A frightened creature can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occuring } Wisdom false
+DCAttack String{ Possession (recharge 6) } 13 5 0 null 0 0 0 null String{ possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies. The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 ft of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends } Charisma false
+============ Areas ==========
+4 1 2 2 1 3 4 4 1 0 0 

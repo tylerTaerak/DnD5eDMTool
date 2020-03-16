@@ -1,0 +1,13 @@
+Monster Jackalwere Medium String{ Humanoid (shapechanger) } 2 12 18 String{ 40 ft } 11 false 15 false 11 false 13 false 11 false 10 false int[]{ 4 11 16 } String{ passive Perception 12 } String{ Common (can't speak in jackal form) } 0.5
+4 8 0
+============ Passives ============
+Damage Immunities: bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Shapechanger: The jackalwere can use its action to polymorph back into its true form (that of a Small jackal). Other than its size. its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies
+Keen Hearing and Smell: The jackalwere has advantage on Wisdom (Perception) checks that rely on hearing or smell
+Pack Tactics: The jackalwere has advantage on an attack roll against a creature if at least on eof the jackalwere's allies i within 5 ft of the creature and the ally isn't incapacitated
+=========== Attacks null ===========
+Attack String{ Bite (Jackal or Hybrid Form Only) } 4 5 1 4 2 piercing null
+Attack String{ Scimitar (Human or Hybrid Form Only) } 4 5 1 6 2 slashing null
+DCAttack String{ Sleep Gaze } 10 30 0 null 0 0 0 null String{ succumbs to a magical slumber, falling unconscious for 10 minutes or until someone uses an action to shake the target awake. A creature that successfully saves against the effect is immune to this jackalwere's gaze for the next 24 hours. Undead and creatures immune to being charmed aren't affect by this attack } Wisdom false
+========== Areas ===============
+2 4 3 4 3 4 1 1 1 0 0 

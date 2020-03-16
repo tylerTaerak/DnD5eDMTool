@@ -1,0 +1,11 @@
+Monster Pentadrone Large Construct 2 16 32 String{ 40 ft } 15 false 14 false 12 false 10 false 10 false 13 false int[]{ 11 } String{ truesight 120 ft, passive Perception 14 } Modron 2
+5 10 5
+============ Passives =============
+Axiomatic: The pentadrone can't be compelled to act in a manner contrary to its nature or its instructions
+Disintegration: If the pentadrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying
+============ Attacks 0 0 0 0 0 ============
+Attack Arm 4 5 1 6 2 bludgeoning null
+DCAttack String{ Paralysis Gaas (recharge 5-6) } 11 0 30 cone 0 0 0 null String{ paralyzed for 1 minute. A creature can repeat the savin throw at the end of each of its turns, ending the effect on itself on a success } Constitution false
+============ Areas ==============
+1 1 1 1 1 1 1 0 1 0 4
+

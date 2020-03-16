@@ -1,0 +1,16 @@
+Monster Balor Huge String{ Fiend (demon) } 6 19 262 String{ 40 ft, fly 80 ft } 26 true 15 false 22  true 20 false 16 true 22 true int[]{ } String{ truesight 120 ft, passive Perception 13 } String{ Abyssal, telepathy 120 ft } 19
+21 12 126
+======================= Passives ==================
+Damage Resistances: cold, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Death Throes: When the balor dies, it explodes, and each creature within 30 ft of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the balor's weapons
+Fire Aura: At the start of each of the balor's turns, each creature within 5 ft of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 ft of it takes 10 (3d6) fire damage
+Magic Resistance: The balor has advantage on saving throws against spells and other magical effects
+Magic Weapons: The balor's weapon attacks are magical
+Teleport: As an action, the balor magically teleports, along with any equipment it is wearing or carrying, up to 120 ft to an unoccupied space it can see
+=================== Attacks 0 1 ====================
+Attack Longsword 14 10 6 8 8 String{ slashing and lightning } String{ If the balor scores a critical hit, it rolls damage three times, instead of twice }
+Attack Whip 14 30 5 6 8 String{ slashing and fire } DCAttack{ null 20 30 0 null 0 0 0 null String{ pulled 25 ft toward the balor } Strength false } }
+========= Areas ========
+1 0 0 0 0 0 1 2 0 4 0

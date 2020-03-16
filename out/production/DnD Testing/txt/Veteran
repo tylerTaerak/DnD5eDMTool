@@ -1,0 +1,9 @@
+Monster Veteran Medium String{ Humanoid (any race) } 2 17 58 String{ 30 ft } 16 false 13 false 14 false 10 false 11 false 10 false int[]{ 3 11 } String{ passive Perception 12 } String{ any one language (usually Common) } 3
+9 8 18
+
+======== Attacks 0 0 1 ========
+Attack Longsword 5 5 1 8 3 slashing null
+Attack Shortsword 5 5 1 6 3 piercing null
+Attack String{ Heavy Crossbow } 3 100 1 10 0 piercing null
+======== Areas ==========
+1 2 2 2 4 2 1 0 0 0 0 

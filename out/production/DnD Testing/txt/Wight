@@ -1,0 +1,13 @@
+Monster Wight Medium Undead 2 14 45 String{ 30 ft } 15 false 14 false 16 false 10 false 13 false 15 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 13 } String{ the languages it knew in life } 3
+6 8 18
+========== Passives =========
+Damage Resistances: necrotic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities: poison
+Condition Immunities: exhaustion, poisoned
+Sunlight Sensitivity: While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight
+========= Attacks 0 1 ===========
+Attack String{ Life Drain } 4 5 1 6 2 necrotic DCAttack{ null 13 5 0 null 0 0 0 null String{ hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time } Constitution false } }
+Attack Longsword 4 5 1 10 2 slashing null
+Attack Longbow 4 150 1 8 2 piercing null
+======== Areas =========
+4 3 3 4 3 4 4 4 1 0 0 

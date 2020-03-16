@@ -1,0 +1,8 @@
+Monster Half-Ogre Large Giant 2 12 30 String{ 30 ft } 17 false 10 false 14 false 7 false 9 false 10 false int[]{ } String{ darkvision 60 ft, passive Perception 9 } String{ Common, Giant } 1
+4 10 8
+
+========== Attacks null ============
+Attack Battleaxe 5 5 2 10 3 slashing null
+Attack Javelin 5 30 2 6 3 piercing null
+=========== Areas ============
+3 4 3 4 4 2 2 1 1 0 0 

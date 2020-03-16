@@ -1,0 +1,10 @@
+Monster Azer Medium Elemental 2 17 39 String{ 30 ft } 17 false 12 false 15 true 12 false 13 false 10 false int[]{ } String{ passive Perception 11 } Ignan 2
+6 8 12
+===================== Passives ==================
+Heated Body: A creature that touches the azer or hits it with a melee attack while within 5 ft of it takes 5 (1d10) fire damage
+Heated Weapons: When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack)
+Illumination: The azer sheds bright light in a 10-ft radius and dim light for an additional 10 ft
+====================== Attacks null =============
+Attack Warhammer 5 5 1 8 5 String{ bludgeoning and fire } null
+========= Areas ========
+3 1 1 2 1 1 4 3 1 1 0

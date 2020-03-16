@@ -1,0 +1,12 @@
+Monster String{ Gray Ooze } Medium Ooze 2 8 22 String{ 10 ft, climb 10 ft } 12 false 6 false 16 false 1 false 6 false 2 false int[]{ 16 } String{ blindsight 60 ft (blind beyond this radius), passive Perception 8 } None 0.5
+3 8 9
+========== Passives =======
+Damage Resistances: acid, cold, fire
+Condition Immunities: blinded, charmed, deafened, exhaustion, frightened, prone
+Amorphous: The ooze can move through a space as narrow as 1 inch wide without squeezing
+Corrode Metal: Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage. The ooze can eat through 2-inch thick, nonmagical metal in 1 round
+False Appearance: While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock
+========== Attacks null =========
+Attack Pseudopod 3 5 3 6 1 String{ bludgeoning and acid } String{ if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10 }
+========== Areas =============
+4 1 1 1 1 0 4 1 1 0 0 

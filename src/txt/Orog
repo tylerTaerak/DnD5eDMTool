@@ -1,0 +1,10 @@
+Monster Orog Medium String{ Humanoid (orc) } 2 18 42 String{ 30 ft } 18 false 12 false 18 false 12 false 11 false 12 false int[]{ 7 17 } String{ darkvision 60 ft, passive Perception 10 } String{ Common, Orc } 2
+5 8 20
+=========== Passives ==============
+Aggressive: As a bonus action, the orog can move up to its speed toward a hostile creature that it can see
+========= Attacks 0 0 ==============
+Attack Greataxe 6 5 1 12 4 slashing null
+Attack Javelin 6 30 1 6 4 piercing null
+=========== Areas =========
+4 3 3 4 3 2 1 0 0 0 0
+

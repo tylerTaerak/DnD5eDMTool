@@ -1,0 +1,10 @@
+Monster String{ Stone Giant } Huge Giant 3 17 126 String{ 40 ft } 23 false 15 true 20 true 10 false 12 true 9 false int[]{ 3 11 } String{ darkvision 60 ft, passive Perception 14 } Giant 7
+11 12 55
+============== Passives =============
+Stone Camouflage: The giant has advantage on Dexterity (Stealth) checks made to hide in rocky terrain
+Rock Catching: As a reaction, if a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it
+================ Attacks 0 0 ==========
+Attack Greatclub 9 15 3 8 6 bludgeoning null
+Attack Rock 9 60 4 10 6 bludgeoning DCAttack{ null 17 60 0 null 0 0 0 null String{ knocked prone } Strength false } }
+============ Areas ==============
+3 2 2 4 2 3 1 1 1 0 0

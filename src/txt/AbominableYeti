@@ -1,0 +1,14 @@
+Monster String{ Abominable Yeti } Huge Monstrosity 4 15 137 String{ 40 ft, climb 40 ft } 24 false 10 false 22 false 9 false 13 false 9 false int[]{ 11 16 } String{ darkvision 60 ft, passive Perception 15 } Yeti 9
+11 12 66
+========= Passives ============
+Damage Immunities: cold
+Fear of Fire: If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its turn
+Keen Smell: The yeti has advantage on Wisdom (Perception) checks that rely on smell
+Snow Camouflage: The yeti has advantage on Dexterity (Stealth) checks made to hide in snowy terrain
+====== Attacks 1 0 0 ========
+Attack Claw 11 5 4 6 7 String{ slashing and cold } null
+DCAttack String{ Chilling Gaze } 18 30 0 null 6 6 0 cold String{ paralyzed for 1 minute, unless it is immune to cold damage. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the target's saving throw is successful, or if the effect ends on it, the target is immune to this yeti's gaze for 1 hour } Consitution false
+DCAttack String{ Cold Breath (recharge 6) } 18 0 30 cone 10 8 0 cold null Constitution true
+========= Areas ========
+2 3 3 4 3 0 4 0 1 0 0 
+

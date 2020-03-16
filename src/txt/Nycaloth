@@ -1,0 +1,16 @@
+Monster Nycaloth Large String{ Fiend (yugoloth) } 4 18 123 String{ 40 ft, fly 60 ft } 20 false 11 false 19 false 12 false 10 false 15 false int[]{ 7 11 16 } String{ blindsight 60 ft, darkvision 60 ft, passive Perception 14 } String{ Abyssal, Infernal, telepathy 60 ft } 9
+13 10 52
+============ Passives ============
+Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: acid, poison
+Condition Immunities: poisoned
+Innate Spellcasting: The nycaloth's innate spellcasting ability is Charisma. The nycaloth can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic, invisibility (self only), mirror image
+Magic Resistance: The nycaloth has advantage on saving throws against spells and other magical effects
+Magic Weapons: The nycaloth's weapon attacks are magical
+Teleport: As an action, the nycaloth can magically teleport, along with any equipment it is wearing or carrying, up to 60 ft to an unoccupied space it can see
+=========== Attacks 0 1 ===========
+Attack Claw 9 5 2 6 5 slashing DCAttack{ null 16 5 0 null 0 0 0 null String{ take 5 (2d4) slashing damage at the start of each of its turns due to a fiendish wound. Each time the nycaloth hits the wounded target with this attack, the damage dealt by the wound increases by 5 (2d4). Any creature can take an action to stanch the wound with a successful DC 13 Wisdom (Medicin) check. The wound also closes if the target receives magical healing } Consitution false } }
+Attack Greataxe 9 5 2 12 5 slashing null
+============ Areas ==============
+2 1 1 2 1 2 2 3 1 4 0 
+

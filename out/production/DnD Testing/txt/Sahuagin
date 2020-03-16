@@ -1,0 +1,12 @@
+Monster Sahuagin Medium String{ Humanoid (sahuagin) } 2 12 22 String{ 30 ft, swim 40 ft } 13 false 11 false 12 false 12 false 13 false 9 false int[]{ 11 } String{ darkvision 120 ft, passive Perception 15 } Sahuagin 0.5
+4 8 4
+=========== Passives =========
+Blood Frenzy: The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points
+Limited Amphibousness: The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating
+Shark Telepathy: The sahuagin can magically command any shark within 120 ft of it, using a limited telepathy
+========== Attacks 0 2 ==========
+Attack Bite 3 5 1 4 1 piercing null
+Attack Claws 3 5 1 4 1 slashing null
+Attack Spear 3 5 1 8 1 piercing null
+========= Areas ==========
+1 1 1 0 1 0 1 0 1 0 0 

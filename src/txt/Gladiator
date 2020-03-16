@@ -1,0 +1,10 @@
+Monster Gladiator Medium String{ Humanoid (any race) } 3 16 112 String{ 30 ft } 18 true 15 true 16 true 10 false 12 false 15 false int[]{ 3 7 } String{ passive Perception 11 } String{ any one language (usually Common) } 5
+15 8 45
+========= Passives =========
+Brave: The gladiator has advantage on saving throws against being frightened
+Brute: A melee weapon deals one extra die of its damaeg when the gladiator hits with it (included in the attack)
+========= Attacks 0 0 0 =======
+Attack Spear 7 5 2 6 4 piercing null
+Attack String{ Shield Bash } 7 5 2 4 4 bludgeoning DCAttack{ null 15 5 0 null 0 0 0 null String{ knocked prone if a Medium or smaller creature } Strength false } }
+======== Areas ========
+2 1 1 1 4 2 1 0 0 0 0 

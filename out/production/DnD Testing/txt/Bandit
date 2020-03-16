@@ -1,0 +1,8 @@
+Monster Bandit Medium String{ Humanoid (any race) } 2 12 11 String{ 30 ft } 11 false 12 false 12 false 10 false 10 false 10 false int[]{ } String{ passive Perception 10 } String{ any one language (usually Common) } 0.125
+2 8 2
+
+========= Attacks null ========
+Attack Scimitar 3 5 1 6 1 slashing null
+Attack String{ Light Crossbow } 3 80 1 8 1 piercing null
+======== Areas =========
+2 4 3 3 4 3 1 0 0 0 0

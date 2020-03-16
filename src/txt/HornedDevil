@@ -1,0 +1,14 @@
+Monster String{ Horned Devil } Large String{ Fiend (devil) } 4 18 178 String{ 20 ft, fly 60 ft } 22 true 17 true 21 false 12 false 16 true 17 true int[]{ } String{ darkvision 120 ft, passive Perception 13 } String{ Infernal, telepathy 120 ft } 11
+17 10 55
+================ Passives ====================
+Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Devil's Sight: Magical darkness doesn't impede the devil's darkvision
+Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+================= Attacks 0 0 1 =========================
+Attack Fork 10 10 2 8 6 piercing null
+Attack Tail 10 10 1 8 6 piercing DCAttack{ null 17 10 0 null 0 0 0 null String{ the target loses 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing } Constitution false } }
+Attack String{ Hurl Flame } 7 150 4 6 0 fire String{ if the target is a flammable object that isn't being worn or carried, it also catches fire }
+================ Areas ============
+2 1 1 2 1 1 2 3 1 4 0

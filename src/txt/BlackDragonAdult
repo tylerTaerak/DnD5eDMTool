@@ -1,0 +1,29 @@
+LegendaryMonster String{ Black Dragon, Adult } Huge Dragon 5 19 195 String{ 40 ft, fly 80 ft, swim 40 ft } 23 false 14 true 21 true 14 false 13 true 17 true int[]{ 11 16 } String{ blindsight 60 ft, darkvision 120 ft, passive Perception 21 } String{ Common, Draconic } 14
+17 12 85
+================= Passives ==========
+Damage Immunities: acid
+Amphibious: The dragon can breathe air and water
+Legendary Resistance (3/day): If the dragon fails a saving throw, it can choose to succeed instead
+================= Attacks 3 0 1 1 ============
+Attack Bite 11 10 2 10 10 String{ piercing and acid } null
+Attack Claw 11 5 2 6 6 slashing null
+Attack Tail 11 20 2 8 6 bludgeoning null
+DCAttack String{ Frightful Presence } 16 0 120 sphere 0 0 0 null String{ frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or if the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours } Wisdom false
+DCAttack String{ Acid Breath (Recharge 5-6) } 18 0 60 String{ 10-ft wide line } 12 8 0 acid null Dexterity true
+=============== Legendary Actions ==========
+Detect 1 String{ the dragon makes a Wisdom (Perception) check }
+String{ Tail Attack } 1 String{ the dragon makes a tail attack }
+String{ Wing Attack } 2 String{ the dragon beats its wings. Each creature within 15 ft of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed }
+=================== Lair ============
+---------------- lairActions ------------
+null 15 120 20 String{ near any pools of water within range } 0 0 0 null String{ pulled up to 20 ft into the water and knocked prone } Strength false
+null 15 120 20 sphere 3 6 0 piercing String{ a cloud of swarming insects fills a space in range. The cloud spreads around corners and remains until the dragon dismisses it as an action, uses this lair action again, or dies. A creature that ends its turn in the cloud takes 10 (3d6) piercing damage } Constitution true
+null 0 60 15 sphere 0 0 0 null String{ Magical darkness spreads in an area until the dragon dismisses it as an action, uses this lair action again, or dies. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. If any of the effect's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled } null false
+-------------- regionalEffects ------------
+The land within 6 miles of the lair takes twice as long as normal to traverse, since the plants grow thick and twisted, and the swamps are thick with reeking mud
+Water sources within 1 mile of the lair are supernaturally fouled. Enemies of the dragon that drink such water regurgitate it within minutes
+Fog lightly obscures the land within 6 miles of the lair
+-------------- Lair ---------
+Swamps
+========= Areas ========
+2 1 2 1 0 1 2 0 0 0 0

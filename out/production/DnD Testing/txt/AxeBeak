@@ -1,0 +1,7 @@
+Monster String{ Axe Beak } Large Beast 2 11 19 String{ 50 ft } 14 false 12 false 12 false 2 false 10 false 5 false int[]{ } String{ passive Perception 10 } None 0.25
+3 10 3
+
+======= Attacks null ==========
+Attack Beak 4 5 1 8 2 slashing null
+========== Areas ============
+1 4 4 4 4 4 1 0 2 0 0 

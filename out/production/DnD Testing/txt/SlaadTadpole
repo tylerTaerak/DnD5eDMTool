@@ -1,0 +1,9 @@
+Monster String{ Slaad Tadpole } Tiny Aberration 2 12 10 String{ 30 ft } 7 false 15 false 10 false 3 false 5 false 3 false int[]{ 16 } String{ darkvision 60 ft, passive Perception 7 } String{ Understands Slaad but can't speak } 0.125
+4 4 0
+=========== Passives ===========
+Damage Resistances: acid, cold, fire, lightning, thunder
+Magic Resistance: The slaad has advantage on saving throws against spells and other magical effects
+============ Attacks null =========
+Attack Bite 4 5 1 4 2 piercing null
+=========== Areas ===========
+2 1 1 2 1 1 4 2 2 0 0 

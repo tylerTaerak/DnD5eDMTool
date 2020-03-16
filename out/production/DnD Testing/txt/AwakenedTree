@@ -1,0 +1,10 @@
+Monster String{ Awakened Tree } Huge Plant 2 13 59 String{ 20 ft } 19 false 6 false 15 false 10 false 10 false 7 false int[]{ } String{ passive Perception 10 } String{ one language known by its creator } 2
+7 12 14
+========== Passives =========
+Damage Vulnerabilities: fire
+Damage Resistances: bludgeoning, piercing
+False Appearance: While the tree remains motionless, it is indistinguishable from a normal tree
+======== Attacks null =========
+Attack Slam 6 10 3 6 4 bludgeoning null
+========= Areas ==========
+1 3 4 4 2 1 0 0 2 0 0 

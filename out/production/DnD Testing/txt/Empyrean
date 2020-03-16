@@ -1,0 +1,17 @@
+LegendaryMonster Empyrean Huge String{ Celestial (titan) } 7 22 313 String{ 50 ft, fly 50 ft, swim 50 ft } 30 true 21 false 30 false 21 true 22 true 27 true int[]{ 6 13 } String{ truesight 120 ft, passive Perception 16 } all 23
+19 12 190
+============ Passives ===========
+Damage Immunities: bludgeoning, piercing, and slashing from nonmagical weapons
+Innate Spellcasting: They empyrean's innate spellcasting ability is Charisma (spell save DC 23, + 15 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: greater restoration, pass without trace, water breathing, water walk 1/day each: commune, dispel evil and good, earthquake, fire storm, plane shift (self only)
+Legendary Resistance (3/day): If the empyrean fails a saving throw, it can choose to succeed instead
+Magic Resistance: The empyrean has advantage on saving throws against spells and other effects
+Magic Weapons: The empyrean's weapon attacks are magical
+========= Attacks null ===========
+Attack Maul 17 10 6 6 10 bludgeoning DCAttack{ null 15 10 0 null 0 0 0 null String{ stunned until the end of the empyrean's next turn } Constitution false } }
+Attack Bolt 15 600 7 6 0 String{ acid, cold, fire, force, lightning, radiant, or thunder (empyrean's choice) } null
+============= Legendary Actions ============
+Attack 1 String{ the empyrean makes one attack }
+Bolster 1 String{ the empyrean bolsters all nonhostile creatures within 120 ft of it until the end of its next turn. Bolstered creatures can't be charmed or frightened, and they gain advantage on ability checks and saving throws until the end of the empyrean's next turn }
+String{ Trembling Strike } 2 String{ the empyrean strikes the ground with its maul, triggering an earth tremor. All other creatures on the ground within 60 ft of the empyrean must succeed on a DC 25 Strength saving throw or be knocked prone }
+======== Areas ===========
+1 1 1 1 1 1 1 1 1 4 2

@@ -1,0 +1,31 @@
+LegendaryMonster Beholder Large Aberration 5 18 180 String{ 0 ft, fly 20 ft (hover) } 10 false 14 false 18 false 17 true 15 true 17 true int[]{ 11 } String{ darkvision 120 ft, passive Perception 22 } String{ Deep Speech, Undercommon } 13
+19 10 76
+====================== Passives =================
+Condition Immunities: prone
+Antimagic Cone: The beholder's central eye creates an area of antimagic, as in the antimagic field spell, in a 150-ft cone. At the start of each of its turns, the beholder decides which way the cone faces and whether the cone is active. The area works against the beholder's own eye rays
+===================== Attacks null ====================
+Attack Bite 5 5 4 6 0 piercing null
+DCAttack String{ Charm Ray } 16 120 0 null 0 0 0 null String{ charmed by the beholder for 1 hour, or until the beholder harms the creature } Wisdom false
+DCAttack String{ Paralyzing Ray } 16 120 0 null 0 0 0 null String{ paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false
+DCAttack String{ Fear Ray } 16 120 0 null 0 0 0 null String{ frightened for 1 minute. The target can repeat the saving throw at the end of each of its turn, ending the effect on itself on a success } Wisdom false
+DCAttack String{ Slowing Ray } 16 120 0 null 0 0 0 null String{ the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Dexterity false
+DCAttack String{ Enervation Ray } 16 120 0 null 8 8 0 necrotic null Constitution true
+DCAttack String{ Telekinetic Ray } 16 120 0 null 0 0 0 null String{ the beholder moves the target up to 30 ft in any direction. The target is restrained by the ray's telekinetic grip until the start of the beholder's next turn or until the beholder is incapacitated } Strength false
+DCAttack String{ Sleep Ray } 16 120 0 null 0 0 0 null String{ falls asleep and remains unconscious for 1 minute. The target awakens if it takes damage or another creature takes an action to wake it. This ray has no effect on constructs and undead } Wisdom false
+DCAttack String{ Petrification Ray } 16 120 0 null 0 0 0 null String{ begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic } Dexterity false
+DCAttack String{ Disintegration Ray } 16 120 0 null 10 8 0 force String{ if this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust } Dexterity false
+DCAttack String{ Death Ray } 16 120 0 null 10 10 0 necrotic String{ dies if the target reduces it to 0 hit points } Dexterity false
+======================= Legendary Actions ===================
+String{ Eye Ray } 1 String{ The beholder uses one random eye ray } }
+======================= Lair ================================
+--------------------- lairActions ---------------------------
+null 0 120 50 square 0 0 0 null String{ the ground in the area becomes slimy; that area is difficult terrain until initiative count 20 on the next round } null false
+null 15 120 10 String{ each creature near a wall } 0 0 0 null String{ grappled (escape DC 15) } Dexterity false
+null 0 60 0 null 0 0 0 null String{ an eye opens on a solid surface, and one random eye ray of the beholder shoots from that eye. The eye then closes and disappears } null false
+------------------------ regionalEffects --------------------
+Creatures within 1 mile of the beholder's lair sometimes feel as if they're being watched when they aren't
+When the beholder sleeps, minor warps in reality occur within 1 mile of its lair and then vanish 24 hours later. Marks on cave walls might change subtly, an eerie trinket might appear where none existed before, harmless slime might coat a statue, and so on. These effects apply only to natural surfaces and to nonmagical objects that aren't on anyone's person
+------------------------ Lair -------------------------
+Large, spacious caverns with high ceilings
+========= Areas ========
+2 0 0 1 0 0 3 1 0 0 0

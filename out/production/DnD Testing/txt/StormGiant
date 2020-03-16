@@ -1,0 +1,13 @@
+Monster String{ Storm Giant } Huge Giant 5 16 230 String{ 50 ft, swim 50 ft } 29 true 14 false 20 true 16 false 18 true 18 true int[]{  2 3 5 11 } String{ passive Perception 19 } String{ Common, Giant } 13
+20 12 100
+=========== Passives ===========
+Damage Resistances: cold
+Damage Resistances: lightning, thunder
+Amphibious: the giant can breathe air and water
+Innate Spellcasting: The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components: At will: detect magic, feather fall, levitate, light 3/day each: control weather, water breathing
+=========== Attacks 0 0 =============
+Attack Greatsword 14 10 6 6 9 slashing null
+Attack Rock 14 60 4 12 9 bludgeoning null
+DCAttack String{ Lightning Strike (recharge 5-6) } 17 500 10 sphere 12 8 0 lightning null Dexterity true
+===================== Areas ===============
+2 2 2 3 1 1 1 1 2 0 0 

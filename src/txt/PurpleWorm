@@ -1,0 +1,9 @@
+Monster String{ Purple Worm } Gargantuan Monstrosity 5 18 247 String{ 50 ft, burrow 30 ft } 28 false 7 false 22 true 1 false 8 true 4 false int[]{ } String{ blindsight 30 ft, tremorsense 60 ft, passive Perception 9 } None 15
+15 20 90
+============== Passives ==============
+Tunneler: The worm can burrow through solid rock at half its burrow speed and leaves a 10-ft diameter tunnel in its wake
+============ Attacks 0 1 ============
+Attack Bite 9 10 3 8 9 piercing DCAttack{ null 19 10 0 null 0 0 0 null String{ swallowed by the worm. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the worm, and it takes 21 (6d6) acid damage at the start of each of the worm's turns. If the worm takes 30 damage or more on a single turn from a creature inside it, the worm must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swalled creatures, which fall prone in a space within 10 ft of the worm. If the worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 ft of movement, exiting prone } Dexterity false } }
+Attack String{ Tail Stinger } 9 10 3 6 9 piercing DCAttack{ null 19 10 0 null 12 6 0 poison null Constitution true } }
+========== Areas ==============
+4 1 1 2 1 2 4 2 2 0 0 

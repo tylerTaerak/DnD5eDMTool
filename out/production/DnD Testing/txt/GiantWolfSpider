@@ -1,0 +1,10 @@
+Monster String{ Giant Wolf Spider } Medium Beast 2 13 11 String{ 40 ft, climb 40 ft } 12 false 16 false 13 false 3 false 12 false 4 false int[]{ 11 16 } String{ blindsight 10 ft, darkvision 60 ft, passive Perception 13 } None 0.25
+2 8 2
+========== Passives =========
+Spider Climb: The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
+Web Sense: While in contact with a web, the spider knows the exact location of any other creature in contact with the same web
+Web Walker: The spider ignores movement restrictions caused by webbing
+=========== Attacks null =========
+Attack Bite 3 5 1 6 1 piercing DCAttack{ null 11 5 0 null 2 6 0 poison String{ if this poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit opints, and is paralyzed while poisoned in this way } Constitution true } }
+============ Areas ==============
+4 2 2 2 3 3 1 4 0 0 

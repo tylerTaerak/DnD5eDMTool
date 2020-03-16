@@ -1,0 +1,10 @@
+Monster String{ Winged Kobold } Small String{ Humanoid (kobold) } 2 13 7 String{ 30 ft, fly 30 ft } 7 false 16 false 9 false 8 false 7 false 8 false int[]{ } String{ darkvision 60 ft, passive Perception 8 } String{ Common, Draconic } 0.25
+3 6 -3
+=========== Passives ============
+Sunlight Sensitivity: While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight
+Pack Tactics: The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft of the creature and the ally isn't incapacitated
+============= Attacks null ============
+Attack Dagger 5 5 1 4 3 piercing null
+Attack String{ Dropped  Rock } 5 0 1 6 3 bludgeoning String{ This attack targets a creature directly below the kobold }
+========== Areas ==============
+4 4 4 4 3 3 1 0 0 0 0 

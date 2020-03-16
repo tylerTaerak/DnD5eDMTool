@@ -1,0 +1,14 @@
+Monster Vrock Large String{ Fiend (demon) } 3 15 104 String{ 40 ft, fly 60 ft } 17 false 15 true 18 false 8 false 13 true 8 true int[]{ } String{ darkvision 120 ft, passive Perception 11 } String{ Abyssal, telepathy 120 ft } 6
+11 10 44
+==================== Passives ===============
+Damage Resistances: cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical weapons
+Damage Immunities: poison
+Condition Immunities: poisoned
+Magic Resistance: The vrock has advantage on saving throws against spellsa nd other magical effects
+================= Attacks 0 1 =================
+Attack Beak 6 5 2 6 3 piercing null
+Attack Talons 6 5 2 10 3 slashing null
+DCAttack String{ Spores (Recharge 6) } 14 0 15 sphere 0 0 0 null String{ poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it } Constitution false
+DCAttack String{ Stunning Screech (1/day) } 14 0 20 sphere 0 0 0 null String{ stunned until the end of the vrock's next turn } Constitution false
+==================== Areas ===================
+2 1 1 2 1 1 2 3 1 4 0

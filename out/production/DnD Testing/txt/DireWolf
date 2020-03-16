@@ -1,0 +1,9 @@
+Monster String{ Dire Wolf } Large Beast 2 14 37 String{ 50 ft } 17 false 15 false 15 false 3 false 12 false 7 false int[]{ 11 16 } String{ passive Perception 13 } None 1
+5 10 10
+========== Passives ==========
+Keen Hearing and Smell: The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell
+Pack Tactics: The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft of the creature and the ally isn't incapacitated
+============ Attacks null ==========
+Attack Bite 5 5 2 6 3 piercing DCAttack{ null 13 5 0 null 0 0 0 null String{ knocked prone } Strength false } }
+============ Areas ===============
+2 4 4 4 2 3 0 0 1 0 0 

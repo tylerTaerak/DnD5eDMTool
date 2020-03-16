@@ -1,0 +1,8 @@
+Monster Baboon Small Beast  2 12 3 String{ 30 ft, climb 30 ft } 8 false 14 false 11 false 4 false 12 false 6 false int[]{ } String{ passive Perception 11 } None 0
+1 6 0
+========= Passives ======
+Pack Tactics: The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft of the creature and the ally isn't incapacitated
+======== Attacks null =========
+Attack Bite 1 5 1 4 -1 piercing null
+========= Areas ========
+1 3 4 4 2 1 0 0 1 0 0 

@@ -1,0 +1,11 @@
+Monster String{ Hell Hound } Medium Fiend 2 15 45 String{ 50 ft } 17 false 12 false 14 false 6 false 13 false 6 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 15 } String{ understands Infernal but can't speak it } 3
+7 8 14
+=============== Passives ============
+Damage Immunities: fire
+Keen Hearing and Smell: The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell
+Pack Tactics: The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 ft of the creature and the ally isn't incapacitated
+============= Attacks null ===============
+Attack Bite 5 5 1 8 10 String{ piercing and fire } null
+DCAttack String{ Fire Breath (recharge 5-6) } 12 0 15 cone 6 6 0 fire null Dexterity true
+============= Areas =============
+3 1 1 2 1 1 2 3 1 4 0

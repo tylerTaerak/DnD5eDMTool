@@ -1,0 +1,10 @@
+Monster Otyugh Large Aberration 3 14 114 String{ 30 ft } 16 false 11 false 19 true 6 false 13 false 6 false int[]{ } String{ darkvision 120 ft, passive Perception 11 } Otyugh 5
+12 10 48
+============ Passives ============
+Limited Telepathy: The otyugh can magically transmit simple messages and images to any creature within 120 ft of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond
+=========== Attacks 0 1 1 ==========
+Attack Bite 6 5 2 8 3 piercing DCAttack{ null 15 5 0 null 0 0 0 null String{ diseased and poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured } Constitution false } }
+Attack Tentacle 6 10 2 8 3 String{ bludgeoning and piercing } String{ if the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple one target }
+DCAttack String{ Tentacle Slam } 14 0 0 String{ creatures grappled by the otyugh } 2 6 3 bludgeoning String{ stunned until the end of the otyugh's next turn } Strength true
+=========== Areas =============
+4 1 1 1 1 2 4 3 1 0 0

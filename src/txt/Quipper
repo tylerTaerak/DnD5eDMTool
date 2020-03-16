@@ -1,0 +1,9 @@
+Monster Quipper Tiny Beast 2 13 1 String{ 0 ft, swim 40 ft } 2 false 16 false 9 false 1 false 7 false 2 false int[]{ } String{ darkvision 60 ft, passive Perception 8 } None 0
+1 4 -1
+=========== Passives ============
+Blood Frenzy: The quipper has advantaeg on melee attack rolls against any creature that doens't have all its hit points
+Water Breathing: The quipper can breathe only underwater
+========== Attacks null ========
+Attack Bite 5 5 0 0 1 piercing null
+========== Areas ============
+0 0 0 0 0 0 1 0 1 0 0 

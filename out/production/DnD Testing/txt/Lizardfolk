@@ -1,0 +1,11 @@
+Monster Lizardfolk Medium String{ Humanoid (lizardfolk) } 2 15 22 String{ 30 ft, swim 30 ft } 15 false 10 false 13 false 7 false 12 false 7 false int[]{ 11 16 17 } String{ passive Perception 13 } Draconic 0.5
+4 8 4 
+============= Passives ============
+Hold Breath: The lizard can hold its breath for 15 minutes
+========== Attacks 0 1 ==============
+Attack Bite 4 5 1 6 2 piercing null
+Attack String{ Heavy Club } 4 5 1 6 2 bludgeoning null
+Attack Javelin 4 30 1 6 2 piercing null
+Attack String{ Spiked Shield } 4 5 1 6 2 piercing null
+========== Areas =============
+3 4 4 4 4 4 2 0 1 0 0 

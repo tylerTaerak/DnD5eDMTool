@@ -1,0 +1,10 @@
+Monster Ettin Large Giant 2 12 85 String{ 40 ft } 21 false 8 false 17 false 6 false 10 false 8 false int[]{ 11 } String{ darkvision 60 ft, passive Perception 14 } String{ Giant, Orc } 4
+10 10 30
+=========== Passives ===========
+Two Heads: The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious
+Wakeful: When one of the ettin's heads is asleep, its other head is awake
+========== Attacks 0 1 =============
+Attack Battleaxe 7 5 2 8 5 slashing null
+Attack Morningstar 7 5 2 8 5 piercing null
+=========== Areas ==============
+2 3 3 4 2 2 1 1 1 0 0

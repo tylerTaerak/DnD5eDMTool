@@ -1,0 +1,14 @@
+Monster String{ Bearded Devil } Medium String{ Fiend (devil) } 2 13 52 String{ 30 ft } 16 true 15 false 15 true 9 false 11 true 11 false int[]{ } String{ darkvision 120 ft, passive Perception 10 } String{ Infernal, telepathy 120 ft } 3
+8 8 16
+==================== Passives ==============
+Damage Resistances: cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Devil's Sight" Magical darkness doesn't impede the devil's darkvision
+Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+Steadfast: The devil can't be frightened while it can see an allied creature within 30 ft of it
+================== Attacks 0 1 ===============
+Attack Beard 5 5 1 8 2 piercing DCAttack{ null 12 5 0 null 0 0 0 null String{ poisoned for 1 minute. While poisoned in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false } }
+Attack Glaive 5 10 1 10 3 slashing DCAttack{ null 12 10 0 null 0 0 0 null String{ the target loses 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing } Constitution false } }
+========= Areas ========
+1 0 0 1 0 0 1 2 0 4 0

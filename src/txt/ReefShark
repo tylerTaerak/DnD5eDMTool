@@ -1,0 +1,9 @@
+Monster String{ Reef Shark } Medium Beast 2 12 22 String{ 0 ft, swim 40 ft } 14 false 13 false 13 false 1 false 10 false 4 false int[]{ 11 } String{ blindsight 30 ft, passive Perception 12 } None 0.5
+4 8 4
+========== Passives ============
+Pack Tactics: The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft of the creature and the ally isn't incapacitated
+Water Breathing: The shark can breathe only underwater
+========== Attacks null ===========
+Attack Bite 4 5 1 8 2 piercing null
+========== Areas =============
+0 0 0 0 0 0 1 0 1 0 0 

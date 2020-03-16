@@ -1,0 +1,9 @@
+Monster String{ Giant Goat } Large Beast 2 11 19 String{ 40 ft } 17 false 11 false 12 false 3 false 12 false 6 false int[]{ } String{ passive Perception 11 } None 0.5
+3 10 3
+========= Passives =======
+Charge: If the goat moves at least 20 ft straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone
+Sure-Footed: The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone
+========= Attacks null ==========
+Attack Ram 5 5 2 4 3 bludgeoning null
+========== Areas ==========
+0 1 1 2 1 1 0 0 1 0 0 

@@ -1,0 +1,9 @@
+Monster String{ Violet Fungus } Medium Plant 2 5 18 String{ 5 ft } 3 false 1 false 10 false 1 false 3 false 1 false int[]{ } String{ blindsight 30 ft (blind beyond this radius), passive Perception 6 } None 0.25
+4 8 0
+============= Passives =======================
+Condition Immunities: blinded, deafened, frightened
+False Appearance: While the fungus remains motionless, it is indistinguishable from an ordinary fungus
+========= Attacks 0 0 ===========
+Attack String{ Rotting Touch } 2 10 1 8 0 necrotic null
+============ Areas ===========
+4 1 2 2 1 1 4 4 4 0 0

@@ -1,0 +1,10 @@
+Monster Duodrone Medium Construct 2 15 11 String{ 30 ft } 11 false 13 false 12 false 6 false 10 false 7 false int[]{ } String{ truesight 120 ft, passive Perception 10 } Modron 0.25
+2 8 2 
+============ Passives =========
+Axiomatic: The duodrone can't be compelled to act in a manner contrary to its nature or its instructions
+Disintegration: If the duodrone dies, its body disintegrates into dust, leaving behind its weapons and anything else it was carrying
+========== Attacks null 1 1  ============
+Attack Fist 2 5 1 4 0 bludgeoning null
+Attack Javelin 3 5 30 1 6 1 piercing null
+========== Areas ================
+1 1 1 1 1 1 1 0 1 0 4

@@ -1,0 +1,8 @@
+Monster Warhorse Large Beast 2 11 19 String{ 60 ft } 18 false 12 false 13 false 2 false 12 false 7 false int[]{ } String{ passive Perception 11 } None 0.5
+3 10 3
+=========== Passives ========
+Trampling Charge: If the horse moves at least 20 ft straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action
+========== Attacks null =========
+Attack Hooves 4 5 2 6 4 bludgeoning null
+========== Areas ===========
+1 4 2 2 4 2 0 0 0 0 0 

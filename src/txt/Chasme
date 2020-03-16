@@ -1,0 +1,13 @@
+Monster Chasme Large String{ Fiend (demon) } 3 15 84 String{ 20 ft, fly 60 ft } 15 false 15 true 12 false 11 false 14 true 10 false int[]{ 11 } String{ blindsight 10 ft, darkvision 120 ft, passive Perception 15 } String{ Abyssal, telepathy 120 ft } 6
+13 10 13
+========================== Passives =============
+Damage Resistances: cold, fire lightning
+Damage Immunities: poison
+Condition Immunities: poisoned
+Drone: The chasme produces a horrid droning sound to which demons are immune. Any other creature that starts its turn within 30 ft of the chasme must succeed on a DC 12 Constitutoin saving throw or fall unconscious for 10 minutes. A creature that can't hear the drone automatically succeeds on the save. The effect on the creature ends if it takes damage or if another creature takes an action to splash it with holy water. If a creature's saving throw is successful or the effect ends for it, it is immune to the drone for the next 24 hours
+Magic Resistance: The chasme has advantage on saving throws against spells and other magical effects
+Spider Climb: The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
+===================== Attacks null ===============
+Attack Proboscis 5 5 11 6 2 String{ piercing and necrotic } String{ hit point maximum is reduced by 7d6. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration }
+======= Areas ==============
+2 0 1 1 0 2 2 3 0 4 0

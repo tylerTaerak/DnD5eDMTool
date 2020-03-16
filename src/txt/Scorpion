@@ -1,0 +1,7 @@
+Monster Scorpion Tiny Beast 2 11 1 String{ 10 ft } 2 false 11 false 8 false 1 false 8 false 2 false int[]{ } String{ blindsight 10 ft, passive Perception 9 } None 0 
+1 4 -1
+
+=========== Attacks null =========
+Attack Sting 2 5 0 0 1 piercing DCAttack{ null 9 5 0 null 1 8 0 poison null Constitution true } }
+============== Areas ===========
+4 1 1 1 1 2 0 0 0 0 0 

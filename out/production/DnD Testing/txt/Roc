@@ -1,0 +1,9 @@
+Monster Roc Gargantuan Monstrosity 4 15 248 String{ 20 ft, fly 120 ft } 28 false 10 true 20 true 3 false 10 true 9 true int[]{ 11 } String{ passive Perception 14 } None 11
+16 20 80
+========= Passives ==========
+Keen Sight: The roc has advantage on Wisdom (Perception) checks that rely on sight
+========== Attacks 0 1 ==========
+Attack Beak 13 10 4 8 9 piercing null
+Attack Talons 13 5 4 6 9 slashing String{ target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target }
+========= Areas ==========
+0 3 3 4 2 3 0 0 1 0 1

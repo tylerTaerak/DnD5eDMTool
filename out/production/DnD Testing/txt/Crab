@@ -1,0 +1,8 @@
+Monster Crab Tiny Beast 2 11 2 String{ 20 ft, swim 20 ft } 2 false 11 false 10 false 1 false 8 false 2 false int[]{ 16 } String{ blindsight 30 ft, passive Perception 9 } None 0
+1 4 0
+========= Passives ========
+Amphibious: The crab can breathe air and water
+========= Attacks null =======
+Attack Claw 0 5 0 0 1 bludgeoning null
+========= Areas ==========
+0 1 1 1 1 2 0 0 1 0 0 

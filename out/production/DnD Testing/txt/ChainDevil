@@ -1,0 +1,14 @@
+Monster String{ Chain Devil } Medium String{ Fiend (devil) } 3 16 85 30 18 false 15 false 18 true 11 false 12 true 14 true int[]{ } String{ darkvision 120 ft, passive Perception 11 } String{ Infernal, telepathy 120 ft } 8
+10 8 40
+===================== Passives =================
+Damage Resistances; cold; bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered
+Damage Immunities: fire, poison
+Condition Immunities: poisoned
+Devil's Sight: Magical darkness doesn't impede the devi's darkvision
+Magic Resistance: The devil has advantage on saving throws against spells and other magical effects
+Animate Chains (Recharges after a short or long rest): As an action, up to four chains the devil can see within 60 ft of it magically sprout razor-edged barbs and animate under the devil's control, provided that the chains aren't being worn or carried. Each animated chain is an object with AC 20, 20 hit points, resistance to piercing damage, and immunity to psychic and thunder damage. When the devil uses Multiattack on its turn, it can uses each animated chain to make one additional chain attack. An animated chain can grapple one creature of its own but can't make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies
+Unnerving Mask: As a reaction, when a creature the devil can see starts its turn within 30 ft of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn
+====================== Attacks 0 0 ================
+Attack Chain 8 10 2 6 4 slashing String{ grappled (escape DC 14) if the devil isn't already grappling a creature. Until this grapple ends, the target is restrained and takes 7 (2d6) piercing damage at the start of each of its turns }
+============ Areas ==============
+1 1 1 2 0 1 2 2 0 4 0

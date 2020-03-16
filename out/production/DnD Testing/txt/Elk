@@ -1,0 +1,9 @@
+Monster Elk Large Beast 2 10 13 String{ 50 ft } 16 false 10 false 12 false 2 false 10 false 6 false int[]{ } String{ passive Perception 10 } None 0.25
+2 10 2
+========== Passives =========
+Charge: If the elk moves at least 20 ft straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone
+========== Attacks null =========
+Attack Ram 5 5 1 6 3 bludgeoning null
+Attack Hooves 5 5 2 4 3 bludgeoning null
+=========== Areas =============
+1 4 4 4 2 2 0 0 2 0 0
