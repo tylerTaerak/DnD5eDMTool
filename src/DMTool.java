@@ -15,12 +15,13 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-import java.util.TreeSet;
+import java.util.concurrent.atomic.AtomicReference;
 
 
 public class DMTool extends Application implements Autowrap {
     public static int LINE_LENGTH;
     private TextArea monsterTF;
+    private MonsterDirectory md;
 
 
     public static void main(String[] args) {
@@ -34,7 +35,7 @@ public class DMTool extends Application implements Autowrap {
         primaryStage.setMaximized(true);
 
 
-        MonsterDirectory md = new MonsterDirectory();
+        md = new MonsterDirectory();
 
         StackPane fullPane = new StackPane();
 
@@ -49,16 +50,7 @@ public class DMTool extends Application implements Autowrap {
         homePane.prefWidthProperty().bind(primaryStage.widthProperty());
 
 
-        ArrayList<Button> buttons = new ArrayList<>();
-        for(Monster m : md.getTree()){
-            Button b = new Button(m.getName());
-
-            b.setOnAction(e -> setMonsterPane(m));
-
-            buttons.add(b);
-        }
-
-        VBox box = new VBox();
+        VBox allBox = new VBox();
         TextField byName = new TextField();
         byName.setPromptText("Search by Name");
         byName.setFocusTraversable(false);
@@ -72,17 +64,55 @@ public class DMTool extends Application implements Autowrap {
         byCR.setPromptText("Search by Challenge Rating");
         byCR.setFocusTraversable(false);
         Button search = new Button("Search");
-        search.setOnAction(e -> searchMonsterList(byName.getText(), byType.getText(), byProf.getText(), byCR.getText()));
 
-        box.getChildren().addAll(byName, byType, byProf, byCR, search);
-
-        box.getChildren().addAll(buttons);
-        box.prefHeightProperty().bind(primaryStage.heightProperty().subtract(40));
         ScrollPane buttonsPane = new ScrollPane();
 
+        Monster[] monsters = searchMonsterList(
+                byName.getText(), byType.getText(), byProf.getText(), byCR.getText()
+        );
+
+
+        ArrayList<Button> buttons = new ArrayList<>();
+        for (Monster m : monsters) {
+            Button b = new Button(m.getName());
+            b.setOnAction(ev -> setMonsterPane(m));
+            buttons.add(b);
+        }
+
+        VBox box = new VBox();
+        box.getChildren().addAll(buttons);
         buttonsPane.setContent(box);
         buttonsPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
         buttonsPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+
+        search.setOnAction(e -> {
+            Monster[] monsters1 = searchMonsterList(
+                    byName.getText(), byType.getText(), byProf.getText(), byCR.getText()
+            );
+            byName.setText("");
+            byType.setText("");
+            byProf.setText("");
+            byCR.setText("");
+
+
+            ArrayList<Button> buttons1 = new ArrayList<>();
+            for (Monster m : monsters1) {
+                Button b = new Button(m.getName());
+                b.setOnAction(ev -> setMonsterPane(m));
+                buttons1.add(b);
+            }
+
+            VBox box1 = new VBox();
+            box1.getChildren().addAll(buttons1);
+            buttonsPane.setContent(box1);
+        });
+
+
+        allBox.getChildren().addAll(byName, byType, byProf, byCR, search);
+        allBox.getChildren().add(buttonsPane);
+
+
+
 
 
         ColumnConstraints c1 = new ColumnConstraints();
@@ -100,12 +130,12 @@ public class DMTool extends Application implements Autowrap {
 
         homePane.setGridLinesVisible(true);
 
-        GridPane.setRowIndex(buttonsPane, 0);
-        GridPane.setColumnIndex(buttonsPane, 0);
-        GridPane.setRowSpan(buttonsPane, 2);
-        GridPane.setColumnSpan(buttonsPane, 1);
+        GridPane.setRowIndex(allBox, 0);
+        GridPane.setColumnIndex(allBox, 0);
+        GridPane.setRowSpan(allBox, 2);
+        GridPane.setColumnSpan(allBox, 1);
 
-        homePane.getChildren().add(buttonsPane);
+        homePane.getChildren().add(allBox);
 
 
         // The monster pane contains information for the current monster whose stats are being looked at
@@ -299,12 +329,28 @@ public class DMTool extends Application implements Autowrap {
         return sb.toString();
     }
 
-    private TreeSet<Monster> searchMonsterList(String name, String type, String prof, String CR){
-        System.out.println(name + 'q');
-        System.out.println(type + 'r');
-        System.out.println(prof + 's');
-        System.out.println(CR + 't');
+    private Monster[] searchMonsterList(String name, String type, String prof, String CR){
+        Integer profInt;
+        Double crDouble;
+        if (name.equals("")){
+            name = null;
+        }
+        if (type.equals("")){
+            type = null;
+        }
+        if (prof.equals("")){
+            profInt = null;
+        }
+        else {
+            profInt = Integer.parseInt(prof);
+        }
+        if (CR.equals("")){
+            crDouble = null;
+        }
+        else{
+            crDouble = Double.parseDouble(CR);
+        }
 
-        return new TreeSet<>();
+        return md.searchMonsters(name, type, profInt, crDouble);
     }
 }

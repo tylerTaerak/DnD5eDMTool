@@ -66,68 +66,53 @@ public class MonsterDirectory {
         return probabilities;
     }
 
-    Monster[] searchMonsters(String name, String type, int prof, double CR){
-        return new Monster[1];
-    }
-
-    Monster[] searchMonstersByName(String name) {
+    Monster[] searchMonsters(String name, String type, Integer prof, Double CR){
         ArrayList<Monster> monsters = new ArrayList<>();
-        for(Monster m : tree) {
-            if(m.getName().contains(name)) {
+        for (Monster m : tree){
+            boolean n = false;
+            boolean t = false;
+            boolean p = false;
+            boolean c = false;
+            if (name == null){
+                n = true;
+            }
+            else if (m.getName().contains(name)){
+                n = true;
+            }
+
+            if (type == null){
+                t = true;
+            }
+            else if (m.getType().contains(type)){
+                t = true;
+            }
+
+            if(prof == null){
+                p = true;
+            }
+            else if (m.getProficiencyBonus() == prof){
+                p = true;
+            }
+
+            if (CR == null){
+                c = true;
+            }
+            else if (m.getCR() == CR){
+                c = true;
+            }
+
+            if (n && t && p && c){
                 monsters.add(m);
             }
-        }
-        Monster[] lst = new Monster[monsters.size()];
-        for(int i = 0; i<monsters.size(); i++) {
-            lst[i] = monsters.get(i);
-        }
-        return lst;
-    }
 
-    Monster[] searchMonstersByType(String type) {
-        ArrayList<Monster> monsters = new ArrayList<>();
-        for(Monster m : tree) {
-            String typ = m.getType();
-            if(m.getType().contains(" ")) {
-                typ = m.getType().split("\\s+")[0];
-            }
-            if(typ.equals(type)) {
-                monsters.add(m);
-            }
         }
-        Monster[] lst = new Monster[monsters.size()];
-        for(int i = 0; i<monsters.size(); i++) {
-            lst[i]= monsters.get(i);
-        }
-        return lst;
-    }
 
-    Monster[] searchMonstersByProficiency(int prof) {
-        ArrayList<Monster> monsters = new ArrayList<>();
-        for(Monster m : tree) {
-            if(m.getProficiencyBonus() == prof) {
-                monsters.add(m);
-            }
+        Monster[] monsterArray = new Monster[monsters.size()];
+        for (int i = 0; i<monsterArray.length; i++){
+            monsterArray[i] = monsters.get(i);
         }
-        Monster[] lst = new Monster[monsters.size()];
-        for(int i = 0; i<monsters.size(); i++) {
-            lst[i]= monsters.get(i);
-        }
-        return lst;
-    }
 
-    Monster[] searchMonstersByCR(double CR) {
-        ArrayList<Monster> monsters = new ArrayList<>();
-        for(Monster m : tree) {
-            if(m.getCR() == CR) {
-                monsters.add(m);
-            }
-        }
-        Monster[] lst = new Monster[monsters.size()];
-        for(int i = 0; i<monsters.size(); i++) {
-            lst[i]= monsters.get(i);
-        }
-        return lst;
+        return monsterArray;
     }
 
     private void addProbabilities(Monster monster, int[] probs) {
