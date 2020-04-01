@@ -4,6 +4,6 @@ Monster Piercer Medium Monstrosity 2 15 22 String{ 5 ft, climb 5 ft } 10 false 1
 False Appearance: While the piercer remains motionless on the ceiling, it is indistinguishable from a normal stalactite
 Spider Climb: The piercing can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
 ========= Attacks null ===========
-Attack Drop 3 0 1 6 0 piercing String{ This attack targets a creature directly below the piercer.  It deals an additional 3 (1d6) piercing damage per 10 ft fallen, up to 21 (6d6) damage. If the attack misses, the piercer takes half the normal falling damage for the distance fallen }
+Attack Drop 3 0 1 6 0 piercing String{ This attack targets a creature directly below the piercer.  It deals an additional 3 (1d6) piercing damage per 10 ft fallen, up to 21 (6d6) damage. If the attack misses, the piercer takes half the normal falling damage for the distance fallen } }
 ============ Areas =============
 4 0 0 1 0 0 3 1 0 0 0 

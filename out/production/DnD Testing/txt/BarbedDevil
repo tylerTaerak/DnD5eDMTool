@@ -10,6 +10,6 @@ Magic Resistance: The devil has advantage on saving throws against spells and ot
 =================== Attacks 1 0 0 ==========
 Attack Claw 6 5 1 6 3 piercing null
 Attack Tail 6 5 2 6 3 piercing null
-Attack String{ Hurl Flame } 5 150 3 6 0 fire String{ If the target is a flammable object that isn't being worn or carried, it also catches fire }
+Attack String{ Hurl Flame } 5 150 3 6 0 fire String{ If the target is a flammable object that isn't being worn or carried, it also catches fire } }
 ========= Areas ========
 2 0 0 1 0 0 1 2 0 4 0

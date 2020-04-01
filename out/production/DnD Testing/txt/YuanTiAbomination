@@ -8,7 +8,7 @@ Innate Spellcasting (abomination form only): The yuan-ti's innate spellcating ab
 Magic Resistance: The yuan-ti has advantage on saving throws against spells and other magical effects
 ========== Attacks 0 1 2 ==========
 Attack Bite 7 5 4 6 4 String{ piercing and poison } null
-Attack Constrict 7 10 2 6 4 bludgeoning String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target }
+Attack Constrict 7 10 2 6 4 bludgeoning String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target } }
 Attack String{ Scimitar (abomination form only) } 7 5 2 6 4 slashing null
 Attack String{ Longbow (abomination form only) } 6 150 2 8 13 String{ piercing and poison } null
 ========= Areas ==========

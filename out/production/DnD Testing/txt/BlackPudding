@@ -8,7 +8,7 @@ Corrosive Form: A creature that touches the pudding or hits it with a melee atta
 Spider Climb: The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
 Split: As a reaction, when a pudding that is Medium or smaller is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's rounded down. New puddings are one size smaller than the original pudding
 ========= Attacks null ===========
-Attack Pseudopod 5 5 1 6 21 String{ bludgeoning and acid } String{ nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10 }
+Attack Pseudopod 5 5 1 6 21 String{ bludgeoning and acid } String{ nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10 } }
 ======== Areas ===========
 4 1 1 2 1 0 4 3 1 0 0 
 

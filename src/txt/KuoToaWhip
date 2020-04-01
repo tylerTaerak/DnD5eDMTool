@@ -8,6 +8,6 @@ Sunlight Sensitivity: While in sunlight, the kuo-toa has disadvantage on attack 
 Spellcasting: The kuo-toa is a 2nd level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The kuo-toa has the following cleric spells prepared: Cantrips: sacred flame, thaumaturgy 1st level (3 slots): bane, shield of faith
 ================ Attacks 0 1 ===============
 Attack Bite 4 5 1 4 2 piercing null
-Attack String{ Pincer Staff } 4 10 1 6 2 piercing String{ If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target }
+Attack String{ Pincer Staff } 4 10 1 6 2 piercing String{ If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the kuo-toa can't use its pincer staff on another target } }
 =============== Areas ======================
 3 1 1 1 1 1 4 2 2 0 0 

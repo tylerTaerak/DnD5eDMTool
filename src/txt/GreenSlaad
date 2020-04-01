@@ -10,7 +10,7 @@ Regeneration: The slaad regains 10 hit points at the start of its turn if it has
 Attack String{ Bite (slaad form only) } 7 5 2 6 4 slashing null
 Attack String{ Claw } 7 5 1 6 4 slashing null
 Attack Staff 7 5 2 6 4 bludgeoning null
-Attack String{ Hurl Flame } 4 60 3 6 0 fire String{ the fire ignites flammable objects that aren't being worn or carried }
+Attack String{ Hurl Flame } 4 60 3 6 0 fire String{ the fire ignites flammable objects that aren't being worn or carried } }
 ============= Areas ===========
 2 1 1 2 1 1 4 2 2 0 0 
 

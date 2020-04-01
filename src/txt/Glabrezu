@@ -7,7 +7,7 @@ Condition Immunities: poisoned
 Innate Spellcasting: The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic 1/day each: confusion, fly, power word stun
 Magic Resistance: The glabrezu has advantage on saving throws against spells and other magical effects
 ====================== Attacks 0 0 1 1 =====================
-Attack Pincer 9 10 2 10 5 bludgeoning String{ if the target is a Medium or smaller creature, it is grappled (escape DC 15). the glabrezu has two pincers, each of which can grapple only one target }
+Attack Pincer 9 10 2 10 5 bludgeoning String{ if the target is a Medium or smaller creature, it is grappled (escape DC 15). the glabrezu has two pincers, each of which can grapple only one target } }
 Attack Fist 9 5 2 4 2 bludgeoning null
 ================== Areas =============
 2 1 1 2 1 1 2 3 1 4 0

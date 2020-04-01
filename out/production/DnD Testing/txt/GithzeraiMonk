@@ -4,6 +4,6 @@ Monster String{ Githzerai Monk } Medium String{ Humanoid (gith) } 2 14 38 String
 Innate Spellcasting (Psionics): The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components: At will: mage hand (the hand is invisible) 3/day each: feather fall, jump, see invisiblity, shield
 Psychic Defense: While the githzerai is wearing no armor and wielding no shielf, its AC includes its Wisdom modifier
 ========== Attacks 0 0 =============
-Attack String{ Unarmed Strike } 4 5 3 8 2 String{ bludgeoning and psychic } String{ This is a magic attack } 
+Attack String{ Unarmed Strike } 4 5 3 8 2 String{ bludgeoning and psychic } String{ This is a magic attack } }
 ========= Areas ==============
 1 1 1 1 1 1 1 1 1 0 0 

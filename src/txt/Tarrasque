@@ -9,7 +9,7 @@ Reflective Carapace: Any time the tarrasque is targeted by a magic missile spell
 Siege Monster: The tarrasque deals double damage to objects and structures
 Swallow: As an action or instead of using its Bite attack in its Multiattack, the tarrasque makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite's damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) acid damage at the start of each of the tarrasque's turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures. If the tarrasque dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 ft of movement, exiting prone
 ============ Attacks  4 0 1 1 2 3 ===========
-Attack Bite 19 10 4 12 10 piercing String{ If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the tarrasque can't bite another target }
+Attack Bite 19 10 4 12 10 piercing String{ If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the tarrasque can't bite another target } }
 Attack Claw 19 15 4 8 10 slashing null
 Attack Horns 19 10 4 10 10 piercing null
 Attack Tail 19 20 4 6 10 bludgeoning DCAttack{ null 20 20 0 null 0 0 0 null String{ knocked prone } Strength false } }

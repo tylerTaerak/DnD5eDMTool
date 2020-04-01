@@ -8,6 +8,6 @@ Fire Form: The elemental can move through a space as narrow as 1 inch wide witho
 Illumination: The elemental sheds bright light in a 30-ft radius and dim light in an additional 30 ft
 Water Susceptibility: For every 5 ft the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage
 =========== Attacks 0 0 ==========
-Attack Touch 6 5 2 6 3 fire String{ if the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns }
+Attack Touch 6 5 2 6 3 fire String{ if the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns } }
 ============ Areas ============
 3 2 2 2 2 3 3 1 1 0 0

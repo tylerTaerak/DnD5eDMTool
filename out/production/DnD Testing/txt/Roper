@@ -7,7 +7,7 @@ Spider Climb: The roper can climb difficult surfaces, including upside down on c
 Reel: As part of its Multiattack or as an action, the roper pulls each creature grappled by it up to 25 ft straight toward it
 =========== Attacks 1 1 1 1 0 ==========
 Attack Bite 7 5 4 8 4 piercing null
-Attack Tendril 7 50 0 0 0 null String{ target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the roper can't usse the same tendril on another target }
+Attack Tendril 7 50 0 0 0 null String{ target is grappled (escape DC 15). Until the grapple ends, the target is restrained and has disadvantage on Strength checks and Strength saving throws, and the roper can't usse the same tendril on another target } }
 ======== Areas ===========
 4 0 0 1 0 0 4 3 1 0 0 
 

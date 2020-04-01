@@ -8,6 +8,6 @@ Drone: The chasme produces a horrid droning sound to which demons are immune. An
 Magic Resistance: The chasme has advantage on saving throws against spells and other magical effects
 Spider Climb: The chasme can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check
 ===================== Attacks null ===============
-Attack Proboscis 5 5 11 6 2 String{ piercing and necrotic } String{ hit point maximum is reduced by 7d6. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration }
+Attack Proboscis 5 5 11 6 2 String{ piercing and necrotic } String{ hit point maximum is reduced by 7d6. If this effect reduces a creature's hit point maximum to 0, the creature dies. This reduction to a creature's hit point maximum lasts until the creature finishes a long rest or until it is affected by a spell like greater restoration } }
 ======= Areas ==============
 2 0 1 1 0 2 2 3 0 4 0

@@ -5,6 +5,6 @@ Sunlight Sensitivity: While in sunlight, the kobold has disadvantage on attack r
 Pack Tactics: The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft of the creature and the ally isn't incapacitated
 ============= Attacks null ============
 Attack Dagger 5 5 1 4 3 piercing null
-Attack String{ Dropped  Rock } 5 0 1 6 3 bludgeoning String{ This attack targets a creature directly below the kobold }
+Attack String{ Dropped  Rock } 5 0 1 6 3 bludgeoning String{ This attack targets a creature directly below the kobold } }
 ========== Areas ==============
 4 4 4 4 3 3 1 0 0 0 0 

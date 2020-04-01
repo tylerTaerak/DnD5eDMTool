@@ -5,7 +5,7 @@ Hold Breath: The lizardfolk can hold its breath for 15 minutes
 Spellcasting (Lizardfolk form only): The lizardfolk is a 5th levecl spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The lizardfolk has the following druid spells prepared: Cantrips: druidcraft, produce flame, thorn whip 1st level (4 slots): entangle, fog cloud 2nd level (3 slots): heat metal, spike growth 3rd level (2 slots): conjure animals (reptiles only), plant growth
 Change Shape (recharges after a short or long rest): As an action, the lizardfolk magically polymorphs into a crocodile, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies
 =============== Attacks 0 1 =============
-Attack Bite 4 5 1 6 2 piercing String{ if in crocodile form, this attack deals an extra 2 damage, and if the target is a Large or smaller creature, the target is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the lizardfolk can't bite another target. If the lizardfolk reverts to its true form, the grapple ends }
+Attack Bite 4 5 1 6 2 piercing String{ if in crocodile form, this attack deals an extra 2 damage, and if the target is a Large or smaller creature, the target is grappled (escape DC 12). Until the grapple ends, the target is restrained, and the lizardfolk can't bite another target. If the lizardfolk reverts to its true form, the grapple ends } }
 Attack Claws 4 5 1 4 2 slashing null
 ========= Areas ============
 3 4 4 4 4 4 2 0 1 0 0 

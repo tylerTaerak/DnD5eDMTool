@@ -2,6 +2,6 @@ Monster Stirge Tiny Beast 2 14 2 String{ 10 ft, fly 40 ft } 4 false 16 false 11 
 1 4 0
 
 ========== Attacks null ==========
-Attack String{ Blood Drain } 5 5 1 4 3 piercing String{ the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The stirge can detach itself by spending 5 ft of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge }
+Attack String{ Blood Drain } 5 5 1 4 3 piercing String{ the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The stirge can detach itself by spending 5 ft of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge } }
 ========== Areas ==========
 4 3 3 4 3 3 4 4 4 0 0 

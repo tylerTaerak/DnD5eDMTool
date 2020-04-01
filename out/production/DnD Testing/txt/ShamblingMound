@@ -7,6 +7,6 @@ Condition Immunities: blinded, deafened, exhaustion
 Lightning Absorption: Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt
 Engulf: As an action, the shambling mound can engulf a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time
 ========== Attacks 0 0 ================
-Attack Slam 7 5 2 8 4 bludgeoning String{ if both Slam attacks hit in the shambling mound's Multiattack, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it }
+Attack Slam 7 5 2 8 4 bludgeoning String{ if both Slam attacks hit in the shambling mound's Multiattack, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it } }
 =========== Areas ============
 2 4 4 3 2 2 3 1 4 0 0 

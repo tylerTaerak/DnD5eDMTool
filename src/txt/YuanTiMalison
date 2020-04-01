@@ -13,7 +13,7 @@ Attack String{ Scimitar (yuan-ti form only, type 1, 3) } 5 5 1 6 3 slashing null
 Attack String{ Longbow (yuan-ti form only, type 1, 3) } 4 150 1 8 9 String{ piercing and poison } null
 Attack String{ Bite (type 2) } 5 5 1 4 10 String{ piercing and poison } null
 Attack String{ Bite (snake form only, type 3) } 5 5 1 4 10 String{ piercing and poison } null
-Attack String{ Constrict (type 3) } 5 5 2 6 3 bludgeoning String{ target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target }
+Attack String{ Constrict (type 3) } 5 5 2 6 3 bludgeoning String{ target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target } }
 =========== Areas ========
 3 3 4 1 1 2 0 0 0 0 0 
 

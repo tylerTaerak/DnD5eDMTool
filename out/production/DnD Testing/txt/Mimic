@@ -8,7 +8,7 @@ Adhesive (object form only): The mimic adheres to anything that touches it. A Hu
 False Appearance (object form only): While the mimic remains motionless, it is indistinguishable from an ordinary object
 Grappler: The mimic has advantage on attack rolls against any creature grappled by it
 ============ Attacks null =============
-Attack Pseudopod 5 5 1 8 3 String{ target is subjected to its Adhesive trait if the mimic is in object form }
+Attack Pseudopod 5 5 1 8 3 String{ target is subjected to its Adhesive trait if the mimic is in object form } }
 Attack Bite 5 5 2 8 3 String{ piercing and acid } null
 ============ Areas ============
 4 1 1 2 1 1 4 4 3 0 0 

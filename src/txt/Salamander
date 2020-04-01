@@ -8,7 +8,7 @@ Heated Body: A creature that touches the salamander or hits it with a melee atta
 Heated Weapons: Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack)
 ========== Attacks 0 1 =============
 Attack Spear 7 5 2 8 7 String{ piercing and fire } null
-Attack Tail 7 10 4 6 4 String{ bludgeoning and fire } String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets }
+Attack Tail 7 10 4 6 4 String{ bludgeoning and fire } String{ target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets } }
 ======== Areas ============
 3 0 0 1 0 1 4 2 1 0 0 
 

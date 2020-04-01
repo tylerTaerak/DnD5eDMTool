@@ -7,6 +7,6 @@ Condition Immunities: exhaustion, grappled, paralyzed, poisoned, restrained, pro
 Invisible in Water: The water weird is invisible while fully immersed in water
 Water Bound: The water weird dies if it leaves the water to which it is bound or if that water is destroyed
 ========== Attacks null =========
-Attack Constrict 5 10 3 6 3 bludgeoning String{ if the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target }
+Attack Constrict 5 10 3 6 3 bludgeoning String{ if the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 ft toward the water weird. Until this grapple ends, the target is restrained, the water weird tries to drown it, and the water weird can't constrict another target } }
 ========== Areas ==========
 3 2 1 2 0 0 3 0 3 0 0

@@ -6,7 +6,7 @@ Condition Immunities: charmed, frightened, paralyzed, petrified, prone, restrain
 Keen Smell: The swarm has advantage on Wisdom (Perception) checks that rely on smell
 Swarm: The swarm can occupy another creature's spaced and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain  hit points or temporary hit points
 ============ Attacks null ==========
-Attack Bites 2 0 2 6 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer }
+Attack Bites 2 0 2 6 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer } }
 ========== Areas ==============
 4 1 1 1 1 1 0 0 0 0 0
 

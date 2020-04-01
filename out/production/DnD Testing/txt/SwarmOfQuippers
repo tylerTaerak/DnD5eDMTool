@@ -7,6 +7,6 @@ Blood Frenzy: The swarm has advantage on melee attack rolls against any creature
 Swarm: The swarm can occupy another creature's spaced and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain  hit points or temporary hit points
 Water Breathing: The swarm can breathe only underwater
 ======= Attacks null ===========
-Attack Bites 5 0 4 6 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer }
+Attack Bites 5 0 4 6 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer } }
 ========= Areas ===========
 0 0 0 0 0 0 1 0 0 0 0 

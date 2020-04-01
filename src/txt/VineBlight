@@ -4,7 +4,7 @@ Monster String{ Vine Blight } Medium Plant 2 12 26 String{ 10 ft } 15 false 8 fa
 Condition Immunities: blinded, deafened
 False Appearance: While the blight remains motionless, it is indistinguishable from a tangle of vines
 ====================== Attacks null =================
-Attack Constrict 4 10 2 6 2 bludgeoning String{ the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target }
+Attack Constrict 4 10 2 6 2 bludgeoning String{ the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the blight can't constrict another target } }
 DCAttack String{ Entangling Plants (Recharge 5-6) } 12 0 15 circle 0 0 0 null String{ grasping roots and vines sprout out, withering away after 1 minute. For the duration, that area is difficult terrain for nonplant creatures. In addition, each creature in the area of the blight's choice is restrained. A creature can use its action to make a DC 12 Strength check, freeing itself or another entangled creature within reach on a success } Strength false
 ==================== Areas ===================
 1 3 4 4 3 1 2 1 4 0 0

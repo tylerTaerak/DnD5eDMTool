@@ -4,6 +4,6 @@ Monster String{ Githzerai Zerth } Medium String{ Humanoid (gith) } 3 17 84 Strin
 Innate Spellcasting (Psionics): The githzerai's spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no components: At will: mage hand (the hand is invisible) 3/day each: feather fall, jump, see invisiblity, shield 1/day each: phantasmal killer, plane shift
 Psychic Defense: While the githzerai is wearing no armor and wielding no shield, its AC includes its Wisdom modifier
 =========== Attacks 0 0 ============
-Attack String{ Unarmed Strike } 7 5 2 6 17 String{ bludgeoning and psycic } String{ this is a magic weapon attack }
+Attack String{ Unarmed Strike } 7 5 2 6 17 String{ bludgeoning and psycic } String{ this is a magic weapon attack } }
 =========== Areas =============
 1 1 1 1 1 1 1 1 1 0 0 

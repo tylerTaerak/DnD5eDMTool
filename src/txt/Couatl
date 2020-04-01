@@ -7,6 +7,6 @@ Shielded Mind: The couatl is immune to scrying and to any effect that would sens
 Change Shape: As an action, the couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice). In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, DExterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form
 ======================= Attacks null ===================
 Attack Bite 8 5 1 6 5 piercing DCAttack{ null 13 5 0 null 0 0 0 null String{ poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake } Constitution false } }
-Attack Constrict 6 10 2 6 3 bludgeoning String{ grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target }
+Attack Constrict 6 10 2 6 3 bludgeoning String{ grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target } }
 ========= Areas ==========
 0 1 1 1 1 1 0 0 2 0 4

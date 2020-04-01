@@ -3,6 +3,6 @@ Monster String{ Giant Crab } Medium Beast 2 15 13 String{ 30 ft, swim 30 ft } 13
 ===== Passives =======
 Amphibious: The crab can breathe air and water
 ======== Attacks null ========
-Attack Claw 3 5 1 6 1 bludgeoning String{ target is grappled (escape DC 11). the crab has two claws, each of which can grapple only one target }
+Attack Claw 3 5 1 6 1 bludgeoning String{ target is grappled (escape DC 11). the crab has two claws, each of which can grapple only one target } }
 ========= Areas ==========
 0 0 0 0 0 2 1 1 1 0 0 

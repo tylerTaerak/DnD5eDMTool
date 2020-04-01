@@ -9,6 +9,6 @@ Magic Resistance: The devil has advantage on saving throws against spells and ot
 ================= Attacks 0 0 1 =========================
 Attack Fork 10 10 2 8 6 piercing null
 Attack Tail 10 10 1 8 6 piercing DCAttack{ null 17 10 0 null 0 0 0 null String{ the target loses 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing } Constitution false } }
-Attack String{ Hurl Flame } 7 150 4 6 0 fire String{ if the target is a flammable object that isn't being worn or carried, it also catches fire }
+Attack String{ Hurl Flame } 7 150 4 6 0 fire String{ if the target is a flammable object that isn't being worn or carried, it also catches fire } }
 ================ Areas ============
 2 1 1 2 1 1 2 3 1 4 0

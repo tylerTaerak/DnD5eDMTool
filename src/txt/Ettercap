@@ -7,6 +7,6 @@ Web Walker: The ettercap ignores movement restrictions caused by webbing
 =========== Attacks 0 1 ==========
 Attack Bite 4 5 2 8 2 String{ piercing and poison } DCAttack{ null 11 5 0 null 0 0 0 null String{ poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success } Constitution false } }
 Attack Claws 4 5 2 4 2 slashing null
-Attack String{ Web (recharge 5-6) } 4 30 0 0 0 null String{ the creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, resistance to bludgeoning damage, and immunity to poison and psychic damage }
+Attack String{ Web (recharge 5-6) } 4 30 0 0 0 null String{ the creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, resistance to bludgeoning damage, and immunity to poison and psychic damage } }
 =========== Areas =============
 3 1 1 1 1 1 4 3 1 0 0

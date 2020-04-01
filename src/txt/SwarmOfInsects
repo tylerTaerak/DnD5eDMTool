@@ -5,6 +5,6 @@ Damage Resistances: bludgeoning, piercing, and slashing
 Condition Immunities: charmed, frightened, paralyzed, petrified, prone, restrained, stunned
 Swarm: The swarm can occupy another creature's spaced and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain  hit points or temporary hit points
 ======== Attacks null =======
-Attack Bite 3 0 4 4 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer }
+Attack Bite 3 0 4 4 0 piercing String{ this attack deals half damage if the swarm has half of its hit points or fewer } }
 ============ Areas ==========
 4 1 1 1 1 1 0 0 0 0 0

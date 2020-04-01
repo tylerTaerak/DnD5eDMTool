@@ -3,6 +3,6 @@ Monster String{ Giant Constrictor Snake } Huge Beast 2 12 60 String{ 30 ft, swim
 
 ========= Attacks null ============
 Attack Bite 6 10 2 6 4 piercing null
-Attack Constrict 6 5 2 8 4 bludgeoning String{ target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target }
+Attack Constrict 6 5 2 8 4 bludgeoning String{ target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target } }
 ======== Areas =============
 1 2 2 2 1 2 1 1 2 0 0 

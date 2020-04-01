@@ -6,7 +6,7 @@ Advanced Telepathy: The flumph can perceive the content of any telepathic commun
 Prone Deficiency: If the flumph is knocked prone, roll a die. On an odd result, the flumph lands upside-down and is incapacitated. At the end of each of its turns, the flumph can make a DC 10 Dexterity saving throw, righting itself and ending the incapacitated condition if it succeeds
 Telepathic Shroud: The flumph is immune to any effect that would sense its emotions or read its thoughts, as well as all divination spells
 =========== Attacks null ==========
-Attack Tendrils 4 5 2 4 2 String{ piercing and acid } String{ at the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage }
+Attack Tendrils 4 5 2 4 2 String{ piercing and acid } String{ at the end of each of its turns, the target must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success. A lesser restoration spell cast on the target also ends the recurring acid damage } }
 DCAttack String{ Stench Spray (1/day) } 10 0 15 cone 0 0 0 null String{ coated in a foul-smelling liquid. A coated creature exudes a horrible stench for 1d4 hours. The coated creature is poisoned as long as the stench lasts, and other creatures are poisoned while within 5 ft of the coated creature. A creature can remove the stench on itself by using a short rest to bathe in water, alcohol, or vinegar } Dexterity false
 =========== Areas ===========
 3 1 1 1 1 1 4 2 2 0 0

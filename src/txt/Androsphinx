@@ -10,9 +10,9 @@ Spellcasting: The sphinx is a 12 level spellcaster. Its spellcasting ability is 
 Attack Claw 12 5 2 10 6 slashing null
 DCAttack String{ Roar (3/day) } 18 0 500 sphere 0 0 0 null String{ Each time the sphinx emits this magical roar, it is louder and the effect is different: First Roar: Each creature that fails its saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success Second Roar: Each creature that fails its saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success Third Roar: Each creature that fails its saving throw takes 44(8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone } String{ Wisdom (Constitution on the Third Roar) } false
 ============== Legendary Actions =================
-String{ Claw Attack } 1 String{ The sphinx makes one claw attack }
-Teleport 2 String{ The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 ft to an unoccupied space it can see }
-String{ Cast a Spell } 3 String{ The sphinx casts a spell from its list of prepared spells, using a spell slot as normal }
+String{ Claw Attack } 1 String{ The sphinx makes one claw attack } }
+Teleport 2 String{ The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 ft to an unoccupied space it can see } }
+String{ Cast a Spell } 3 String{ The sphinx casts a spell from its list of prepared spells, using a spell slot as normal } }
 ============ Lair ==========
 ----------- lairActions -----------
 null 0 0 0 null 0 0 0 null String{ the flow of time is altered such that every creature in the lair must reroll initiative. The sphinx can choose not to reroll } null false

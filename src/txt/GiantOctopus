@@ -6,7 +6,7 @@ Underwater Camouflage: The octopus has advantage on Dexterity (Stealth) checks m
 Water Breathing: The octopus can breathe only underwater
 Ink Cloud (recharges after a short or long rest): As an action, a 20-ft radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action
 ========= Attacks null =========
-Attack Tentacles 5 15 2 6 3 bludgeoning String{ target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target }
+Attack Tentacles 5 15 2 6 3 bludgeoning String{ target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target } }
 ======= Areas ===========
 1 0 0 0 0 1 1 0 0 0 0
 
