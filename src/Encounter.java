@@ -1,541 +1,241 @@
+import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.VBox;
+
+import java.io.*;
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Hashtable;
 
-public class Encounter {
-    private ArrayList<Monster> monsters = new ArrayList<>();
+/**
+ * @author Tyler Conley
+ * encounters are a group of monsters that will be put to combat against the players. Encounters can be saved and
+ * accessed in the 'enc' folder of this program.  They will be displayed in the 'encounters' tab in the main application
+ *
+ * These are the indices, in order, for areas for the random encounter calculator:
+ * dungeon, grassland, forest, desert, mountain, roadside, Underdark, Shadowfell, Feywild, Upper Planes, and Lower Planes
+ *
+ * A 'translator' of sorts needs to be implemented to translate the string form to the index (e.g. dungeon => 0)
+ * This could be accomplished with an external enum, though that may need to be played around with if I want to allow the
+ * user to be able to add different environments manually
+ */
 
-    public Encounter() { }
+public class Encounter implements Serializable {
+    private ArrayList<Monster> monsters;
 
-    public void add(Monster monster) {
+    public Encounter(){
+        monsters = new ArrayList<>();
+    }
+
+    public Encounter(Monster[] monsters) {
+        this.monsters = (ArrayList<Monster>) Arrays.asList(monsters);
+    }
+
+    public void add(Monster monster){
         monsters.add(monster);
     }
 
-    public void displayMonsters() {
-        System.out.println(monsters.size() + " monsters total: \n");
-        for(int n=0;n<monsters.size(); n++) {
-            int monsterCount = 1;
-            while(n<monsters.size()-1 && monsters.get(n).getName().equals(monsters.get(n+1).getName())) {
-                if (monsters.get(n).getName().equals(monsters.get(n + 1).getName())) {
-                    monsters.remove(n + 1);
-                    monsterCount++;
-                }
-            }
-            System.out.println("---<" + monsterCount + ">---");
-            monsters.get(n).fullDisplay();
-            System.out.println("------------------------------------------------------------------------------------");
-            System.out.println();
-            new MonsterAttacker(monsters.get(n));
+    public void remove(Monster monster){
+        monsters.remove(monster);
+    }
+
+    public static Encounter readFromFile(File file){
+        Encounter encounter = null;
+        try {
+            FileInputStream fIn = new FileInputStream(file);
+            ObjectInputStream in = new ObjectInputStream(fIn);
+            encounter = (Encounter) in.readObject();
+            in.close();
+            fIn.close();
+        }
+        catch (IOException | ClassNotFoundException err){
+            err.printStackTrace();
+        }
+        return encounter;
+    }
+
+    public static void writeToFile(Encounter encounter, String name) {
+        try {
+            FileOutputStream fileOut = new FileOutputStream(DMTool.PATH + name + ".enc");
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(encounter);
+            out.close();
+        }
+        catch (IOException err){
+            err.printStackTrace();
         }
     }
 
-    public ArrayList<Monster> getMonsters() {
-        return getMonsters(monsters);
-    }
-
-
-    /*
-        areas are
-        dungeon,
-        grassland,
-        forest,
-        mountain,
-        roadside,
-        desert,
-        Underdark,
-        Shadowfell,
-        Feywild,
-        Lower Planes,
-        Upper Planes
-        on a scale from 0 to 4, 4 being common
-    public void randomEncounter(int hexes_hours, String area, int playersProficiencyBonus) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, IOException {
-        Scanner scanner = new Scanner(System.in);
-        for(int n=0;n<hexes_hours;n++) {
-            System.out.print("Interval: " + (n+1) + ": ");
-
-            double roll = Math.random();
-            if(roll<=.008889) {
-                switch(area) {
-                    case "dungeon":
-                        //celestials
-                        randomEncounterHelper(3, playersProficiencyBonus+2);
-                        break;
-                    case "grassland":
-                    case "forest":
-                    case "mountain":
-                    case "roadside":
-                    case "desert":
-                    case "Underdark":
-                        //celestials, fiends
-                        int randomRoll = (int)(Math.random()*2);
-                        if(randomRoll==0) {
-                            randomEncounterHelper(2, playersProficiencyBonus+2);
-                        }
-                        else {
-                            randomEncounterHelper(7, playersProficiencyBonus+2);
-                        }
-                        break;
-                    case "Shadowfell":
-                    case "Lower Planes":
-                        //celestials
-                        randomEncounterHelper(2, playersProficiencyBonus+2);
-                        break;
-                    case "Feywild":
-                    case "Upper Planes":
-                        //fiends
-                        randomEncounterHelper(7, playersProficiencyBonus+2);
-                        break;
-                }
-                System.out.println();
-                displayMonsters();
-            }
-            else if (roll<=.028416) {
-                //very rare encounter
-                switch(area) {
-                    case "dungeon":
-                        //fey, fiends
-                        int rollDungeon = (int)(Math.random()*2);
-                        if(rollDungeon==0) {
-                            randomEncounterHelper(6, playersProficiencyBonus+1);
-                        }
-                        else {
-                            randomEncounterHelper(7, playersProficiencyBonus+1);
-                        }
-                        break;
-                    case "grassland":
-                        //dragons, fey, undead
-                        int rollGrasslands = (int)(Math.random()*3);
-                        if(rollGrasslands==0) {
-                            randomEncounterHelper(4, playersProficiencyBonus);
-                        }
-                        else if(rollGrasslands==1){
-                            randomEncounterHelper(6, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "forest":
-                    case "roadside":
-                        //elementals, oozes
-                        int rollForest = (int)(Math.random()*2);
-                        if(rollForest==0) {
-                            randomEncounterHelper(5, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(11, playersProficiencyBonus);
-                        }
-                        break;
-                    case "mountain":
-                        //aberrations, constructs, oozes
-                        int rollMountain = (int)(Math.random()*3);
-                        if(rollMountain==0) {
-                            randomEncounterHelper(0, playersProficiencyBonus);
-                        }
-                        else if(rollMountain==1) {
-                            randomEncounterHelper(3, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(11, playersProficiencyBonus);
-                        }
-                        break;
-                    case "desert":
-                        //constructs
-                        randomEncounterHelper(3, playersProficiencyBonus);
-                        break;
-                    case "Underdark":
-                        //aberrations, constructs, fey, undead
-                        int rollUnderdark = (int)(Math.random()*4);
-                        if(rollUnderdark==0){
-                            randomEncounterHelper(0, playersProficiencyBonus);
-                        }
-                        else if(rollUnderdark==1){
-                            randomEncounterHelper(3, playersProficiencyBonus);
-                        }
-                        else if (rollUnderdark==2) {
-                            randomEncounterHelper(6, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Shadowfell":
-                    case "Lower Planes":
-                        //fey
-                        randomEncounterHelper(6, playersProficiencyBonus);
-                        break;
-                    case "Upper Planes":
-                    case "Feywild":
-                        //undead
-                        randomEncounterHelper(13, playersProficiencyBonus);
-                        break;
-                }
-                System.out.println();
-                displayMonsters();
-            }
-            else if (roll <= .072) {
-                //rare encounter
-                switch(area) {
-                    case "dungeon":
-                        //dragons, elementals
-                        int rollDungeon = (int) (Math.random()*2);
-                        if(rollDungeon==0) {
-                            randomEncounterHelper(4, playersProficiencyBonus+1);
-                        }
-                        else {
-                            randomEncounterHelper(5, playersProficiencyBonus+1);
-                        }
-                        break;
-                    case "grassland":
-                    case "roadside":
-                        //giants, undead
-                        int rollGrassland = (int)(Math.random()*2);
-                        if(rollGrassland==0) {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "forest":
-                        //aberrations, giants, undead
-                        int rollForest = (int) (Math.random()*3);
-                        if(rollForest==0) {
-                            randomEncounterHelper(0, playersProficiencyBonus);
-                        }
-                        else if(rollForest==1) {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "mountain":
-                        //elementals, giants, undead
-                        int rollMountain = (int)(Math.random()*3);
-                        if(rollMountain==0) {
-                            randomEncounterHelper(5, playersProficiencyBonus);
-                        }
-                        else if(rollMountain==1) {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "desert":
-                        //dragons, humanoids
-                        int rollDesert = (int)(Math.random()*2);
-                        if(rollDesert==0) {
-                            randomEncounterHelper(4, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(9, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Underdark":
-                        //elementals, giants
-                        int rollUnderdark = (int)(Math.random()*2);
-                        if(rollUnderdark==0) {
-                            randomEncounterHelper(5, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Shadowfell":
-                        //fiends, giants
-                        int rollShadowfell = (int)(Math.random()*2);
-                        if(rollShadowfell==0) {
-                            randomEncounterHelper(7, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Feywild":
-                        //celestials, plants
-                        int rollFeywild = (int)(Math.random()*2);
-                        if(rollFeywild==0) {
-                            randomEncounterHelper(2, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(12, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Upper Planes":
-                    case "Lower Planes":
-                        //constructs, elementals
-                        int rollPlanes = (int)(Math.random()*2);
-                        if(rollPlanes==0) {
-                            randomEncounterHelper(3, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(5, playersProficiencyBonus);
-                        }
-                        break;
-                }
-                System.out.println();
-                displayMonsters();
-            }
-            else if (roll <= .090666) {
-                //uncommon encounter
-                switch(area) {
-                    case "dungeon":
-                        //aberrations, beasts, constructs
-                        int rollDungeon = (int) (Math.random()*3);
-                        if (rollDungeon==0) {
-                            randomEncounterHelper(0, playersProficiencyBonus+1);
-                        }
-                        else if(rollDungeon==1) {
-                            randomEncounterHelper(1, playersProficiencyBonus+1);
-                        }
-                        else {
-                            randomEncounterHelper(3, playersProficiencyBonus+1);
-                        }
-                        break;
-                    case "grassland":
-                        //monstrosities, plants
-                        int rollGrassland = (int) (Math.random()*2);
-                        if(rollGrassland==0) {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(12, playersProficiencyBonus);
-                        }
-                        break;
-                    case "forest":
-                        //fey, monstrosities, plants
-                        int rollForest = (int) (Math.random()*3);
-                        if(rollForest==0) {
-                            randomEncounterHelper(6, playersProficiencyBonus);
-                        }
-                        else if (rollForest==1) {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(12, playersProficiencyBonus);
-                        }
-                        break;
-                    case "mountain":
-                        //giants, monstrosities
-                        int rollMountain = (int)(Math.random()*2);
-                        if(rollMountain==0) {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        break;
-                    case "roadside":
-                        //monstrosities
-                        randomEncounterHelper(10, playersProficiencyBonus);
-                        break;
-                    case "desert":
-                        //monstrosities, undead
-                        int rollDesert = (int)(Math.random()*2);
-                        if(rollDesert==0) {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Underdark":
-                        //giants, humanoids -- drow, svirfneblin, duergar, oozes
-                        MonsterDirectory monsterDirectory = new MonsterDirectory();
-                        int monsterNumber = (int)(Math.random()*5);
-                        int rollUnderdark = (int)(Math.random()*3);
-                        if(rollUnderdark==0) {
-                            for(int i=0;i<=monsterNumber;i++) {
-                                int directory = 9;
-                                int type = (int) (Math.random()*3);
-                                Monster monster;
-                                int roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-                                if (type==0) {
-                                    int roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory, 0).size());
-                                    monster = monsterDirectory.getMonster(directory, 0, roll3);
-                                    while (!(monster.getProficiencyBonus()>=playersProficiencyBonus-1 && monster.getProficiencyBonus()<=playersProficiencyBonus+1)) {
-                                        roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-                                        roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory, roll2).size());
-                                        monster = monsterDirectory.getMonster(directory, roll2, roll3);
-                                    }
-                                }
-                                else if(type==1) {
-                                    int roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory,1).size());
-                                    monster = monsterDirectory.getMonster(directory, 1, roll3);
-                                    while (!(monster.getProficiencyBonus()>=playersProficiencyBonus-1 && monster.getProficiencyBonus()<=playersProficiencyBonus+1)) {
-                                        roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-                                        roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory, roll2).size());
-                                        monster = monsterDirectory.getMonster(directory, roll2, roll3);
-                                    }
-                                }
-                                else{
-                                    monster = monsterDirectory.getMonster(directory, 0, 3);
-                                }
-                                add(monster);
-                            }
-                        }
-                        else if(rollUnderdark==1) {
-                            randomEncounterHelper(8, playersProficiencyBonus);
-                        }
-                        else{
-                            randomEncounterHelper(11, playersProficiencyBonus);
-                        }
-                        break;
-
-                    case "Shadowfell":
-                        //beasts, monstrosities, oozes
-                        int rollShadowfell = (int) (Math.random()*3);
-                        if (rollShadowfell==0) {
-                            randomEncounterHelper(1, playersProficiencyBonus);
-                        }
-                        else if (rollShadowfell==1) {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(11, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Feywild":
-                        //humanoids, monstrosities
-                        int rollFeywild = (int) (Math.random()*2);
-                        if(rollFeywild==0) {
-                            randomEncounterHelper(9, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(10, playersProficiencyBonus);
-                        }
-                        break;
-                    case "Upper Planes":
-                        //humanoids
-                        randomEncounterHelper(9, playersProficiencyBonus);
-                        break;
-                    case "Lower Planes":
-                        //humanoids, aberrations
-                        int rollLower = (int) (Math.random()*2);
-                        if(rollLower==0) {
-                            randomEncounterHelper(0, playersProficiencyBonus);
-                        }
-                        else {
-                            randomEncounterHelper(9, playersProficiencyBonus);
-                        }
-                        break;
-                }
-                System.out.println();
-                displayMonsters();
-            }
-            else if(roll <=.15666) {
-                //common encounter
-                switch(area) {
-                    case "dungeon":
-                        int rollDungeon = (int) (Math.random()*4);
-                        if (rollDungeon==0) {
-                            randomEncounterHelper(9, playersProficiencyBonus+1);
-                        }
-                        else if (rollDungeon==1) {
-                            randomEncounterHelper(10, playersProficiencyBonus+1);
-                        }
-                        else if (rollDungeon==2) {
-                            randomEncounterHelper(11, playersProficiencyBonus+1);
-                        }
-                        else {
-                            randomEncounterHelper(13, playersProficiencyBonus+1);
-                        }
-                        break;
-                    case "grassland":
-                        int roll1 = (int) (Math.random()*2);
-                        if(roll1 == 0) {
-                            randomEncounterHelper(1, playersProficiencyBonus);
-                        }
-                        else if (roll1 ==1) {
-                            randomEncounterHelper(9, playersProficiencyBonus);
-                        }
-                        break;
-                    case "forest":
-                    case "mountain":
-                    case "desert":
-                        randomEncounterHelper(1, playersProficiencyBonus);
-                        break;
-                    case "roadside":
-                        randomEncounterHelper(9, playersProficiencyBonus);
-                        break;
-                    case "Underdark":
-                        randomEncounterHelper(10, playersProficiencyBonus);
-                        break;
-                    case "Shadowfell":
-                        randomEncounterHelper(13, playersProficiencyBonus);
-                        break;
-                    case "Feywild":
-                        randomEncounterHelper(6, playersProficiencyBonus);
-                        break;
-                    case "Upper Planes":
-                        randomEncounterHelper(2, playersProficiencyBonus);
-                        break;
-                    case "Lower Planes":
-                        randomEncounterHelper(7, playersProficiencyBonus);
-                        break;
-                }
-                System.out.println();
-                displayMonsters();
-            }
-            else {
-                System.out.println("No encounter");
-            }
-            System.out.println();
-            if(n<hexes_hours-1) {
-                System.out.print("Type 'next' to continue: ");
-                while (!scanner.next().equals("next")){
-                }
-                System.out.println();
-            }
-            removeAllMonsters();
+    public String toString(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("Encounter: \n\n");
+        for (Monster m : monsters){
+            sb.append(m.getName()).append('\n');
         }
+        return sb.toString();
     }
 
-
-    private void randomEncounterHelper (int directory, int playersProficiencyBonus) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, IOException {
-        MonsterDirectory monsterDirectory = new MonsterDirectory();
-        int monsterNumber = (int) ((Math.random()*5)+1);
-        int roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-        int roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory, roll2).size());
-        for(int i=0;i<=monsterNumber;i++) {
-            double differentRoll2 = Math.random();
-            double differentRoll3 = Math.random();
-            if(i>0 && differentRoll2>.9) {
-                roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-            }
-            if(i>0 && differentRoll3>.65 && differentRoll2<=.9) {
-                roll3 = (int) (Math.random()*monsterDirectory.getSubdirectory(directory, roll2).size());
-            }
-            Monster monster = monsterDirectory.getMonster(directory, roll2, roll3);
-            boolean workableProficiencyBonus = false;
-            for(Monster m : monsterDirectory.getSubdirectory(directory, roll2)) {
-                if (m.getProficiencyBonus()<=playersProficiencyBonus+1 && m.getProficiencyBonus()>=playersProficiencyBonus-1) {
-                    workableProficiencyBonus=true;
-                    break;
-                }
-            }
-            if (workableProficiencyBonus) {
-                while (!(monster.getProficiencyBonus()>=playersProficiencyBonus-1 && monster.getProficiencyBonus()<=playersProficiencyBonus+1)) {
-                    roll2 = (int) (Math.random()*monsterDirectory.getDirectory(directory).size());
-                    roll3 = (int) (Math.random()*(monsterDirectory.getSubdirectory(directory, roll2).size()));
-                    monster = monsterDirectory.getMonster(directory, roll2, roll3);
-                }
-            }
-            add(monster);
-            if (monster.getProficiencyBonus()>playersProficiencyBonus) {
-                i++;
-            }
+    public VBox toPane(ScrollPane pane, TextArea rolls){
+        VBox box = new VBox();
+        for (Monster m : monsters){
+            Button b = new Button(m.getName());
+            b.setOnAction(e -> {
+                DMTool.setMonsterPane(pane, rolls, m);
+            });
+            box.getChildren().add(b);
         }
+        return box;
     }
-     */
 
-    private ArrayList<Monster> getMonsters(ArrayList<Monster> monsters) {
+    public ArrayList<Monster> getMonsters(){
         return monsters;
     }
 
-    private void removeAllMonsters() {
-        if (monsters.size() >= 1) {
-            monsters.subList(0, monsters.size()).clear();
+    public void setMonsters(ArrayList<Monster> monsters){
+        this.monsters = monsters;
+    }
+
+    public static Encounter[] randEncounterInterval(int noOfIntervals, int index, int partySize, int partyLevel) throws NoSuchMethodException, InstantiationException, ClassNotFoundException, IllegalAccessException, InvocationTargetException, IOException {
+        ArrayList<Encounter> encounters = new ArrayList<>();
+        for (int i=0; i<noOfIntervals; i++) {
+            double roll = Math.random();
+            if (roll <= 0.125){
+                encounters.add(Encounter.randomEncounter(index, partySize, partyLevel));
+            }
+        }
+
+        return (Encounter[]) encounters.toArray();
+    }
+
+    /**
+     * @author Tyler Conley
+     * This will generate a random encounter
+     *
+     * TODO 5.9.2020 additional random monster algorithms need to be implemented to create more realized encounters
+     */
+    public static Encounter randomEncounter(int index, int partySize, int partyLevel) throws NoSuchMethodException, InstantiationException, IOException, IllegalAccessException, InvocationTargetException, ClassNotFoundException {
+        MonsterDirectory md = new MonsterDirectory();
+        Encounter encounter = new Encounter();
+
+        Hashtable<Integer, ArrayList<Monster>> area = md.getProbabilities().get(index);
+        int xp = 200 * partyLevel * partySize;
+
+        double roll = Math.random();
+        ArrayList<Monster> monsters;
+
+        // super duper rare encounters (rarity index of 0)
+        if (roll <= 0.005){
+            monsters = area.get(0);
+            rollMonsters(monsters, encounter, xp, xp);
+        }
+        // very rare encounters (rarity index of 1)
+        else if (roll <= 0.1){
+            monsters = area.get(1);
+            rollMonsters(monsters, encounter, xp, xp);
+        }
+        // rare encounters (rarity index of 2)
+        else if (roll <= 0.25){
+            monsters = area.get(2);
+            rollMonsters(monsters, encounter, xp, xp);
+        }
+        // uncommon encounters (rarity index of 3)
+        else if(roll <= 0.5){
+            monsters = area.get(3);
+            rollMonsters(monsters, encounter, xp, xp);
+        }
+        // common encounters (rarity index of 4)
+        else{
+            monsters = area.get(4);
+            rollMonsters(monsters, encounter, xp, xp);
+        }
+
+        return encounter;
+    }
+
+    private static void rollMonsters(ArrayList<Monster> monsters, Encounter encounter, int xp, int xpTotal){
+        XPTable table = new XPTable();
+        while (true){
+            int monsterRoll = (int) ((Math.random()) * monsters.size());
+            Monster monster = monsters.get(monsterRoll);
+            int monsterXP = table.table.get(monster.getCR());
+            if(monsterXP>xpTotal){
+                continue;
+            }
+            if(monsterXP > xp){
+                break;
+            }
+            encounter.add(monsters.get(monsterRoll));
+            xp -= monsterXP;
+        }
+    }
+
+
+    /**
+     * @author Tyler Conley
+     * this class holds information for xp earned for specific challenge ratings, and is used to calculate random
+     * encounters for players of a specific level
+     */
+    static class XPTable{
+        Hashtable<Double, Integer> table;
+
+        XPTable(){
+            table = new Hashtable<>();
+            table.put(0.0, 10);
+            table.put(0.125, 25);
+            table.put(0.25, 50);
+            table.put(0.5, 100);
+            table.put(1.0, 200);
+            table.put(2.0, 450);
+            table.put(3.0, 700);
+            table.put(4.0, 1100);
+            table.put(5.0, 1800);
+            table.put(6.0, 2300);
+            table.put(7.0, 2900);
+            table.put(8.0, 3900);
+            table.put(9.0, 5000);
+            table.put(10.0, 5900);
+            table.put(11.0, 7200);
+            table.put(12.0, 8400);
+            table.put(13.0, 10000);
+            table.put(14.0, 11500);
+            table.put(15.0, 13000);
+            table.put(16.0, 15000);
+            table.put(17.0, 18000);
+            table.put(18.0, 20000);
+            table.put(19.0, 22000);
+            table.put(20.0, 25000);
+            table.put(21.0, 33000);
+            table.put(22.0, 41000);
+            table.put(23.0, 50000);
+            table.put(24.0, 62000);
+            table.put(25.0, 75000);
+            table.put(26.0, 90000);
+            table.put(27.0, 105000);
+            table.put(28.0, 120000);
+            table.put(29.0, 135000);
+            table.put(30.0, 155000);
+        }
+    }
+
+    //dungeon, grassland, forest, desert, mountain, roadside, Underdark, Shadowfell, Feywild, Upper Planes, and Lower Planes
+    static class AreaIndexes{
+        Hashtable<String, Integer> table;
+
+        AreaIndexes(){
+            table = new Hashtable<>();
+            table.put("dungeon", 0);
+            table.put("grassland", 1);
+            table.put("forest", 2);
+            table.put("desert", 3);
+            table.put("mountain", 4);
+            table.put("roadside", 5);
+            table.put("underdark", 6);
+            table.put("shadowfell", 7);
+            table.put("feywild", 8);
+            table.put("upper planes", 9);
+            table.put("lower planes", 10);
         }
     }
 }

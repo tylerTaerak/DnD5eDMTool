@@ -1,6 +1,17 @@
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextArea;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
+
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Monster implements Dice, Comparable<Monster>, Autowrap {
+public class Monster implements Dice, Comparable<Monster>, Autowrap, Serializable {
 
     private String name;
     private String size;
@@ -81,6 +92,174 @@ public class Monster implements Dice, Comparable<Monster>, Autowrap {
         this.senses=senses;
         this.languages=languages;
         this.CR = cr;
+    }
+
+    public ScrollPane toPane(TextArea dice) {
+        VBox vBox = new VBox();
+        FlowPane topPane = new FlowPane();
+        String sb = name + "\n" +
+                "-------------------------------\n" +
+                size + " " + type + "\n" +
+                "AC: " + ac + "\n" +
+                "Hit Points: " + hpAvg + "\n" +
+                "Speed: " + speed + "\n\n";
+        Label topText = new Label(sb);
+        topText.setWrapText(true);
+        topText.autosize();
+        topPane.getChildren().add(topText);
+        vBox.getChildren().add(topPane);
+
+        Button str = new Button(String.format("STR: %1d (%2s)", STR, modifierString(STR)));
+        Button dex = new Button(String.format("DEX: %1d (%2s)", DEX, modifierString(DEX)));
+        Button con = new Button(String.format("CON: %1d (%2s)", CON, modifierString(CON)));
+        Button intl = new Button(String.format("INT: %1d (%2s)", INT, modifierString(INT)));
+        Button wis = new Button(String.format("WIS: %1d (%2s)", WIS, modifierString(WIS)));
+        Button cha = new Button(String.format("CHA: %1d (%2s)", CHA, modifierString(CHA)));
+        Button[] scoreButtons = new Button[] {str, dex, con, intl, wis, cha};
+
+        for (Button b: scoreButtons){
+            b.setOnAction(e -> {
+                int bonus=0;
+                switch (b.getText().substring(0, 3)){
+                    case "STR":
+                        bonus = modifier(STR);
+                        break;
+                    case "DEX":
+                        bonus = modifier(DEX);
+                        break;
+                    case "CON":
+                        bonus = modifier(CON);
+                        break;
+                    case "INT":
+                        bonus = modifier(INT);
+                        break;
+                    case "WIS":
+                        bonus = modifier(WIS);
+                        break;
+                    case "CHA":
+                        bonus = modifier(CHA);
+                }
+                dice.setText(b.getText().substring(0, 3) + " roll result: " + d(false, 1, 20, bonus));
+            });
+            b.getStyleClass().add("rollButton");
+        }
+
+        HBox scButPane = new HBox();
+        scButPane.getChildren().addAll(scoreButtons);
+
+        vBox.getChildren().add(scButPane);
+
+
+        Button strSave = new Button(String.format("STR: %s", savingThrowString(0, STR)));
+        Button dexSave = new Button(String.format("DEX: %s", savingThrowString(0, DEX)));
+        Button conSave = new Button(String.format("CON: %s", savingThrowString(0, CON)));
+        Button intSave = new Button(String.format("INT: %s", savingThrowString(0, INT)));
+        Button wisSave = new Button(String.format("WIS: %s", savingThrowString(0, WIS)));
+        Button chaSave = new Button(String.format("CHA: %s", savingThrowString(0, CHA)));
+        Button[] saveButtons = new Button[] {strSave, dexSave, conSave, intSave, wisSave, chaSave};
+
+        for (Button b: saveButtons) {
+            b.setOnAction(e ->{
+                int bonus = 0;
+                switch (b.getText().substring(0, 3)){
+                    case "STR":
+                        bonus = savingThrow(0, STR);
+                        break;
+                    case "DEX":
+                        bonus = savingThrow(1, DEX);
+                        break;
+                    case "CON":
+                        bonus = savingThrow(2, CON);
+                        break;
+                    case "INT":
+                        bonus = savingThrow(3, INT);
+                        break;
+                    case "WIS":
+                        bonus = savingThrow(4, WIS);
+                        break;
+                    case "CHA":
+                        bonus = savingThrow(5, CHA);
+                }
+                dice.setText(b.getText().substring(0, 3) + " saving throw: " + d(false, 1, 20, bonus));
+            });
+            b.getStyleClass().add("rollButton");
+        }
+        Label saves = new Label("Saves: ");
+
+        HBox saButPane = new HBox();
+        saButPane.getChildren().addAll(saveButtons);
+
+        vBox.getChildren().addAll(saves, saButPane);
+
+
+        StringBuilder sb1 = new StringBuilder();
+        sb1.append('\n');
+        if (skillList.length > 0){
+            ArrayList<Button> skills = new ArrayList<>();
+            Label skillLabel = new Label("Skills: ");
+            for (int i : skillList){
+                Button button = new Button(Skills.values()[i] + " +" + getSkillBonuses(i) + " ");
+                button.setOnAction(e -> {
+                    String[] parts = button.getText().split(" ");
+                    dice.setText(parts[0] + " roll: " + d(false, 1, 20, getSkillBonuses(i)));
+                });
+                button.getStyleClass().add("rollButton");
+                skills.add(button);
+            }
+            HBox hBox = new HBox();
+            hBox.getChildren().add(skillLabel);
+            hBox.getChildren().addAll(skills);
+
+            vBox.getChildren().add(hBox);
+        }
+        sb1.append("Senses: ").append(senses).append('\n');
+        sb1.append("Languages: ").append(languages).append('\n');
+        sb1.append("CR: ").append(CR).append("\n\n");
+        if (passives.size() > 0){
+            sb1.append("---------- Passives --------------").append("\n\n");
+            for (String s : passives){
+                sb1.append("* ").append(autoWrap(s)).append("\n\n");
+            }
+            sb1.append("\n");
+        }
+
+        Label txt2 = new Label(sb1.toString());
+        txt2.setWrapText(true);
+        txt2.autosize();
+        FlowPane txt2Pane = new FlowPane();
+        txt2Pane.getChildren().add(txt2);
+
+        vBox.getChildren().add(txt2Pane);
+
+        if(attacks.size() > 0){
+            ArrayList<Button> buttons = new ArrayList<>();
+            vBox.getChildren().add(new Label("---------- Attacks --------------"));
+            if (multiattack.length > 0){
+                StringBuilder multiTxt = new StringBuilder("Multiattack: ");
+                for (int i : multiattack){
+                    multiTxt.append(attacks.get(i).getName()).append(", ");
+                }
+                vBox.getChildren().add(new Label(multiTxt.toString()));
+            }
+            for (Attack a : attacks){
+                Button button = new Button(a.toString());
+                button.setOnAction(e -> {
+                    dice.setText(attack(a));
+                });
+                button.getStyleClass().add("rollButton");
+                buttons.add(button);
+            }
+            FlowPane atkPane = new FlowPane();
+            atkPane.getChildren().addAll(buttons);
+            sb1.append("\n");
+            vBox.getChildren().add(atkPane);
+        }
+
+        ScrollPane scrollPane = new ScrollPane(vBox);
+        scrollPane.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+        scrollPane.setVbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+
+        return scrollPane;
     }
 
 
@@ -381,6 +560,10 @@ public class Monster implements Dice, Comparable<Monster>, Autowrap {
         return multi.toString();
     }
 
+
+    /**
+     * TODO: needs fixing in string formation, particularly for DCAttack implementation
+     */
     public String attack(Attack atk){
         String attack = atk.getName();
         if (atk.getRange()!=0) {
@@ -450,10 +633,11 @@ public class Monster implements Dice, Comparable<Monster>, Autowrap {
             if(atk.getDamage(true) != 0) {
                 attack+= " or take " + atk.getDamage(false) + " " + atk.getDamageType() + " damage";
             }
-            if (!((DCAttack) atk).getDCEffect().equals("") && atk.getDamage(false) != 0) {
+            //TODO: this logic throws a NullPointerException.  Fix that.
+            if (((DCAttack) atk).getDCEffect() != null && atk.getDamage(false) != 0) {
                 attack+= "\nand " + ((DCAttack) atk).getDCEffect();
             }
-            else if (!((DCAttack) atk).getDCEffect().equals("")) {
+            else if (((DCAttack) atk).getDCEffect() != null) {
                 attack+= "\nor " + ((DCAttack) atk).getDCEffect()+"\n";
             }
             if(((DCAttack) atk).getHalfDamage()) {

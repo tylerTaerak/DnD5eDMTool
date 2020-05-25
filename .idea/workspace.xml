@@ -2,144 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28400370-db1f-4cce-8571-bdaf10c4cccd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DnD Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DnD Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Attack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Attack.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/DMTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/DMTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Encounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Encounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Lair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Lair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryMonster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryMonster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Monster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterAttacker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterAttacker.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/MonsterDirectory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Androsphinx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Androsphinx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Balor" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Balor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/BarbedDevil" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/BarbedDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/BlackPudding" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/BlackPudding" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Bullywug" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Bullywug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/ChainDevil" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/ChainDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Chasme" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Chasme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Chuul" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Chuul" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Cloaker" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Cloaker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/ConstrictorSnake" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/ConstrictorSnake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Couatl" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Couatl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Crocodile" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Crocodile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Darkmantle" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Darkmantle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Ettercap" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Ettercap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/FireElemental" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/FireElemental" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Flumph" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Flumph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantConstrictorSnake" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantConstrictorSnake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantCrab" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantCrab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantCrocodile" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantCrocodile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantFrog" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantFrog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantOctopus" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantOctopus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantScorpion" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GiantScorpion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithyankiKnight" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithyankiKnight" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithzeraiMonk" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithzeraiMonk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithzeraiZerth" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GithzeraiZerth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Glabrezu" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Glabrezu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GrayOoze" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GrayOoze" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/GreenSlaad" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/GreenSlaad" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/HornedDevil" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/HornedDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Kraken" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Kraken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/KuoToa" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/KuoToa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/KuoToaWhip" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/KuoToaWhip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Lamia" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Lamia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/LizardfolkShaman" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/LizardfolkShaman" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Magmin" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Magmin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Marilith" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Marilith" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Mimic" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Mimic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/MindFlayer" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/MindFlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Octopus" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Octopus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/OrcEyeOfGruumsh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/OrcEyeOfGruumsh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Otyugh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Otyugh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Piercer" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Piercer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Rakshasa" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Rakshasa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Remorhaz" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Remorhaz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Revenant" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Revenant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Roc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Roc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Roper" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Roper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/RugOfSmothering" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/RugOfSmothering" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Salamander" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Salamander" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Shadow" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Shadow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/ShadowDemon" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/ShadowDemon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/ShamblingMound" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/ShamblingMound" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Stirge" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Stirge" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfInsects" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfInsects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfQuippers" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfQuippers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfRats" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfRats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfRavens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/SwarmOfRavens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Tarrasque" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Tarrasque" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/TyrannosaurusRex" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/TyrannosaurusRex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Vampire" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Vampire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/VampireSpawn" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/VampireSpawn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/VineBlight" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/VineBlight" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/WaterWeird" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/WaterWeird" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/WingedKobold" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/WingedKobold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/Yochlol" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/Yochlol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/YuanTiAbomination" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/YuanTiAbomination" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/txt/YuanTiMalison" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/txt/YuanTiMalison" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/READ_ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DCAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DCAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DMTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DMTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Androsphinx" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Androsphinx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Balor" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Balor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/BarbedDevil" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/BarbedDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/BlackPudding" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/BlackPudding" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Bullywug" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Bullywug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/ChainDevil" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/ChainDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Chasme" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Chasme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Chuul" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Chuul" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Cloaker" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Cloaker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/ConstrictorSnake" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/ConstrictorSnake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Couatl" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Couatl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Crocodile" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Crocodile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Darkmantle" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Darkmantle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Ettercap" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Ettercap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/FireElemental" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/FireElemental" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Flumph" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Flumph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantConstrictorSnake" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantConstrictorSnake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantCrab" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantCrab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantCrocodile" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantCrocodile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantFrog" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantFrog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantOctopus" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantOctopus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GiantScorpion" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GiantScorpion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GithyankiKnight" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GithyankiKnight" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GithzeraiMonk" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GithzeraiMonk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GithzeraiZerth" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GithzeraiZerth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Glabrezu" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Glabrezu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GrayOoze" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GrayOoze" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/GreenSlaad" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/GreenSlaad" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/HornedDevil" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/HornedDevil" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Kraken" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Kraken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/KuoToa" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/KuoToa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/KuoToaWhip" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/KuoToaWhip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Lamia" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Lamia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/LizardfolkShaman" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/LizardfolkShaman" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Magmin" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Magmin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Marilith" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Marilith" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Mimic" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Mimic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/MindFlayer" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/MindFlayer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Octopus" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Octopus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/OrcEyeOfGruumsh" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/OrcEyeOfGruumsh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Otyugh" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Otyugh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Piercer" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Piercer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Rakshasa" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Rakshasa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Remorhaz" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Remorhaz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Revenant" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Revenant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Roc" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Roc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Roper" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Roper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/RugOfSmothering" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/RugOfSmothering" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Salamander" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Salamander" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Shadow" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Shadow" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/ShadowDemon" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/ShadowDemon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/ShamblingMound" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/ShamblingMound" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Stirge" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Stirge" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/SwarmOfInsects" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/SwarmOfInsects" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/SwarmOfQuippers" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/SwarmOfQuippers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/SwarmOfRats" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/SwarmOfRats" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/SwarmOfRavens" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/SwarmOfRavens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Tarrasque" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Tarrasque" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/TyrannosaurusRex" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/TyrannosaurusRex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Vampire" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Vampire" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/VampireSpawn" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/VampireSpawn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/VineBlight" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/VineBlight" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/WaterWeird" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/WaterWeird" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/WingedKobold" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/WingedKobold" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/Yochlol" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/Yochlol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/YuanTiAbomination" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/YuanTiAbomination" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txt/YuanTiMalison" beforeDir="false" afterPath="$PROJECT_DIR$/src/txt/YuanTiMalison" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegendaryAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LegendaryMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MonsterAttacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MonsterDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonsterDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/READ_ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,11 +52,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PersonProject" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -187,6 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Encounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encounter" />
+      <module name="DnD Testing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MonsterReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MonsterReader" />
       <module name="DnD Testing" />
@@ -197,21 +97,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DMTool" />
+        <item itemvalue="Application.Encounter" />
         <item itemvalue="Application.MonsterReader" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -224,64 +113,60 @@
       <option name="presentableId" value="Default" />
       <updated>1574289664311</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished home pane (displays all monsters and search terms. Added monster stats and dice roller to home pane)">
+      <created>1585775232857</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585775232857</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished home pane (displays all monsters and search terms. Added monster stats and dice roller to home pane)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished home pane (displays all monsters and search terms. Added monster stats and dice roller to home pane)" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578959699087">
+    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588968829566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="539" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578959699087" />
+    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588968829566" />
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1581974357214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581974357214" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1578001235936">
+    <state x="-1496" y="-600" key="CommitChangelistDialog2" timestamp="1585775231491">
+      <screen x="-1920" y="-607" width="1536" height="824" />
+    </state>
+    <state x="-1496" y="-600" key="CommitChangelistDialog2/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1585775231491" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1590445966238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1578001235936" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579328017020">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1590445966238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579328017020" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1585524116443">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1590445966237">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585524116443" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1585524116443">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590445966237" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1590445966238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585524116443" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1585524116443">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590428827089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585524116443" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1585524116443">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585524116443" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1578458896787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578458896787" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1578458896787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578458896787" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1578458896787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578458896787" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1578458896787">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578458896787" />
-    <state x="511" y="32" key="refactoring.ChangeSignatureDialog" timestamp="1578686361385">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="511" y="32" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1578686361385" />
+    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1590428827089" />
     <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581818688483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

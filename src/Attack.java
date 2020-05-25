@@ -1,4 +1,6 @@
-public class Attack implements Dice, Autowrap {
+import java.io.Serializable;
+
+public class Attack implements Dice, Autowrap, Serializable {
     private boolean critical = false;
     private int damageNumber;
     private int damageSides;
@@ -23,6 +25,9 @@ public class Attack implements Dice, Autowrap {
         this.effect = effect;
 }
 
+    /**
+     * TODO: fix range to not add any string when range is 0
+     */
     public String toString(){
         StringBuilder sb = new StringBuilder();
         sb.append(name).append(": ").append(attackBonus).append(" to hit; Range: ").append(range).append(": ");

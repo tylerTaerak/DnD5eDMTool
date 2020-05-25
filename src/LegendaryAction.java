@@ -1,4 +1,6 @@
-public class LegendaryAction implements Autowrap {
+import java.io.Serializable;
+
+public class LegendaryAction implements Autowrap, Serializable {
     private String name;
     private int cost;
     private String effect;

@@ -10,6 +10,8 @@ public class MonsterDirectory {
     private TreeSet<Monster> tree; // a tree containing all of the monsters in the /txt folder
     private ArrayList<Hashtable<Integer, ArrayList<Monster>>> probabilities; // a data structure containing relative probabilities of finding a monster in a certain area.  Probabilities are listed on the last two lines of the monster file
 
+    private final String PATH = "src/txt"; //the file path used in the class. This may need to be manually changed depending on the compiling tool
+
 
     public MonsterDirectory()
             throws ClassNotFoundException,
@@ -31,7 +33,7 @@ public class MonsterDirectory {
 
 
         MonsterReader mr = new MonsterReader();
-        File[] monsters = new File("src/txt").listFiles();
+        File[] monsters = new File(PATH).listFiles();
 
         assert monsters != null;
 

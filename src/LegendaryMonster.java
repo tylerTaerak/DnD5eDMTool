@@ -53,6 +53,10 @@ public class LegendaryMonster extends Monster {
         return sb.toString();
     }
 
+    /**
+     * TODO: Add a .toPane() function that adds on to the one in the Monster class, and gives legendary actions & lair info
+     */
+
 
     private void displayLA() {
         System.out.println("---Legendary Actions---\n");

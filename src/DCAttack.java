@@ -1,4 +1,4 @@
-public class DCAttack extends Attack{
+public class DCAttack extends Attack {
     private int size;
     private String shape;
     private String DCEffect;

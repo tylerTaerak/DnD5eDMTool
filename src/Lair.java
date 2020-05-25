@@ -1,9 +1,10 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Lair implements Autowrap {
-    private String usualArea;
+public class Lair implements Autowrap, Serializable {
+    private final String usualArea;
     ArrayList<DCAttack> lairActions;
-    private ArrayList<String> regionalEffects;
+    private final ArrayList<String> regionalEffects;
 
     public Lair(String usualArea, ArrayList<DCAttack> lairActions, ArrayList<String> regionalEffects) {
         this.usualArea = usualArea;
