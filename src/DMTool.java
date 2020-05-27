@@ -70,12 +70,17 @@ public class DMTool extends Application implements Autowrap {
         // The monster pane contains information for the current monster whose stats are being looked at
         // Clicking on a monster in the home pane will bring up its stats in the monster pane
         Pane monsterPane = new Pane();
-
-        int randInt = (int) (Math.random() * md.getTree().size());
-        Monster monsterOfTheDay = (Monster) md.getTree().toArray()[randInt];
-        monster = monsterOfTheDay;
-        System.out.println(monsterOfTheDay.getName());
-        monsterSP.setContent(monsterOfTheDay.toPane(rolls));
+	if (md.getTree() != null && md.getTree().size() > 0){
+ 	       int randInt = (int) (Math.random() * md.getTree().size());
+		monster =  (Monster) md.getTree().toArray()[randInt];
+	}
+	else {
+		monster = null;
+	}
+	if (monster != null){
+		System.out.println(monster.getName());
+		monsterSP.setContent(monster.toPane(rolls));
+	}
 
         monsterSP.prefWidthProperty().bind(monsterPane.widthProperty());
         monsterSP.prefHeightProperty().bind(monsterPane.heightProperty());

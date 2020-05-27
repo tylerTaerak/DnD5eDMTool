@@ -35,14 +35,15 @@ public class MonsterDirectory {
         MonsterReader mr = new MonsterReader();
         File[] monsters = new File(PATH).listFiles();
 
-        assert monsters != null;
-
-        for(File f : monsters) { ;
-            Monster m = mr.readMonsterFromFile(f);
-            //System.out.println(m.getName() + " added");
-            tree.add(m);
-            addProbabilities(m, mr.readProbabilitiesFromFile(f));
-        }
+        
+	if (monsters != null && monsters.length > 0){
+	
+            for(File f : monsters) { ;
+            	Monster m = mr.readMonsterFromFile(f);	
+            	tree.add(m);
+            	addProbabilities(m, mr.readProbabilitiesFromFile(f));
+            }
+	}
 
     }
 
