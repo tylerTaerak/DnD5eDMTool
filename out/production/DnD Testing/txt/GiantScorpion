@@ -1,8 +1,0 @@
-Monster String{ Giant Scorpion } Large Beast 2 15 52 String{ 40 ft } 15 false 13 false 15 false 1 false 9 false 3 false int[]{ } String{ blindsight 60 ft, passive Perception 9 } None 3
-7 10 14
-
-======= Attacks 0 0 1 =========
-Attack Claw 4 5 1 8 2 bludgeoning String{ target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target } }
-Attack Sting 4 5 1 10 2 piercing DCAttack{ null 12 5 0 null 4 10 0 poison null Constitution true } }
-========== Areas ==========
-2 1 1 1 1 2 2 1 1 0 0 

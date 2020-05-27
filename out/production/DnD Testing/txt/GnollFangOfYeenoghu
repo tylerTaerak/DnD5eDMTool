@@ -1,9 +1,0 @@
-Monster String{ Gnoll Fang of Yeenoghu } Medium String{ Fiend (gnoll) } 2 14 65 String{ 30 ft } 17 false 15 false 15 true 10 false 11 true 13 true int[]{ } String{ darkvision 60 ft, passive Perception 10 } String{ Abyssal, Gnoll } 4
-10 8 20
-============= Passives ============
-Rampage: When the gnoll reduces a creature to 0 hti points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack
-=========== Attacks 0 1 1 ===========
-Attack Bite 5 5 1 6 3 piercing DCAttack{ null 12 5 0 null 2 6 0 poison null Constitution false } }
-Attack Claw 5 5 1 8 3 slashing null
-========= Areas ===========
-2 4 3 3 3 3 1 0 0 0 0

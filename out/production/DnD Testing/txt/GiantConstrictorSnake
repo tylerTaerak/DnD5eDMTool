@@ -1,8 +1,0 @@
-Monster String{ Giant Constrictor Snake } Huge Beast 2 12 60 String{ 30 ft, swim 30 ft } 19 false 14 false 12 false 1 false 10 false 3 false int[]{ 11 } String{ blindsight 10 ft, passive Perception 12 } None 2
-8 12 8
-
-========= Attacks null ============
-Attack Bite 6 10 2 6 4 piercing null
-Attack Constrict 6 5 2 8 4 bludgeoning String{ target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target } }
-======== Areas =============
-1 2 2 2 1 2 1 1 2 0 0 

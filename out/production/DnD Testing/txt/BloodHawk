@@ -1,9 +1,0 @@
-Monster String{ Blood Hawk } Small Beast 2 12 7 String{ 10 ft, fly 60 ft } 6 false 14 false 10 false 3 false 14 false 5 false int[]{ 11 } String{ passive Perception 14 } None 0.125
-2 6 0
-======= Passives ==========
-Keen Sight: The hawk has advantage on Wisdom (Perception) checks that rely on sight
-Pack Tactics: The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft of the creature and the ally isn't incapacitated
-========= Attacks null ==========
-Attack Beak 4 5 1 4 2 piercing null
-======= Areas ==========
-0 4 3 4 4 3 0 0 1 0 0 

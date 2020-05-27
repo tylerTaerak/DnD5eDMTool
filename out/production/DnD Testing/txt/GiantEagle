@@ -1,9 +1,0 @@
-Monster String{ Giant Eagle } Large Beast 2 13 26 String{ 10 ft, fly 80 ft } 16 false 17 false 13 false 8 false 14 false 10 false int[]{ 11 } String{ passive Perception 14 } String{ Giant Eagle, understands Common and Auran but can't speak them } 1
-4 10 4
-=========== Passives =============
-Keen Sight: The eagle has advantage on Wisdom (Perception) checks that rely on sight
-========= Attacks 0 1 ==========
-Attack Beak 5 5 1 6 3 piercing null
-Attack Talons 5 5 2 6 3 slashing null
-========= Areas ============
-0 2 2 2 1 2 0 0 1 0 0 

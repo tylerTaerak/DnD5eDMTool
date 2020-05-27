@@ -1,9 +1,0 @@
-Monster String{ Fire Giant } Huge Giant 4 18 162 String{ 30 ft } 25 false 9 true 23 true 10 false 14 false 13 true int[]{ 3 11 } String{ passive Perception 16 } Giant 9
-13 12 78
-============= Passives ==========
-Damage Immunities: fire
-=============== Attacks 0 0 ================
-Attack Greatsword 11 10 6 6 7 slashing null
-Attack Rock 11 60 4 10 7 bludgeoning null
-=========== Areas =============
-4 1 1 3 1 2 4 3 1 0 0 

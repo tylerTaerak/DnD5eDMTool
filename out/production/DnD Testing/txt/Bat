@@ -1,9 +1,0 @@
-Monster Bat Tiny Beast 2 12 1 String{ 5 ft, fly 30 ft } 2 false 15 false 8 false 2 false 12 false 4 false int[]{ } String{ blindsight 60 ft, passive Perception 11 } None 0
-1 4 -1
-======== Passives ==========
-Echolocation: The bat can't use its blindsight while deafened
-Keen Hearing: The bat has advantage on Wisdom (Perception) checks that rely on hearing
-======= Attacks null =========
-Attack Bite 0 5 0 0 1 piercing null
-========= Areas ==========
-3 4 4 4 4 4 2 2 1 0 0 

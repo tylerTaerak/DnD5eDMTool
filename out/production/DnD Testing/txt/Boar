@@ -1,9 +1,0 @@
-Monster Boar Medium Beast 2 11 11 String{ 40 ft } 13 false 11 false 12 false 2 false 9 false 5 false int[]{ } String{ passive Perception 9 } None 0.25
-2 8 2
-========== Passives ==========
-Charge: If the boar moves at least 20 ft straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone
-Relentless (recharges after a short or long rest): If the boar takes 7 damage or less that would reduce it to 0 hitp oints, it is reduced to 1 hit point instead
-=========== Attacks null ==========
-Attack Tusk 3 5 1 6 1 slashing null
-========== Areas ===========
-1 3 4 4 2 2 0 0 1 0 0 

@@ -1,8 +1,0 @@
-Monster Mage Medium String{ Humanoid (any race) } 3 15 40 String{ 30 ft } 9 false 14 false 11 false 17 true 12 true 11 false int[]{ 2 5 } String{ passive Perception 11 } String{ any four languages } 6
-9 8 0
-======= Passives =========
-Spellcasting: The mage is a 9th level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: Cantrips: fire bolt, light, mage hand, prestidigitation 1st level (4 slots): detect magic, mage armor, magic missile, shield 2nd level (3 slots): misty step, suggestion 3rd level (3 slots): counterspell, fireball, fly 4th level (3 slots): greater invisiblity, ice storm 5th level (1 slot): cone of cold
-======== Attacks null ======
-Attack Dagger 5 5 1 4 2 piercing null
-======= Areas ========
-1 2 2 2 4 2 0 0 0 0 0 

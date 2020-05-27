@@ -1,8 +1,0 @@
-Monster String{ Giant Crab } Medium Beast 2 15 13 String{ 30 ft, swim 30 ft } 13 false 15 false 11 false 1 false 9 false 3 false int[]{ 16 } String{ blindsight 30 ft, passive Perception 9 } None 0.125
-3 8 0
-===== Passives =======
-Amphibious: The crab can breathe air and water
-======== Attacks null ========
-Attack Claw 3 5 1 6 1 bludgeoning String{ target is grappled (escape DC 11). the crab has two claws, each of which can grapple only one target } }
-========= Areas ==========
-0 0 0 0 0 2 1 1 1 0 0 

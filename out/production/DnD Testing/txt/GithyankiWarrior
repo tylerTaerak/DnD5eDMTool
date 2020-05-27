@@ -1,8 +1,0 @@
-Monster String{ Githyanki Warrior } Medium String{ Humanoid (gith) } 2 17 49 String{ 30 ft } 15 false 14 false 12 true 13 true 13 true 10 false int[]{ } String{ passive Perception 11 } Gith 3
-9 8 9 
-============= Passives ============
-Innate Spellcasting (Psionics): The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components: At will: mage hand (the hand is invisible) 3/day each: jump, misty step, nondetection (self only)
-============== Attacks 0 0 ==============
-Attack Greatsword 4 5 4 6 2 String{ slashing and psychic } null
-=============== Areas =================
-2 1 1 1 1 1 1 1 1 0 0 

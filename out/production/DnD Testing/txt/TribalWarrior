@@ -1,8 +1,0 @@
-Monster String{ Tribal Warrior } Medium String{ Humanoid (any race) } 2 12 11 String{ 30 ft } 13 false 11 false 12 false 8 false 11 false 8 false int[]{ } String{ passive Perception 10 } String{ any one language } 0.125
-2 8 2
-======== Passives =======
-Pack Tactics: The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 ft of the creature and the ally isn't incapacitated
-======== Attacks null ========
-Attack Spear 3 5 1 8 1 piercing null
-======== Areas =======
-1 4 4 4 2 4 0 0 0 0 0

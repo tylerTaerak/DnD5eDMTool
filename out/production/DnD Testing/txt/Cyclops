@@ -1,9 +1,0 @@
-Monster Cyclops Huge Giant 3 14 138 String{ 30 ft } 22 false 11 false 20 false 8 false 6 false 10 false int[]{ } String{ passive Perception 8 } Giant 6
-12 12 60
-====================== Passives ===============
-Poor Depth Perception: The cyclops has disadvantage on any attack roll against a target more than 30 ft away
-================= Attacks 0 0 =============
-Attack Greatclub 9 10 3 8 6 bludgeoning null
-Attack Rock 9 30 4 10 6 bludgeoning null
-============= Areas =====================
-2 4 3 4 2 3 1 0 0 0 0

@@ -1,9 +1,0 @@
-Monster Ankheg Large Monstrosity 2 14 39 String{ 30 ft, burrow 10 ft } 17 false 11 false 13 false 1 false 13 false 6 false int[]{ } String{ darkvision 60 ft, tremorsense 60 ft, passive Perception 11 } None 2
-6 10 6
-======================== Passives ===================
-Vulnerable Underbelly: The ankheg's Armor Class is reduced by 3 while prone
-======================== Attacks null ==============
-Attack Bite 5 5 3 6 3 String{ slashing and acid } String{ If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so } }
-DCAttack String{ Acid Spray } 13 0 30 String{ 5 ft wide line } 3 6 0 acid null Dexterity true
-============= Areas ==========
-2 3 2 3 2 4 2 1 0 0 0

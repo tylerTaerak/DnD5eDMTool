@@ -1,8 +1,0 @@
-Monster Badger Tiny Beast 2 10 3 String{ 20 ft, burrow 5 ft } 4 false 11 false 12 false 2 false 12 false 5 false int[]{ } String{ darkvision 30 ft, passive Perception 11 } None 0
-1 4 1 
-=========== Passives ==========
-Keen Smell: The badger has advantage on Wisdom (Perception) checks that rely on smell
-========= Attacks null ===========
-Attack Bite 2 5 0 0 1 piercing null
-========== Areas ===========
-1 4 3 3 4 2 0 0 1 0 0

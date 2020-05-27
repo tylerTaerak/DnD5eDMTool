@@ -1,8 +1,0 @@
-Monster String{ Death Dog } Medium Monstrosity 2 12 39 String{ 40 ft } 15 false 14 false 14 false 3 false 13 false 6 false int[]{ 11 16 } String{ darkvision 120 ft, passive Perception 15 } None 1
-6 8 12
-========== Passives ==========
-Two-Headed: The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious
-========= Attacks 0 0 ==========
-Attack Bite 4 5 1 6 2 piercing DCAttack{ null 12 5 0 null 0 0 0 null String{ diseased and poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0 } Constitution false } }
-========== Areas ============
-2 1 1 2 1 4 4 3 1 0 0 

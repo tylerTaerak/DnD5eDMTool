@@ -1,8 +1,0 @@
-Monster String{ Hill Giant } Huge Giant 3 13 105 String{ 40 ft } 21 false 8 false 19 false 5 false 9 false 6 false int[]{ 11 } String{ passive Perception 12 } Giant 5
-10 12 40
-
-============= Attacks 0 0 ================
-Attack Greatclub 8 10 3 8 5 bludgeoning null
-Attack Rock 8 60 3 10 5 bludgeoning null
-============== Areas ===========
-1 4 3 3 3 2 1 0 0 0 0 

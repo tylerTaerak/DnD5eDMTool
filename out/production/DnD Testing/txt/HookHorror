@@ -1,9 +1,0 @@
-Monster String{ Hook Horror } Large Monstrosity 2 15 75 String{ 30 ft, climb 30 ft } 18 false 10 false 15 false 6 false 12 false 7 false int[]{ 11 } String{ blindsight 60 ft, darkvision 120 ft, passive Perception 13 } String{ Hook Horror } 3
-10 10 20
-========== Passives ============
-Echolocation: The hook horror can't use its blindsight while deafened
-Keen Hearing: The hook horror has advantage on Wisdom (Perception) checks that rely on hearing
-============== Attacks 0 0 ============
-Attack Hook 6 10 2 6 4 piercing null
-============ Areas ===========
-4 1 1 2 1 2 4 3 1 1 0 

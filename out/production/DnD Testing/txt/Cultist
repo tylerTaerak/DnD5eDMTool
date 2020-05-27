@@ -1,8 +1,0 @@
-Monster Cultist Medium String{ Humanoid (any race) } 2 12 9 String{ 30 ft } 11 false 12 false 10 false 10 false 11 false 10 false int[]{ 4 14 } String{ passive Perception 10 } String{ any one language (usually Common) } 0.125
-2 8 0
-======= Passives ========
-Dark Devotion: The cultist has advantage on saving throws against being charmed or frightened
-========== Attacks null =======
-Attack Scimitar 3 5 1 6 1 slashing null
-========== Areas ==========
-4 2 2 3 2 3 1 1 1 0 0 

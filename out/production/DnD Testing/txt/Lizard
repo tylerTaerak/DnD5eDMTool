@@ -1,7 +1,0 @@
-Monster Lizard Tiny Beast 2 10 2 String{ 20 ft, climb 20 ft } 2 false 11 false 10 false 1 false 8 false 3 false int[]{ } String{ darkvision 30 ft, passive Perception 9 } None 0 
-1 4 0
-
-========== Attacks null ========
-Attack Bite 0 5 0 0 1 piercing null
-========== Areas ==========
-4 4 4 4 4 4 3 3 3 0 0 

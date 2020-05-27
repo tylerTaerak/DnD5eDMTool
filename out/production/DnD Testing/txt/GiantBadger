@@ -1,9 +1,0 @@
-Monster String{ Giant Badger } Medium Beast 2 10 13 String{ 30 ft, burrow 10 ft } 13 false 10 false 15 false 2 false 12 false 5 false int[]{ } String{ darkvision 30 ft, passive Perception 11 } None 0.25
-2 8 4
-======= Passives ==========
-Keen Smell: The badger has advantage on Wisdom (Perception) checks that rely on smell
-========== Attacks 0 1 =======
-Attack Bite 3 5 1 6 1 piercing null
-Attack Claws 3 5 2 4 1 slashing null
-======== Areas ==========
-1 2 2 2 1 2 0 0 1 0 0 

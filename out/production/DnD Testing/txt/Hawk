@@ -1,8 +1,0 @@
-Monster Hawk Tiny Beast 2 13 1 String{ 10 ft, fly 60 ft } 5 false 16 false 8 false 2 false 14 false 6 false int[]{ 11 } String{ passive Perception 14 } None 0
-1 4 -1
-========= Passives =========
-Keen Sight: The hawk has advantage on Wisdom (Perception) checks that rely on sight
-========== Attacks null ==========
-Attack Talons 5 5 0 0 1 slashing null
-========== Areas ============
-0 4 4 4 2 2 0 0 1 0 0

@@ -1,9 +1,0 @@
-Monster String{ Giant Rat } Small Beast 2 12 7 String{ 30 ft } 7 false 15 false 11 false 2 false 10 false 4 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } None 0.125
-2 6 0
-========== Passives =========
-Keen Smell: The rat has advantage on Wisdom (Perception) checks that rely on smell
-Pack Tactics: The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft of the creature and the ally isn't incapacitated
-========= Attacks null ==========
-Attack Bite 4 5 1 4 2 piercing null
-======== Areas ==========
-4 3 3 3 3 3 2 2 2 0 0 

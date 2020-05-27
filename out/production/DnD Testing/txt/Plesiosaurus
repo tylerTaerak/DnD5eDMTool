@@ -1,8 +1,0 @@
-Monster Plesiosaurus Large Beast 2 13 68 String{ 20 ft, swim 40 ft } 18 false 15 false 16 false 2 false 12 false 5 false int[]{ 11 16 } String{ passive Perception 11 } None 2
-8 10 24
-============= Passives ==========
-Hold Breath: The plesiosaurus can hold its breath for 1 hour
-=============== Attacks ============
-Attack Bite 6 10 3 6 4 piercing null
-=========== Areas ===============
-1 2 2 1 1 0 1 0 2 0 0

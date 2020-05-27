@@ -1,7 +1,0 @@
-Monster String{ Giant Poisonous Snake } Medium Beast 2 14 11 String{ 30 ft, swim 30 ft } 10 false 18 false 13 false 2 false 10 false 3 false int[]{ 11 } String{ blindsight 10 ft, passive Perception 12 } None 0.25
-2 8 2
-
-========= Attacks null ========
-Attack Bite 6 10 1 4 4 piercing DCAttack{ null 11 10 0 null 3 6 0 poison null Constitution true } }
-========== Areas ===========
-2 3 3 3 3 4 2 1 1 0 0 

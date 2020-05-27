@@ -1,9 +1,0 @@
-Monster String{ Giant Owl } Large Beast 2 12 19 String{ 5 ft, fly 60 ft } 13 false 15 false 12 false 8 false 13 false 10 false int[]{ 11 16 } String{ darkvision 120 ft, passive perception 15 } String{ Giant Owl, understands Common, Elvish, and Sylvan but can't speak them } 0.25
-3 10 3
-========= Passives =============
-Flyby: The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach
-Keen Hearing and Sight: The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight
-========== Attacks null =========
-Attack Talons 3 5 2 6 1 slashing null
-=========== Areas ===========
-0 1 1 1 1 0 1 0 4 0 0 

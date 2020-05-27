@@ -1,9 +1,0 @@
-Monster Scout Medium String{ Humanoid (any race) } 2 13 16 String{ 30 ft } 11 false 14 false 12 false 11 false 13 false 11 false int[]{ 10 11 16 17 } String{ passive Perception 15 } String{ any one language (usually Common) } 0.5
-3 8 3
-======== Passives =========
-Keen Hearing and Sight: The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight
-======== Attacks 1 1 ==========
-Attack Shortsword 4 5 1 6 2 piercing null
-Attack Longbow 4 150 1 8 2 piercing null
-=========== Areas =========
-2 3 4 4 3 2 1 0 0 0 0 

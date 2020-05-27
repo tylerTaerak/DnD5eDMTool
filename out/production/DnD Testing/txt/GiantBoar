@@ -1,9 +1,0 @@
-Monster String{ Giant Boar } Large Beast 2 12 42 String{ 40 ft } 17 false 10 false 16 false 2 false 7 false 5 false int[]{ } String{ passive Perception 8 } None 2
-5 10 15
-========= Passives =========
-Charge: If the boar moves at least 20 ft straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone
-Relentless (recharges after a short or long rest): If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead
-========= Attacks null ==========
-Attack Tusk 5 5 2 6 3 slashing null
-======== Areas ===========
-0 1 1 1 1 0 0 0 1 0 0 

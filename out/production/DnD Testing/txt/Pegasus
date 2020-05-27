@@ -1,7 +1,0 @@
-Monster Pegasus Large Celestial 2 12 59 String{ 60 ft, fly 90 ft } 18 false 15 true 16 false 10 false 15 true 13 true int[]{ 11 } String{ passive Perception 16 } String{ understands Celestial, Common, Elvish, and Sylvan but can't speak } 2
-7 10 21
-
-============= Attacks null =============
-Attack Hooves 6 5 2 6 4 bludgeoning null
-=========== Areas ============
-0 1 1 1 1 1 0 0 3 0 4

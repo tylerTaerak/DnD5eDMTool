@@ -1,9 +1,0 @@
-Monster Bulette Large Monstrosity 3 17 94 String{ 40 ft, burrow 40 ft } 19 false 11 false 21 false 2 false 10 false 5 false int[]{ 11 } String{ darkvision 60 ft, tremorsense 60 ft, passive Perception 16 } None 5
-9 10 45
-======================== Passives ===========================
-Standing Leap: The bulette's long jump is up to 30 ft and its high jump is up to 15 ft, with or without a running start
-========================== Attacks null ==============
-Attack Bite 7 5 4 12 4 piercing null
-DCAttack String{ Deadly Leap } 16 0 0 String{ each creature in the bulette's space after jumping at least 15 ft on its turn } 6 6 4 String{ bludgeoning and slashing } String{ knocked prone. A creature that succeeds on the saving throw isn't knocked prone, but is pushed 5 ft out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space } String{ Strength or Dexterity } true
-========= Areas ==========
-3 3 3 4 3 4 2 0 0 0 0

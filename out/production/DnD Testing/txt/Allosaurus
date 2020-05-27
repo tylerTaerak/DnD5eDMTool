@@ -1,9 +1,0 @@
-Monster Allosaurus Large Beast 2 13 51 String{ 60 ft } 19 false 13 false 17 false 2 false 12 false 5 false int[]{ 11 } String{ passive Perception 15 } None 2
-6 10 18
-============ Passives ==============
-Pounce: If the allosaurus moves at least 30 ft straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action
-=========== Attacks null ==========
-Attack Bite 6 5 2 10 4 piercing null
-Attack Claw 6 5 1 8 4 slashing null
-======= Areas ========
-1 3 3 2 2 2 1 0 1 0 0

@@ -1,9 +1,0 @@
-Monster String{ Frost Giant } Huge Giant 3 15 138 String{ 40 ft } 23 false 9 false 21 true 9 false 10 true 12 true int[]{ 3 11 } String{ passive Perception 13 } Giant 8
-12 12 60 
-=============== Passives ===============
-Damage Immunities: cold
-=============== Attacks 0 0 ============
-Attack Greataxe 9 10 3 12 6 slashing null
-Attack Rock 9 60 4 10 6 bludgeoning null
-============== Areas ==================
-2 3 4 4 2 1 1 1 1 0 0 

@@ -1,9 +1,0 @@
-Monster String{ Giant Elk } Huge Beast 2 14 42 String{ 60 ft } 19 false 16 false 14 false 7 false 14 false 10 false int[]{ 11 } String{ passive Perception 14 } String{ Giant Elk, understands Common, Elvish, and Sylvan but can't speak them } 2
-5 12 10
-========= Passives ============
-Charge: If the elk moves at least 20 ft straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone
-======= Attack null ===========
-Attack Ram 6 10 2 6 4 bludgeoning null
-Attack Hooves 6 5 4 8 4 bludgeoning null
-======= Areas ==========
-0 1 1 1 0 0 1 0 4 0 0

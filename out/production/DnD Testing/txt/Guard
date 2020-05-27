@@ -1,7 +1,0 @@
-Monster Guard Medium String{ Humanoid (any race) } 2 16 11 String{ 30 ft } 13 false 12 false 12 false 10 false 11 false 10 false int[]{ 11 } String{ passive Perception 12 } String{ any one language (ususally Common) } 0.125
-2 8 2
-
-========= Attacks null ========
-Attack Spear 3 5 1 6 1 piercing null
-========= Areas =========
-1 1 1 1 4 1 0 0 0 0 0 

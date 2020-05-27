@@ -1,7 +1,0 @@
-Monster Frog Tiny Beast 2 11 1 String{ 20 ft, swim 20 ft } 1 false 13 false 8 flase 1 false 8 false 3 false int[]{ 11 16 } String{ darkvision 30 ft, passive Perception 11 } None 0
-1 4 -1
-========= Passives =========
-Amphibious: The frog can breathe air and water
-Standing Leap: The frog's long jump is up to 10 ft and its hit jump is up to 5 ft, with or without a running start
-========== Areas ===========
-2 3 2 2 2 0 1 0 4 0 0 

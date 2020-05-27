@@ -1,9 +1,0 @@
-Monster Wolf Medium Beast 2 13 11 String{ 40 ft } 12 false 15 false 12 false 3 false 12 false 6 false int[]{ 11 16 } String{ passive Perception 13 } None 0.25
-2 8 2
-========== Passives =========
-Keen Hearing and Smell: The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell
-Pack Tactics: The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 ft of the creature and the ally isn't incapacitated
-========== Attacks null ========
-Attack Bite 4 5 2 4 2 piercing DCAttack{ null 11 5 0 null 0 0 0 null String{ knocked prone } Strength false } }
-========== Areas ===========
-1 4 4 4 4 3 0 0 0 0 0 

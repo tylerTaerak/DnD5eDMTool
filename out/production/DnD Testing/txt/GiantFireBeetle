@@ -1,8 +1,0 @@
-Monster String{ Giant Fire Beetle } Small Beast 2 13 4 String{ 30 ft } 8 false 10 false 12 false 1 false 7 false 3 false int[]{ } String{ blindsight 30 ft, passive Perception 8 } None 0
-1 6 1
-=========== Passives ==========
-Illumination: The beetle sheds bright light in a 10-ft radius and dim light for an additional 10 ft 
-========== Attacks null ==========
-Attack Bite 1 5 1 6 -1 slashing null
-========== Areas ============
-4 1 3 3 1 3 4 1 2 0 0 

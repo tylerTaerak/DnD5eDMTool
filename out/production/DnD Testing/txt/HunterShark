@@ -1,9 +1,0 @@
-Monster String{ Hunter Shark } Large Beast 2 12 45 String{ 0 ft, swim 40 ft } 18 false 13 false 15 false 1 false 10 false 4 false int[]{ 11 } String{ blindsight 30 ft, passive Perception 12 } None 2
-6 10 12
-======== Passives =========
-Blood Frenzy: The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points
-Water Breathing: The shark can breathe only underwater
-========= Attacks null ========
-Attack Bite 6 5 2 8 4 piercing null
-======= Areas =========
-0 0 0 0 0 0 2 0 1 0 0 

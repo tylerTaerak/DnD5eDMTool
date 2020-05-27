@@ -1,9 +1,0 @@
-Monster String{ Giant Crocodile } Huge Beast 3 14 85 String{ 30 ft, swim 50 ft } 21 false 9 false 17 false 2 false 10 false 7 false int[]{ 16 } String{ passive Perception 10 } None 5
-9 12 27
-========= Passives =========
-Hold Breath: The crocodile can hold its breath for 30 minutes
-========= Attacks 0 1 ======
-Attack Bite 8 5 3 10 5 piercing String{ target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target } }
-Attack Tail 8 10 2 8 5 bludgeoning DCAttack{ null 16 10 0 null 0 0 0 null String{ knocked prone } Strength false } }
-======= Areas ============
-1 1 0 0 0 2 1 0 2 0 0 

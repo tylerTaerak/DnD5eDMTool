@@ -1,9 +1,0 @@
-Monster String{ Needle Blight } Medium Plant 2 12 11 String{ 30 ft } 12 false 12 false 13 false 4 false 8 false 3 false int[]{ } String{ blindsight 60 ft (blind beyond this radius), passive Perception 9 } String{ understands Common but can't speak } 0.25
-2 8 2
-====================== Passives ====================
-Condition Immunities: blinded, deafened
-====================== Attacks null ===================
-Attack Claws 3 5 2 4 1 piercing null
-Attack Needles 3 30 2 6 1 piercing null
-============== Areas ===========
-2 3 4 2 3 2 1 1 4 1 1

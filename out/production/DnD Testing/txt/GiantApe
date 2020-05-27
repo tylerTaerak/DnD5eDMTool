@@ -1,8 +1,0 @@
-Monster String{ Giant Ape } Huge Beast 3 12 157 String{ 40 ft, climb 40 ft } 23 false 14 false 18 false 7 false 12 false 7 false int[]{ 3 11 } String{ passive Perception 14 } None 7
-15 12 60
-
-========== Attacks 0 0 =========
-Attack Fist 9 10 3 10 6 bludgeoning null
-Attack Rock 9 50 7 6 6 bludgeoning null
-======== Areas ==========
-1 2 2 2 1 1 0 0 1 0 0 

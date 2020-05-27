@@ -1,7 +1,0 @@
-Monster Ankylosaurus Huge Beast 3 15 68 String{ 30 ft } 19 false 11 false 15 false 2 false 12 false 5 false int[]{ } String{ passive Perception 11 } None 3
-8 12 16
-
-====== Attacks null ============
-Attack Tail 7 10 4 6 4 bludgeoning DCAttack{ null 14 10 0 null 0 0 0 null String{ knocked prone } Strength false } }
-======== Areas ==========
-0 2 1 2 1 1 0 0 0 0 0

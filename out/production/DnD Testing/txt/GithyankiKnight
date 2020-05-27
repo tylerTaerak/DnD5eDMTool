@@ -1,8 +1,0 @@
-Monster String{ Githyanki Knight } Medium String{ Humanoid (gith) } 3 18 91 String{ 30 ft } 16 false 14 false 15 true 14 true 14 true 15 false int[]{ } String{ passive Perception 12 } Gith 8
-14 8 28
-============ Passives ============
-Innate Spellcasting (Psionics): The githyanki's innate spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no components: At will: mage hand (the hand is invisible) 3/day each: jump, misty step, nondetection (self only), tongues 1/day each: plane shift, telekinesis
-============ Attacks 0 0 ===========
-Attack String{ Silver Greatsword } 9 5 5 6 6 String{ slashing and psychic } String{ this is a magic weapon attack. On a critical hit against a target in an astral body, the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage } }
-============ Areas ==================
-1 1 1 1 1 1 1 1 1 0 0 

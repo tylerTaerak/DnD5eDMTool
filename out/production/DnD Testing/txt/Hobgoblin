@@ -1,9 +1,0 @@
-Monster Hobgoblin Medium String{ Humanoid (goblinoid) } 2 18 11 String{ 30 ft } 13 false 12 false 12 false 10 false 10 false 9 false int[]{ } String{ darkvision 60 ft, passive Perception 10 } String{ Common, Goblin } 0.5
-2 8 2 
-============= Passives =============
-Martial Advantage: Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft of an ally of the hobgoblin that isn't incapacitated
-=============== Attacks null ==========
-Attack Longsword 3 5 1 8 1 slashing null
-Attack Longbow 3 150 1 8 1 piercing null
-===================== Areas ============
-4 3 2 4 3 2 1 0 0 0 0 

@@ -1,6 +1,0 @@
-Monster String{ Sea Horse } Tiny Horse 2 11 1 String{ 0 ft, swim 20 ft } 1 false 12 false 8 false 1 false 10 false 2 false int[]{ } String{ passive Perception 10 } None 0
-1 4 -1
-=========== Passives ==========
-Water Breathing: The sea horse can breathe only underwater
-========== Areas ==========
-0 0 0 0 0 0 1 0 1 0 0 

@@ -1,7 +1,0 @@
-Monster Camel Large Beast 2 9 15 String{ 50 ft } 16 false 8 false 14 false 2 false 8 false 5 false int[]{ } String{ passive Perception 9 } None 0.125
-2 10 4
-
-========== Attacks null ============
-Attack Bite 5 5 1 4 0 bludgeoning null
-========= Areas =========
-0 1 0 1 2 4 0 0 1 0 0 

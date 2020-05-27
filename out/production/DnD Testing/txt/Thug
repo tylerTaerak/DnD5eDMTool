@@ -1,9 +1,0 @@
-Monster Thug Medium String{ Humanoid (any race) } 2 11 32 String{ 30 ft } 15 false 11 false 14 false 10 false 10 false 11 false int[]{ 7 } String{ passive Perception 10 } String{ any one language (usually Common) } 0.5
-5 8 10
-======= Passives ========
-Pack Tactics: The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 ft of the creature and the ally isn't incapacitated
-======== Attacks 0 0 ============
-Attack Mace 4 5 1 6 2 bludgeoning null
-Attack String{ Heavy Crossbow } 2 100 1 10 0 piercing null 
-======= Areas ========
-2 3 3 3 4 4 1 0 0 0 0 

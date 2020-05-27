@@ -1,7 +1,0 @@
-Monster String{ Giant Wasp } Medium Beast 2 12 13 String{ 10 ft, fly 50 ft } 10 false 14 false 10 false 1 false 10 false 3 false int[]{ } String{ passive Perception 10 } None 0.5
-3 8 0
-
-============ Attacks null ============
-Attack Sting 4 5 1 6 2 piercing DCAttack{ null 11 5 0 null 3 6 0 poison String{ if this poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way } Constitution true } }
-=========== Areas ==============
-1 3 3 3 3  2 1 1 0 0 

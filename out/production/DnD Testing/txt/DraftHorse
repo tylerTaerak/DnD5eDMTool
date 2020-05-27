@@ -1,7 +1,0 @@
-Monster String{ Draft Horse } Large Beast 2 10 19 String{ 40 ft } 18 false 10 false 12 false 2 false 11 false 7 false int[]{ } String{ passive Perception 10 } None 0.25
-3 10 3
-
-========== Attacks null ========
-Attack Hooves 6 5 2 4 4 bludgeoning null
-========== Areas ==========
-1 4 3 3 4 2 0 0 1 0 0 

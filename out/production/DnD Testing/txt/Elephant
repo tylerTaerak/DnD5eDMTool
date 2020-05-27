@@ -1,9 +1,0 @@
-Monster Elephant Huge Beast 2 12 76 String{ 40 ft } 22 false 9 false 17 false 3 false 11 false 6 false int[]{ } String{ passive Perception 10 } None 4
-8 12 24
-========== Passives ==========
-Trampling Charge: If the elephant moves at least 20 ft straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. if the target is prone, the elephant can make one stomp attack against it as a bonus action
-========== Attacks null =========
-Attack Gore 8 5 3 8 6 piercing null
-Attack Stomp 8 5 3 10 6 bludgeoning null
-========= Areas ===========
-1 4 3 2 2 3 0 0 1 0 0 

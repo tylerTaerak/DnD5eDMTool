@@ -1,8 +1,0 @@
-Monster Merfolk Medium String{ Humanoid (merfolk) } 2 11 11 String{ 10 ft, swim 40 ft } 10 false 13 false 12 false 11 false 11 false 12 false int[]{ 11 } String{ passive Perception 12 } String{ Aquan, Common } 0.125
-2 8 2 
-============= Passives ==============
-Amphibious: The merfok can breathe air and water
-============ Attacks null ===========
-Attack Spear 2 5 1 8 0 piercing null
-============ Areas ====================
-1 1 1 1 0 1 0 2 0 0 

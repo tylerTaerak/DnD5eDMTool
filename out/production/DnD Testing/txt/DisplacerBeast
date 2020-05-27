@@ -1,9 +1,0 @@
-Monster String{ Displacer Beast } Large Monstrosity 2 13 85 String{ 40 ft } 18 false 15 false 16 false 6 false 12 false 8 false int[]{ } String{ darkvision 60 ft, passive Perception 11 } None 3
-10 10 30
-================= Passives ==============
-Avoidance: If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeed on the saving throw, and only half damage if it fails
-Displacement: The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is incapacitated or has a speed of 0
-=============== Attacks 0 0 ============
-Attack Tentacle 6 10 2 6 4 String{ bludgeoning and piercing } null
-================ Areas ================
-3 2 2 2 1 2 3 2 4 0 0

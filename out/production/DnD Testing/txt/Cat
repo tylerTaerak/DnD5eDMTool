@@ -1,8 +1,0 @@
-Monster Cat Tiny Beast 2 12 2 String{ 40 ft, climb 30 ft } 3 false 15 false 10 false 3 false 12 false 7 false int[]{ 11 16 } String{ passive Perception 13 } None 0
-1 4 0
-======= Passives =========
-Keen Smell: The cat has advantage on Wisdom (Perception) checks that rely on smell
-===== Attacks null ==========
-Claws 0 5 0 0 1 slashing null
-======= Areas ========
-1 4 3 3 4 1 0 0 1 0 0 

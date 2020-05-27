@@ -1,8 +1,0 @@
-Monster Eagle Small Beast 2 12 3 String{ 10 ft, fly 60 ft } 6 false 15 false 10 false 2 false 14 false 7 false int[]{ 11 } String{ passive Perception 14 } None 0
-1 6 0
-========= Passives =========
-Keen Sight: The eagle has advantage on Wisdom (Perception) checks that rely on sight
-======== Attacks null =========
-Attack Talons 4 5 1 4 2 slashing null
-========= Areas ===========
-0 4 3 4 2 3 0 0 2 0 0
