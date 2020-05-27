@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28400370-db1f-4cce-8571-bdaf10c4cccd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SearchPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DnD Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DnD Testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Attack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Attack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/DMTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/DMTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Encounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Encounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Lair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Lair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryMonster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/LegendaryMonster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/Monster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterAttacker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterAttacker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/MonsterDirectory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/MonsterDirectory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/READ_ME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DnD Testing/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DnD Testing/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DCAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DCAttack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DMTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DMTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LegendaryAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LegendaryMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LegendaryMonster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonsterAttacker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonsterDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonsterDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/READ_ME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,26 +116,26 @@
       <screen x="-1920" y="-607" width="1536" height="824" />
     </state>
     <state x="-1496" y="-600" key="CommitChangelistDialog2/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1585775231491" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1590445966238">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1590446024575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1590445966238">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590446024575" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1590446024575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1590445966237">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590446024575" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1590446024575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590445966237" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1590445966238">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590446024575" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1590446024575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-607.1536.824@-1920.-607.1536.824" timestamp="1587677622601" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590445966238" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590446024575" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590428827089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

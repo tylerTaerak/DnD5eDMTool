@@ -6,14 +6,12 @@
  */
 
 import javafx.application.Application;
-import javafx.collections.ObservableList;
 import javafx.geometry.Side;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
-import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;

@@ -7,7 +7,7 @@ In order to run the program, make sure Java is installed (this program was built
 
 Some problems that might appear when compiling or running are as follows:
 
-* This code was written and compiled on my machine using JDK 10.0.2, for use with JavaFX.  It may not compile if done with later versions
+* This code was written and compiled on my machine using JDK 10.0.2, for use with JavaFX.  It may not compile if done with later versions, due to lack of JavaFX.  You may need to manually install the JavaFX package for the program to work
 
 * The code was written in the JetBeans IntelliJ IDE.  Pathing issues came up a little bit during development (full fixes will be added in version 0.9). To alleviate this problem for now, there has been a constant defined in the DMTool.java and MonsterDirectory.java files, which can be modified manually to direct the file streams to the correct directories
 
