@@ -270,9 +270,14 @@ public class DMTool extends Application implements Autowrap {
                 TextField noOfParty = new TextField();
                 TextField partyLvl = new TextField();
 
+
                 noOfParty.setPromptText("Number of Party Members");
                 partyLvl.setPromptText("Party Level");
                 Button submit = new Button("Generate Random Encounter");
+
+                Node[] randoNodes = new Node[] {toEncounterHome, dungeon, grassland, forest, desert, mountain, roadside, underdark,
+                        shadowfell, feywild, upper, lower, noOfParty, partyLvl, submit};
+
                 submit.setOnAction(event -> {
                     try{
                         Encounter.AreaIndexes indexes = new Encounter.AreaIndexes();
@@ -282,10 +287,22 @@ public class DMTool extends Application implements Autowrap {
                                 Integer.parseInt(noOfParty.getText()), Integer.parseInt(partyLvl.getText()));
                         encounter.setMonsters(rando.getMonsters());
                         //see if I can rework this to always be above the save button
-                        vBox.getChildren().set(vBox.getChildren().size() - 2, encounter.toPane(encPane, new TextArea()));
+                        TextField name = new TextField();
+                        name.setPromptText("untitled");
+
+                        Button save = new Button("Save");
+                        save.setOnAction(action -> Encounter.writeToFile(encounter, name.getText()));
+
+                        vBox.getChildren().setAll(randoNodes);
+                        vBox.getChildren().addAll(encounter.toPane(null, null), name, save);
+
                     }
                     catch (NumberFormatException numErr){
                         Label error = new Label("Error: Party Number and Level must be integers");
+                        vBox.getChildren().add(error);
+                    }
+                    catch (IndexOutOfBoundsException exc){
+                        Label error = new Label("Error: Monster Directory not initialized. Path must be changed");
                         vBox.getChildren().add(error);
                     }
                     catch (NoSuchMethodException | InstantiationException | IOException |
@@ -294,17 +311,17 @@ public class DMTool extends Application implements Autowrap {
                     }
 
                 });
-                vBox.getChildren().setAll(toEncounterHome, dungeon, grassland, forest, desert, mountain, roadside, underdark,
-                        shadowfell, feywild, upper, lower, noOfParty, partyLvl, submit);
+
+
+                vBox.getChildren().setAll(randoNodes);
             });
-            TextField name = new TextField("untitled");
-            Button save = new Button("Save");
-            save.setOnAction(ev -> Encounter.writeToFile(encounter, name.getText()));
+            //TextField name = new TextField("untitled");
+            //Button save = new Button("Save");
+            //save.setOnAction(ev -> Encounter.writeToFile(encounter, name.getText()));
             vBox.getChildren().removeAll(newEnc);
             vBox.getChildren().add(addMonsters);
             vBox.getChildren().add(random);
-            vBox.getChildren().add(name);
-            vBox.getChildren().add(save);
+
 
         });
 

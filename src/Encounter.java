@@ -82,7 +82,9 @@ public class Encounter implements Serializable {
         for (Monster m : monsters){
             Button b = new Button(m.getName());
             b.setOnAction(e -> {
-                DMTool.setMonsterPane(pane, rolls, m);
+                if(pane != null && rolls != null){
+                    DMTool.setMonsterPane(pane, rolls, m);
+                }
             });
             box.getChildren().add(b);
         }
